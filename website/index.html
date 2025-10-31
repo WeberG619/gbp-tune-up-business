@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalRise Marketing | Google Business Profile Optimization</title>
+    <meta name="description" content="Get more customers with professional Google Business Profile optimization. We help local businesses dominate their local search results.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 18px;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Section */
+        .section {
+            padding: 80px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        /* Problem Section */
+        .problem {
+            background: #f8f9fa;
+        }
+
+        .problem-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .problem-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .problem-card h3 {
+            color: #e74c3c;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        /* Solution Section */
+        .solution-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .solution-card {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+
+        .solution-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .solution-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .solution-card h3 {
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+
+        /* Results Section */
+        .results {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .result-stat {
+            text-align: center;
+        }
+
+        .result-number {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .result-label {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        /* Portfolio Section */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .portfolio-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .portfolio-image {
+            width: 100%;
+            height: 200px;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+
+        .portfolio-content {
+            padding: 25px;
+        }
+
+        .portfolio-content h3 {
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+
+        .portfolio-result {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+            color: #2e7d32;
+            font-weight: 600;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            background: #f8f9fa;
+        }
+
+        .pricing-card {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .price {
+            font-size: 56px;
+            font-weight: 700;
+            color: #667eea;
+            margin: 20px 0;
+        }
+
+        .price-features {
+            list-style: none;
+            margin: 30px 0;
+            text-align: left;
+        }
+
+        .price-features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .price-features li:before {
+            content: "✓ ";
+            color: #4caf50;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: #fff;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .form-group textarea {
+            min-height: 150px;
+        }
+
+        .submit-button {
+            background: #667eea;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .submit-button:hover {
+            background: #5568d3;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1>Rise to the Top of Local Search</h1>
+            <p>Get more customers with a professional Google Business Profile</p>
+            <a href="#contact" class="cta-button">Get Your Free Audit</a>
+        </div>
+    </div>
+
+    <!-- Problem Section -->
+    <section class="section problem">
+        <div class="container">
+            <h2 class="section-title">Is Your Business Invisible on Google?</h2>
+            <div class="problem-list">
+                <div class="problem-card">
+                    <h3>❌ Few or No Photos</h3>
+                    <p>86% of customers check photos before visiting. If you don't have at least 20 photos, you're losing customers to competitors.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>❌ Low Review Count</h3>
+                    <p>Businesses with under 50 reviews get passed over. Customers assume you're new or unreliable.</p>
+                </div>
+                <div class="problem-card">
+                    <h3>❌ Incomplete Profile</h3>
+                    <p>Missing hours, phone number, or services? Google won't show you to potential customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">How We Fix It</h2>
+            <div class="solution-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">📸</div>
+                    <h3>Professional Photos</h3>
+                    <p>We shoot 20-30 high-quality photos of your business, products, and team.</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">⭐</div>
+                    <h3>Review Strategy</h3>
+                    <p>We set up a system to get more 5-star reviews from happy customers.</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">🎯</div>
+                    <h3>Complete Optimization</h3>
+                    <p>We fill out every field, add services, posts, and Q&As to maximize visibility.</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">📊</div>
+                    <h3>Results Tracking</h3>
+                    <p>We monitor your search impressions, calls, and directions requests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="section results">
+        <div class="container">
+            <h2 class="section-title">Real Results</h2>
+            <div class="results-grid">
+                <div class="result-stat">
+                    <div class="result-number">50%</div>
+                    <div class="result-label">More Phone Calls</div>
+                </div>
+                <div class="result-stat">
+                    <div class="result-number">3x</div>
+                    <div class="result-label">More Profile Views</div>
+                </div>
+                <div class="result-stat">
+                    <div class="result-number">90min</div>
+                    <div class="result-label">Quick Service</div>
+                </div>
+                <div class="result-stat">
+                    <div class="result-number">100%</div>
+                    <div class="result-label">Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Recent Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">☕</div>
+                    <div class="portfolio-content">
+                        <h3>Local Coffee Shop</h3>
+                        <p>Had only 4 photos and 28 reviews. Customers couldn't see the cozy interior.</p>
+                        <div class="portfolio-result">
+                            Result: 3x more visitors in first month
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">💪</div>
+                    <div class="portfolio-content">
+                        <h3>Fitness Studio</h3>
+                        <p>Zero photos on Google. New members couldn't find them.</p>
+                        <div class="portfolio-result">
+                            Result: 12 new memberships in 2 weeks
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">🔧</div>
+                    <div class="portfolio-content">
+                        <h3>Local Contractor</h3>
+                        <p>Only 5 reviews. Losing jobs to competitors with better profiles.</p>
+                        <div class="portfolio-result">
+                            Result: Booked solid for 3 months
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Simple, Transparent Pricing</h2>
+            <div class="pricing-card">
+                <h3>Complete Optimization</h3>
+                <div class="price">$179</div>
+                <p>One-time payment. Done in 90 minutes.</p>
+                <ul class="price-features">
+                    <li>20-30 professional photos</li>
+                    <li>Complete profile optimization</li>
+                    <li>Service/product listings</li>
+                    <li>Business hours & info</li>
+                    <li>First 3 posts created</li>
+                    <li>Review generation strategy</li>
+                    <li>Results tracking (30 days)</li>
+                </ul>
+                <a href="#contact" class="cta-button" style="display: inline-block; margin-top: 20px;">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get Your Free Audit</h2>
+            <p style="text-align: center; margin-bottom: 40px; font-size: 18px;">
+                We'll analyze your Google Business Profile and show you exactly what's missing.
+            </p>
+            <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <div class="form-group">
+                    <label for="name">Business Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Tell us about your business</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Get My Free Audit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 LocalRise Marketing. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="mailto:contact@localrisemarketing.com" style="color: white; text-decoration: none;">
+                    contact@localrisemarketing.com
+                </a> |
+                <a href="tel:+12085551234" style="color: white; text-decoration: none;">
+                    (208) 555-1234
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
