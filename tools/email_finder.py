@@ -54,10 +54,29 @@ class EmailFinder:
             # Combine and deduplicate
             all_emails = list(set(text_emails + mailto_emails))
 
-            # Filter out common non-business emails
+            # Filter out garbage/non-business emails
+            garbage_domains = [
+                'example.com', 'test.com', 'domain.com', 'yoursite.com',
+                'sentry-next.wixpress.com',  # Wix error tracking (NOT business email!)
+                'wixpress.com',              # Wix generic
+                'latinotype.com',            # Font company
+                'latofonts.com',             # Font company
+                'myfonts.com',               # Font company
+                'fontspring.com',            # Font company
+                'googletagmanager.com',      # Google Analytics
+                'google-analytics.com',      # Google Analytics
+                'facebook.com',              # Social media
+                'twitter.com',               # Social media
+                'instagram.com',             # Social media
+                'linkedin.com',              # Social media
+                'privacy@',                  # Generic privacy emails
+                'noreply@',                  # No-reply addresses
+                'donotreply@',               # No-reply addresses
+            ]
+
             filtered_emails = [
                 email for email in all_emails
-                if not any(x in email.lower() for x in ['example.com', 'test.com', 'domain.com', 'yoursite.com'])
+                if not any(x in email.lower() for x in garbage_domains)
             ]
 
             return filtered_emails
