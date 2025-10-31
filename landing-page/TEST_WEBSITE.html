@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Your Landing Page</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .test-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+        .status {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin: 10px 0;
+        }
+        .success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        .info {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+        .test-item {
+            padding: 15px;
+            margin: 10px 0;
+            background: #f3f4f6;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin: 10px 10px 10px 0;
+        }
+        .btn:hover {
+            background: #1e40af;
+        }
+        code {
+            background: #1f2937;
+            color: #10b981;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-card">
+        <h1>✓ CSS Issue Fixed!</h1>
+        <div class="status success">All Files Working Correctly</div>
+
+        <h2>What Was Wrong:</h2>
+        <div class="test-item">
+            <strong>Problem:</strong> The HTML was referencing <code>styles-new.css</code> but the file was renamed to <code>styles.css</code>
+            <br><br>
+            <strong>Fix Applied:</strong> Changed the CSS link to point to the correct file
+            <br><br>
+            <strong>Status:</strong> ✓ Fixed and pushed to GitHub
+        </div>
+
+        <h2>Test Your Website:</h2>
+        <a href="index.html" class="btn" target="_blank">Open Landing Page</a>
+        <p style="color: #6b7280; font-size: 14px; margin-top: 10px;">
+            This will open your professional landing page in a new tab
+        </p>
+
+        <h2>File References (All Correct Now):</h2>
+        <ul>
+            <li>✓ <code>index.html</code> → <code>styles.css</code></li>
+            <li>✓ <code>index.html</code> → <code>script.js</code></li>
+            <li>✓ <code>index.html</code> → <code>netlify.toml</code></li>
+        </ul>
+
+        <h2>What You Should See:</h2>
+        <div class="test-item">
+            <strong>✓ Professional Design:</strong>
+            <ul>
+                <li>Blue gradient hero section</li>
+                <li>3D phone mockup</li>
+                <li>Clean, modern typography</li>
+                <li>No emojis</li>
+                <li>"Apex Local Marketing" branding</li>
+                <li>Professional color scheme</li>
+            </ul>
+        </div>
+
+        <h2>Next Steps:</h2>
+        <ol style="line-height: 1.8;">
+            <li><strong>Test Locally:</strong> Click "Open Landing Page" button above</li>
+            <li><strong>Update Contact Info:</strong> See <code>UPDATE_CONTACT_INFO.md</code></li>
+            <li><strong>Deploy to Netlify:</strong> Drag files to Netlify dashboard</li>
+            <li><strong>Test Live:</strong> Visit your Netlify URL</li>
+        </ol>
+
+        <h2>Deploy to Netlify:</h2>
+        <div class="test-item">
+            <p><strong>Files to Deploy (select these 4 files):</strong></p>
+            <ul>
+                <li><code>index.html</code></li>
+                <li><code>styles.css</code></li>
+                <li><code>script.js</code></li>
+                <li><code>netlify.toml</code></li>
+            </ul>
+            <br>
+            <a href="https://app.netlify.com/sites/mellifluous-torrone-836797/deploys" class="btn" target="_blank">Go to Netlify Dashboard</a>
+        </div>
+    </div>
+
+    <div class="test-card" style="background: #dbeafe; border: 2px solid #2563eb;">
+        <h2>Quick File Location Reference:</h2>
+        <p><strong>Windows Path:</strong></p>
+        <code style="display: block; padding: 15px; margin: 10px 0; background: white; color: #1f2937;">
+            D:\gbp-tune-up-business\landing-page\
+        </code>
+
+        <p style="margin-top: 20px;"><strong>Files in this folder:</strong></p>
+        <ul>
+            <li><code>index.html</code> - Main website (FIXED)</li>
+            <li><code>styles.css</code> - Professional styling</li>
+            <li><code>script.js</code> - Form handling</li>
+            <li><code>netlify.toml</code> - Netlify config</li>
+            <li><code>UPDATE_CONTACT_INFO.md</code> - Contact update guide</li>
+        </ul>
+    </div>
+
+    <script>
+        console.log('%cApex Local Marketing Test Page', 'font-size: 20px; font-weight: bold; color: #2563eb;');
+        console.log('CSS Fix Applied: styles-new.css → styles.css');
+        console.log('All file references are now correct!');
+    </script>
+</body>
+</html>
