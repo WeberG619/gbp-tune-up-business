@@ -21,10 +21,9 @@ if (contactForm) {
 
         const formData = {
             businessName: document.getElementById('businessName').value,
-            yourName: document.getElementById('yourName').value,
+            contactName: document.getElementById('contactName').value,
             phone: document.getElementById('phone').value,
             email: document.getElementById('email').value,
-            city: document.getElementById('city').value,
             message: document.getElementById('message').value,
             timestamp: new Date().toISOString(),
             source: 'website_contact_form'
@@ -76,16 +75,19 @@ function showSuccess() {
     const formWrapper = form.parentElement;
 
     formWrapper.innerHTML = `
-        <div style="text-align: center; padding: 60px 40px;">
-            <div style="font-size: 64px; margin-bottom: 20px;">✅</div>
-            <h3 style="font-size: 24px; margin-bottom: 12px; font-weight: 700;">Thank You!</h3>
-            <p style="color: #6B7280; font-size: 16px; line-height: 1.7;">
+        <div style="text-align: center; padding: 60px 40px; background: rgba(16, 185, 129, 0.1); border-radius: 1rem; border: 2px solid #10b981;">
+            <svg style="width: 64px; height: 64px; margin: 0 auto 20px; color: #10b981;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3 style="font-size: 24px; margin-bottom: 12px; font-weight: 700; color: #111827;">Thank You!</h3>
+            <p style="color: #4B5563; font-size: 16px; line-height: 1.7; max-width: 400px; margin: 0 auto;">
                 I'll analyze your Google Business Profile and send you a detailed audit report within 24 hours.
             </p>
             <p style="margin-top: 20px; font-size: 14px; color: #6B7280;">
                 Check your email (and spam folder) for my response.
             </p>
-            <a href="/" style="display: inline-block; margin-top: 30px; padding: 12px 24px; background: #4F46E5; color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">
+            <a href="/" style="display: inline-block; margin-top: 30px; padding: 12px 24px; background: #2563eb; color: white; text-decoration: none; border-radius: 0.75rem; font-weight: 600;">
                 Back to Home
             </a>
         </div>
@@ -101,7 +103,10 @@ function showSuccess() {
 }
 
 function showError() {
-    alert('There was an error submitting the form. Please call (208) 555-1234 or email weber@gbpservices.com directly.');
+    // Get contact info from the page
+    const phone = document.querySelector('.footer-text:nth-of-type(2)')?.textContent || '[YOUR PHONE]';
+    const email = document.querySelector('.footer-text:nth-of-type(3)')?.textContent || '[YOUR EMAIL]';
+    alert(`There was an error submitting the form. Please call ${phone} or email ${email} directly.`);
 }
 
 function saveLeadLocally(data) {
@@ -170,10 +175,10 @@ window.addEventListener('scroll', () => {
         const navLink = document.querySelector(`.nav a[href="#${sectionId}"]`);
 
         if (navLink && scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelectorAll('.nav a').forEach(link => {
-                link.style.color = '#6B7280';
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.style.color = '#4b5563';
             });
-            navLink.style.color = '#4F46E5';
+            navLink.style.color = '#2563eb';
         }
     });
 });
@@ -215,5 +220,5 @@ function downloadCSV(csv, filename) {
 window.exportLeads = exportLeads;
 
 // Log to console for admin
-console.log('%cAdmin Tools', 'font-size: 16px; font-weight: bold; color: #4F46E5;');
-console.log('Type exportLeads() to download all form submissions');
+console.log('%cApex Local Marketing - Admin Tools', 'font-size: 16px; font-weight: bold; color: #2563eb;');
+console.log('Type exportLeads() to download all form submissions as CSV');
