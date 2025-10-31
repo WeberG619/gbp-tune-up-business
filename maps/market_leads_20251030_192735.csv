@@ -1,0 +1,181 @@
+priority,score,business_name,industry,location,phone,address,rating,reviews,photos,website,reasons
+HIGH,95,Joe's Coffee Coffee House,coffee shop,"Sandpoint, ID",(555) 657-4020,"8271 Main St, Sandpoint, ID",4.4,19,3,,Only 3 photos (needs 20+); Only 19 reviews (low social proof)
+HIGH,90,Brew Haven Coffee House,coffee shop,"Sandpoint, ID",(555) 237-2010,"5705 Main St, Sandpoint, ID",4.5,39,5,,Only 5 photos (needs 20+); No website listed
+HIGH,85,Espresso Express Bar,coffee shop,"Sandpoint, ID",(555) 932-9802,"6477 Main St, Sandpoint, ID",3.7,22,2,,Only 2 photos (needs 20+); Only 22 reviews (low social proof)
+HIGH,85,Bean There Roasters,coffee shop,"Sandpoint, ID",(555) 858-6761,"969 Main St, Sandpoint, ID",3.8,9,3,,Only 3 photos (needs 20+); Only 9 reviews (low social proof)
+HIGH,80,Bean There Coffee House,coffee shop,"Sandpoint, ID",(555) 902-2925,"783 Main St, Sandpoint, ID",4.1,28,3,https://www.beantherecoffeehouse.com,Only 3 photos (needs 20+); Only 28 reviews (low social proof)
+HIGH,80,Morning Grind Roasters,coffee shop,"Sandpoint, ID",(555) 415-3439,"7071 Main St, Sandpoint, ID",4.4,29,7,https://www.morninggrindroasters.com,Only 7 photos (needs 20+); Only 29 reviews (low social proof)
+HIGH,80,Joe's Coffee Roasters,coffee shop,"Sandpoint, ID",(555) 619-7282,"9757 Main St, Sandpoint, ID",4.0,13,8,https://www.joe'scoffeeroasters.com,Only 8 photos (needs 20+); Only 13 reviews (low social proof)
+HIGH,75,Bean There Shop,coffee shop,"Sandpoint, ID",(555) 381-8227,"4221 Main St, Sandpoint, ID",4.7,34,2,,Only 2 photos (needs 20+); No website listed
+HIGH,75,Espresso Express Shop,coffee shop,"Sandpoint, ID",(555) 489-4028,"9401 Main St, Sandpoint, ID",4.4,45,3,https://www.espressoexpressshop.com,Only 3 photos (needs 20+); Missing business hours
+HIGH,75,Bean There Shop,coffee shop,"Sandpoint, ID",(555) 566-5671,"9918 Main St, Sandpoint, ID",4.5,38,2,,Only 2 photos (needs 20+); No website listed
+HIGH,70,Joe's Coffee Shop,coffee shop,"Sandpoint, ID",(555) 530-7072,"9786 Main St, Sandpoint, ID",3.8,8,5,https://www.joe'scoffeeshop.com,Only 5 photos (needs 20+); Only 8 reviews (low social proof)
+HIGH,70,Brew Haven Coffee House,coffee shop,"Sandpoint, ID",(555) 435-2461,"586 Main St, Sandpoint, ID",3.7,15,7,https://www.brewhavencoffeehouse.com,Only 7 photos (needs 20+); Only 15 reviews (low social proof)
+HIGH,65,Morning Grind Coffee House,coffee shop,"Sandpoint, ID",(555) 762-2923,"5722 Main St, Sandpoint, ID",3.9,30,4,,Only 4 photos (needs 20+); No website listed
+HIGH,65,Joe's Coffee Roasters,coffee shop,"Sandpoint, ID",(555) 380-4646,"9182 Main St, Sandpoint, ID",3.8,36,4,,Only 4 photos (needs 20+); No website listed
+HIGH,65,Espresso Express Bar,coffee shop,"Sandpoint, ID",(555) 302-2853,"1119 Main St, Sandpoint, ID",3.6,40,8,,Only 8 photos (needs 20+); No website listed
+HIGH,110,Style Studio Spa,salon,"Sandpoint, ID",(555) 717-2298,"6545 Main St, Sandpoint, ID",4.3,20,5,,Only 5 photos (needs 20+); Only 20 reviews (low social proof)
+HIGH,110,Perfect Look Spa,salon,"Sandpoint, ID",(555) 896-8108,"6088 Main St, Sandpoint, ID",4.3,11,8,,Only 8 photos (needs 20+); Only 11 reviews (low social proof)
+HIGH,95,The Cut Studio,salon,"Sandpoint, ID",(555) 231-5791,"4373 Main St, Sandpoint, ID",4.7,21,5,,Only 5 photos (needs 20+); Only 21 reviews (low social proof)
+HIGH,85,Style Studio Studio,salon,"Sandpoint, ID",(555) 438-4610,"4631 Main St, Sandpoint, ID",3.6,18,8,,Only 8 photos (needs 20+); Only 18 reviews (low social proof)
+HIGH,85,Style Studio Barber Shop,salon,"Sandpoint, ID",(555) 922-4940,"7385 Main St, Sandpoint, ID",3.9,5,2,,Only 2 photos (needs 20+); Only 5 reviews (low social proof)
+HIGH,80,The Cut Salon,salon,"Sandpoint, ID",(555) 991-9022,"8406 Main St, Sandpoint, ID",4.4,9,3,https://www.thecutsalon.com,Only 3 photos (needs 20+); Only 9 reviews (low social proof)
+HIGH,80,Perfect Look Salon,salon,"Sandpoint, ID",(555) 493-5251,"9235 Main St, Sandpoint, ID",4.6,10,3,https://www.perfectlooksalon.com,Only 3 photos (needs 20+); Only 10 reviews (low social proof)
+HIGH,75,Perfect Look Barber Shop,salon,"Sandpoint, ID",(555) 201-4000,"2232 Main St, Sandpoint, ID",4.4,34,3,,Only 3 photos (needs 20+); No website listed
+HIGH,75,Bella's Hair Salon,salon,"Sandpoint, ID",(555) 806-1331,"5519 Main St, Sandpoint, ID",4.5,39,5,,Only 5 photos (needs 20+); No website listed
+HIGH,75,Bella's Hair Spa,salon,"Sandpoint, ID",(555) 474-1449,"9188 Main St, Sandpoint, ID",4.4,39,5,,Only 5 photos (needs 20+); No website listed
+HIGH,75,Perfect Look Spa,salon,"Sandpoint, ID",(555) 378-5914,"3677 Main St, Sandpoint, ID",4.6,34,5,,Only 5 photos (needs 20+); No website listed
+HIGH,65,Perfect Look Salon,salon,"Sandpoint, ID",(555) 610-9280,"7399 Main St, Sandpoint, ID",3.8,34,4,,Only 4 photos (needs 20+); No website listed
+HIGH,60,Glamour Studio,salon,"Sandpoint, ID",(555) 517-4798,"8119 Main St, Sandpoint, ID",4.6,30,7,https://www.glamourstudio.com,Only 7 photos (needs 20+); Established business (has reviews)
+MEDIUM,50,Bella's Hair Studio,salon,"Sandpoint, ID",(555) 782-5443,"2224 Main St, Sandpoint, ID",3.7,40,5,https://www.bella'shairstudio.com,Only 5 photos (needs 20+); Established business (has reviews)
+MEDIUM,50,Bella's Hair Studio,salon,"Sandpoint, ID",(555) 219-1845,"3041 Main St, Sandpoint, ID",3.9,35,4,https://www.bella'shairstudio.com,Only 4 photos (needs 20+); Established business (has reviews)
+HIGH,100,Peak Performance Training Center,gym,"Sandpoint, ID",(555) 313-8408,"1071 Main St, Sandpoint, ID",3.9,7,6,,Only 6 photos (needs 20+); Only 7 reviews (low social proof)
+HIGH,100,CrossFit Fitness,gym,"Sandpoint, ID",(555) 175-1967,"8021 Main St, Sandpoint, ID",3.5,28,3,,Only 3 photos (needs 20+); Only 28 reviews (low social proof)
+HIGH,95,Power Training Center,gym,"Sandpoint, ID",(555) 665-4552,"7254 Main St, Sandpoint, ID",4.7,15,6,,Only 6 photos (needs 20+); Only 15 reviews (low social proof)
+HIGH,95,Iron Works Box,gym,"Sandpoint, ID",(555) 136-6612,"8725 Main St, Sandpoint, ID",4.4,13,5,,Only 5 photos (needs 20+); Only 13 reviews (low social proof)
+HIGH,95,Peak Performance Fitness,gym,"Sandpoint, ID",(555) 205-5593,"1112 Main St, Sandpoint, ID",4.5,14,7,,Only 7 photos (needs 20+); Only 14 reviews (low social proof)
+HIGH,95,Peak Performance Box,gym,"Sandpoint, ID",(555) 499-5014,"1730 Main St, Sandpoint, ID",4.3,5,7,,Only 7 photos (needs 20+); Only 5 reviews (low social proof)
+HIGH,80,Peak Performance Box,gym,"Sandpoint, ID",(555) 912-2352,"4935 Main St, Sandpoint, ID",4.8,7,3,https://www.peakperformancebox.com,Only 3 photos (needs 20+); Only 7 reviews (low social proof)
+HIGH,80,Iron Works Training Center,gym,"Sandpoint, ID",(555) 200-8482,"3437 Main St, Sandpoint, ID",4.0,6,8,https://www.ironworkstrainingcenter.com,Only 8 photos (needs 20+); Only 6 reviews (low social proof)
+HIGH,80,CrossFit Studio,gym,"Sandpoint, ID",(555) 298-2161,"3598 Main St, Sandpoint, ID",4.0,5,5,https://www.crossfitstudio.com,Only 5 photos (needs 20+); Only 5 reviews (low social proof)
+HIGH,75,Power Training Center,gym,"Sandpoint, ID",(555) 832-2646,"3574 Main St, Sandpoint, ID",4.6,31,5,,Only 5 photos (needs 20+); No website listed
+HIGH,70,Peak Performance Studio,gym,"Sandpoint, ID",(555) 585-6817,"3078 Main St, Sandpoint, ID",3.7,19,7,https://www.peakperformancestudio.com,Only 7 photos (needs 20+); Only 19 reviews (low social proof)
+HIGH,60,Fit Zone Training Center,gym,"Sandpoint, ID",(555) 495-9787,"2875 Main St, Sandpoint, ID",4.0,37,3,https://www.fitzonetrainingcenter.com,Only 3 photos (needs 20+); Established business (has reviews)
+HIGH,60,Peak Performance Box,gym,"Sandpoint, ID",(555) 281-8148,"6554 Main St, Sandpoint, ID",4.5,31,2,https://www.peakperformancebox.com,Only 2 photos (needs 20+); Established business (has reviews)
+HIGH,60,Fit Zone Studio,gym,"Sandpoint, ID",(555) 514-1951,"2583 Main St, Sandpoint, ID",4.3,42,5,https://www.fitzonestudio.com,Only 5 photos (needs 20+); Established business (has reviews)
+MEDIUM,50,Iron Works Gym,gym,"Sandpoint, ID",(555) 411-7998,"1031 Main St, Sandpoint, ID",3.5,45,7,https://www.ironworksgym.com,Only 7 photos (needs 20+); Established business (has reviews)
+HIGH,110,Quality Store,restaurant,"Sandpoint, ID",(555) 130-5236,"2516 Main St, Sandpoint, ID",4.3,7,3,,Only 3 photos (needs 20+); Only 7 reviews (low social proof)
+HIGH,95,Local Services,restaurant,"Sandpoint, ID",(555) 705-4089,"8179 Main St, Sandpoint, ID",4.1,10,3,,Only 3 photos (needs 20+); Only 10 reviews (low social proof)
+HIGH,95,Best Store,restaurant,"Sandpoint, ID",(555) 316-8238,"2138 Main St, Sandpoint, ID",4.6,6,4,,Only 4 photos (needs 20+); Only 6 reviews (low social proof)
+HIGH,95,City Shop,restaurant,"Sandpoint, ID",(555) 727-6503,"6661 Main St, Sandpoint, ID",4.6,12,7,,Only 7 photos (needs 20+); Only 12 reviews (low social proof)
+HIGH,95,Best Services,restaurant,"Sandpoint, ID",(555) 834-9831,"1555 Main St, Sandpoint, ID",4.8,15,5,,Only 5 photos (needs 20+); Only 15 reviews (low social proof)
+HIGH,85,Premier Shop,restaurant,"Sandpoint, ID",(555) 823-1985,"3521 Main St, Sandpoint, ID",3.9,18,2,,Only 2 photos (needs 20+); Only 18 reviews (low social proof)
+HIGH,80,City Business,restaurant,"Sandpoint, ID",(555) 561-6706,"3627 Main St, Sandpoint, ID",4.2,25,3,https://www.citybusiness.com,Only 3 photos (needs 20+); Only 25 reviews (low social proof)
+HIGH,80,Quality Store,restaurant,"Sandpoint, ID",(555) 275-9895,"2265 Main St, Sandpoint, ID",3.6,45,3,,Only 3 photos (needs 20+); No website listed
+HIGH,80,City Store,restaurant,"Sandpoint, ID",(555) 899-4945,"3788 Main St, Sandpoint, ID",3.7,37,7,,Only 7 photos (needs 20+); No website listed
+HIGH,75,Best Services,restaurant,"Sandpoint, ID",(555) 952-8565,"8704 Main St, Sandpoint, ID",4.2,30,6,,Only 6 photos (needs 20+); No website listed
+HIGH,75,Best Company,restaurant,"Sandpoint, ID",(555) 415-2125,"6148 Main St, Sandpoint, ID",4.2,33,7,,Only 7 photos (needs 20+); No website listed
+HIGH,75,Premier Company,restaurant,"Sandpoint, ID",(555) 932-7196,"635 Main St, Sandpoint, ID",4.6,40,4,,Only 4 photos (needs 20+); No website listed
+HIGH,75,City Services,restaurant,"Sandpoint, ID",(555) 596-7048,"7285 Main St, Sandpoint, ID",4.0,44,4,,Only 4 photos (needs 20+); No website listed
+HIGH,60,City Services,restaurant,"Sandpoint, ID",(555) 711-9331,"9082 Main St, Sandpoint, ID",4.4,34,2,https://www.cityservices.com,Only 2 photos (needs 20+); Established business (has reviews)
+MEDIUM,50,Premier Company,restaurant,"Sandpoint, ID",(555) 206-4381,"7950 Main St, Sandpoint, ID",3.6,40,5,https://www.premiercompany.com,Only 5 photos (needs 20+); Established business (has reviews)
+HIGH,110,Brew Haven Coffee House,coffee shop,"Coeur d'Alene, ID",(555) 534-5103,"9631 Main St, Coeur d'Alene, ID",4.7,27,4,,Only 4 photos (needs 20+); Only 27 reviews (low social proof)
+HIGH,100,Morning Grind Coffee House,coffee shop,"Coeur d'Alene, ID",(555) 450-8689,"3996 Main St, Coeur d'Alene, ID",3.8,7,8,,Only 8 photos (needs 20+); Only 7 reviews (low social proof)
+HIGH,95,Morning Grind Bar,coffee shop,"Coeur d'Alene, ID",(555) 706-2315,"4998 Main St, Coeur d'Alene, ID",4.6,8,5,,Only 5 photos (needs 20+); Only 8 reviews (low social proof)
+HIGH,95,Bean There Bar,coffee shop,"Coeur d'Alene, ID",(555) 547-3554,"9354 Main St, Coeur d'Alene, ID",4.8,28,7,,Only 7 photos (needs 20+); Only 28 reviews (low social proof)
+HIGH,95,Brew Haven Roasters,coffee shop,"Coeur d'Alene, ID",(555) 162-5019,"4391 Main St, Coeur d'Alene, ID",4.0,23,6,,Only 6 photos (needs 20+); Only 23 reviews (low social proof)
+HIGH,95,Brew Haven Bar,coffee shop,"Coeur d'Alene, ID",(555) 984-8431,"4787 Main St, Coeur d'Alene, ID",4.3,6,2,,Only 2 photos (needs 20+); Only 6 reviews (low social proof)
+HIGH,95,Espresso Express Cafe,coffee shop,"Coeur d'Alene, ID",(555) 457-1715,"4185 Main St, Coeur d'Alene, ID",4.2,16,6,,Only 6 photos (needs 20+); Only 16 reviews (low social proof)
+HIGH,95,Joe's Coffee Roasters,coffee shop,"Coeur d'Alene, ID",(555) 831-3619,"4310 Main St, Coeur d'Alene, ID",4.5,17,3,,Only 3 photos (needs 20+); Only 17 reviews (low social proof)
+HIGH,85,Joe's Coffee Bar,coffee shop,"Coeur d'Alene, ID",(555) 532-2779,"5581 Main St, Coeur d'Alene, ID",3.5,19,8,,Only 8 photos (needs 20+); Only 19 reviews (low social proof)
+HIGH,85,Brew Haven Bar,coffee shop,"Coeur d'Alene, ID",(555) 629-2183,"8722 Main St, Coeur d'Alene, ID",3.5,25,2,,Only 2 photos (needs 20+); Only 25 reviews (low social proof)
+HIGH,85,Espresso Express Roasters,coffee shop,"Coeur d'Alene, ID",(555) 284-2397,"7924 Main St, Coeur d'Alene, ID",3.9,29,4,,Only 4 photos (needs 20+); Only 29 reviews (low social proof)
+HIGH,85,Joe's Coffee Bar,coffee shop,"Coeur d'Alene, ID",(555) 579-5114,"9189 Main St, Coeur d'Alene, ID",3.6,12,6,,Only 6 photos (needs 20+); Only 12 reviews (low social proof)
+HIGH,80,Espresso Express Shop,coffee shop,"Coeur d'Alene, ID",(555) 120-9017,"7074 Main St, Coeur d'Alene, ID",4.7,15,4,https://www.espressoexpressshop.com,Only 4 photos (needs 20+); Only 15 reviews (low social proof)
+HIGH,75,Brew Haven Cafe,coffee shop,"Coeur d'Alene, ID",(555) 126-9515,"9770 Main St, Coeur d'Alene, ID",4.2,38,3,,Only 3 photos (needs 20+); No website listed
+HIGH,60,Joe's Coffee Roasters,coffee shop,"Coeur d'Alene, ID",(555) 555-2679,"5761 Main St, Coeur d'Alene, ID",4.3,37,5,https://www.joe'scoffeeroasters.com,Only 5 photos (needs 20+); Established business (has reviews)
+HIGH,100,Perfect Look Lounge,salon,"Coeur d'Alene, ID",(555) 403-4593,"9748 Main St, Coeur d'Alene, ID",3.6,18,5,,Only 5 photos (needs 20+); Only 18 reviews (low social proof)
+HIGH,95,Style Studio Spa,salon,"Coeur d'Alene, ID",(555) 328-1955,"5415 Main St, Coeur d'Alene, ID",4.7,13,2,,Only 2 photos (needs 20+); Only 13 reviews (low social proof)
+HIGH,95,The Cut Studio,salon,"Coeur d'Alene, ID",(555) 652-7753,"4444 Main St, Coeur d'Alene, ID",4.1,24,8,,Only 8 photos (needs 20+); Only 24 reviews (low social proof)
+HIGH,90,Glamour Studio,salon,"Coeur d'Alene, ID",(555) 717-8457,"5192 Main St, Coeur d'Alene, ID",4.2,45,5,,Only 5 photos (needs 20+); No website listed
+HIGH,85,The Cut Spa,salon,"Coeur d'Alene, ID",(555) 550-3812,"2143 Main St, Coeur d'Alene, ID",3.9,24,2,,Only 2 photos (needs 20+); Only 24 reviews (low social proof)
+HIGH,85,Perfect Look Salon,salon,"Coeur d'Alene, ID",(555) 500-1699,"454 Main St, Coeur d'Alene, ID",3.8,28,8,,Only 8 photos (needs 20+); Only 28 reviews (low social proof)
+HIGH,85,The Cut Barber Shop,salon,"Coeur d'Alene, ID",(555) 893-7087,"5838 Main St, Coeur d'Alene, ID",3.6,14,5,,Only 5 photos (needs 20+); Only 14 reviews (low social proof)
+HIGH,80,Glamour Salon,salon,"Coeur d'Alene, ID",(555) 315-3428,"487 Main St, Coeur d'Alene, ID",4.7,29,4,https://www.glamoursalon.com,Only 4 photos (needs 20+); Only 29 reviews (low social proof)
+HIGH,80,Glamour Salon,salon,"Coeur d'Alene, ID",(555) 196-6162,"5433 Main St, Coeur d'Alene, ID",4.0,24,6,https://www.glamoursalon.com,Only 6 photos (needs 20+); Only 24 reviews (low social proof)
+HIGH,80,Style Studio Barber Shop,salon,"Coeur d'Alene, ID",(555) 494-5836,"1550 Main St, Coeur d'Alene, ID",4.1,17,5,https://www.stylestudiobarbershop.com,Only 5 photos (needs 20+); Only 17 reviews (low social proof)
+HIGH,75,The Cut Lounge,salon,"Coeur d'Alene, ID",(555) 687-6361,"5661 Main St, Coeur d'Alene, ID",4.3,39,3,,Only 3 photos (needs 20+); No website listed
+HIGH,70,Bella's Hair Studio,salon,"Coeur d'Alene, ID",(555) 336-5887,"3922 Main St, Coeur d'Alene, ID",3.7,28,8,https://www.bella'shairstudio.com,Only 8 photos (needs 20+); Only 28 reviews (low social proof)
+HIGH,65,Perfect Look Barber Shop,salon,"Coeur d'Alene, ID",(555) 933-9619,"2572 Main St, Coeur d'Alene, ID",3.6,30,2,,Only 2 photos (needs 20+); No website listed
+HIGH,65,Bella's Hair Studio,salon,"Coeur d'Alene, ID",(555) 993-4501,"1878 Main St, Coeur d'Alene, ID",3.7,42,4,,Only 4 photos (needs 20+); No website listed
+MEDIUM,50,Glamour Spa,salon,"Coeur d'Alene, ID",(555) 725-3891,"3376 Main St, Coeur d'Alene, ID",3.5,36,4,https://www.glamourspa.com,Only 4 photos (needs 20+); Established business (has reviews)
+HIGH,95,Iron Works Gym,gym,"Coeur d'Alene, ID",(555) 737-6631,"3736 Main St, Coeur d'Alene, ID",4.0,12,6,,Only 6 photos (needs 20+); Only 12 reviews (low social proof)
+HIGH,95,Peak Performance Gym,gym,"Coeur d'Alene, ID",(555) 914-3519,"8465 Main St, Coeur d'Alene, ID",4.3,7,4,,Only 4 photos (needs 20+); Only 7 reviews (low social proof)
+HIGH,95,Iron Works Box,gym,"Coeur d'Alene, ID",(555) 647-5052,"2214 Main St, Coeur d'Alene, ID",4.5,11,7,,Only 7 photos (needs 20+); Only 11 reviews (low social proof)
+HIGH,90,Peak Performance Training Center,gym,"Coeur d'Alene, ID",(555) 561-5436,"8592 Main St, Coeur d'Alene, ID",4.3,34,5,,Only 5 photos (needs 20+); No website listed
+HIGH,90,CrossFit Studio,gym,"Coeur d'Alene, ID",(555) 671-2904,"4199 Main St, Coeur d'Alene, ID",4.3,45,2,,Only 2 photos (needs 20+); No website listed
+HIGH,85,Iron Works Gym,gym,"Coeur d'Alene, ID",(555) 417-8820,"1172 Main St, Coeur d'Alene, ID",3.8,22,7,,Only 7 photos (needs 20+); Only 22 reviews (low social proof)
+HIGH,85,Fit Zone Fitness,gym,"Coeur d'Alene, ID",(555) 654-5065,"5188 Main St, Coeur d'Alene, ID",3.8,16,7,,Only 7 photos (needs 20+); Only 16 reviews (low social proof)
+HIGH,80,CrossFit Box,gym,"Coeur d'Alene, ID",(555) 919-1731,"2933 Main St, Coeur d'Alene, ID",4.6,21,2,https://www.crossfitbox.com,Only 2 photos (needs 20+); Only 21 reviews (low social proof)
+HIGH,75,Iron Works Fitness,gym,"Coeur d'Alene, ID",(555) 150-4592,"5829 Main St, Coeur d'Alene, ID",4.3,32,3,,Only 3 photos (needs 20+); No website listed
+HIGH,75,CrossFit Studio,gym,"Coeur d'Alene, ID",(555) 129-8638,"726 Main St, Coeur d'Alene, ID",4.4,37,2,https://www.crossfitstudio.com,Only 2 photos (needs 20+); Missing business hours
+HIGH,75,Peak Performance Training Center,gym,"Coeur d'Alene, ID",(555) 307-5429,"4402 Main St, Coeur d'Alene, ID",4.8,38,3,,Only 3 photos (needs 20+); No website listed
+HIGH,70,Fit Zone Gym,gym,"Coeur d'Alene, ID",(555) 664-9009,"9740 Main St, Coeur d'Alene, ID",3.5,6,4,https://www.fitzonegym.com,Only 4 photos (needs 20+); Only 6 reviews (low social proof)
+HIGH,65,Peak Performance Training Center,gym,"Coeur d'Alene, ID",(555) 179-3339,"1981 Main St, Coeur d'Alene, ID",3.9,32,4,,Only 4 photos (needs 20+); No website listed
+HIGH,65,Fit Zone Training Center,gym,"Coeur d'Alene, ID",(555) 626-3100,"2522 Main St, Coeur d'Alene, ID",3.9,38,5,,Only 5 photos (needs 20+); No website listed
+HIGH,60,Fit Zone Studio,gym,"Coeur d'Alene, ID",(555) 131-6830,"7726 Main St, Coeur d'Alene, ID",4.2,30,2,https://www.fitzonestudio.com,Only 2 photos (needs 20+); Established business (has reviews)
+HIGH,100,City Services,restaurant,"Coeur d'Alene, ID",(555) 487-9407,"3114 Main St, Coeur d'Alene, ID",3.6,8,2,,Only 2 photos (needs 20+); Only 8 reviews (low social proof)
+HIGH,95,Local Business,restaurant,"Coeur d'Alene, ID",(555) 406-6960,"6689 Main St, Coeur d'Alene, ID",4.2,6,5,,Only 5 photos (needs 20+); Only 6 reviews (low social proof)
+HIGH,95,Premier Company,restaurant,"Coeur d'Alene, ID",(555) 864-7254,"9982 Main St, Coeur d'Alene, ID",4.5,8,2,,Only 2 photos (needs 20+); Only 8 reviews (low social proof)
+HIGH,95,Best Company,restaurant,"Coeur d'Alene, ID",(555) 997-1606,"344 Main St, Coeur d'Alene, ID",4.1,10,8,,Only 8 photos (needs 20+); Only 10 reviews (low social proof)
+HIGH,90,Premier Business,restaurant,"Coeur d'Alene, ID",(555) 597-1401,"1664 Main St, Coeur d'Alene, ID",4.5,37,4,,Only 4 photos (needs 20+); No website listed
+HIGH,90,Premier Services,restaurant,"Coeur d'Alene, ID",(555) 505-2269,"4101 Main St, Coeur d'Alene, ID",4.6,38,2,,Only 2 photos (needs 20+); No website listed
+HIGH,85,Local Services,restaurant,"Coeur d'Alene, ID",(555) 500-1708,"769 Main St, Coeur d'Alene, ID",3.9,26,3,,Only 3 photos (needs 20+); Only 26 reviews (low social proof)
+HIGH,85,Local Company,restaurant,"Coeur d'Alene, ID",(555) 396-4392,"5998 Main St, Coeur d'Alene, ID",3.9,16,2,https://www.localcompany.com,Only 2 photos (needs 20+); Only 16 reviews (low social proof)
+HIGH,75,Quality Shop,restaurant,"Coeur d'Alene, ID",(555) 615-4004,"1488 Main St, Coeur d'Alene, ID",4.3,37,2,,Only 2 photos (needs 20+); No website listed
+HIGH,75,Best Business,restaurant,"Coeur d'Alene, ID",(555) 710-6463,"7945 Main St, Coeur d'Alene, ID",4.4,32,2,,Only 2 photos (needs 20+); No website listed
+HIGH,75,Premier Services,restaurant,"Coeur d'Alene, ID",(555) 426-9575,"2760 Main St, Coeur d'Alene, ID",4.1,40,5,https://www.premierservices.com,Only 5 photos (needs 20+); Missing business hours
+HIGH,70,Premier Company,restaurant,"Coeur d'Alene, ID",(555) 688-5194,"1413 Main St, Coeur d'Alene, ID",3.7,23,8,https://www.premiercompany.com,Only 8 photos (needs 20+); Only 23 reviews (low social proof)
+HIGH,65,Local Shop,restaurant,"Coeur d'Alene, ID",(555) 662-1752,"6833 Main St, Coeur d'Alene, ID",3.7,31,6,,Only 6 photos (needs 20+); No website listed
+HIGH,60,Best Company,restaurant,"Coeur d'Alene, ID",(555) 492-2163,"9840 Main St, Coeur d'Alene, ID",4.7,40,6,https://www.bestcompany.com,Only 6 photos (needs 20+); Established business (has reviews)
+HIGH,60,City Company,restaurant,"Coeur d'Alene, ID",(555) 490-1347,"6942 Main St, Coeur d'Alene, ID",4.8,36,8,https://www.citycompany.com,Only 8 photos (needs 20+); Established business (has reviews)
+HIGH,100,Morning Grind Coffee House,coffee shop,"Spokane, WA",(555) 519-9108,"9177 Main St, Spokane, WA",3.6,25,2,,Only 2 photos (needs 20+); Only 25 reviews (low social proof)
+HIGH,100,Espresso Express Shop,coffee shop,"Spokane, WA",(555) 157-2347,"6682 Main St, Spokane, WA",3.9,9,6,,Only 6 photos (needs 20+); Only 9 reviews (low social proof)
+HIGH,95,Morning Grind Shop,coffee shop,"Spokane, WA",(555) 344-5024,"5328 Main St, Spokane, WA",4.0,12,5,,Only 5 photos (needs 20+); Only 12 reviews (low social proof)
+HIGH,95,Joe's Coffee Cafe,coffee shop,"Spokane, WA",(555) 442-8250,"5359 Main St, Spokane, WA",4.3,20,5,,Only 5 photos (needs 20+); Only 20 reviews (low social proof)
+HIGH,95,Morning Grind Bar,coffee shop,"Spokane, WA",(555) 414-2675,"5858 Main St, Spokane, WA",4.7,10,7,,Only 7 photos (needs 20+); Only 10 reviews (low social proof)
+HIGH,90,Joe's Coffee Roasters,coffee shop,"Spokane, WA",(555) 279-4661,"3538 Main St, Spokane, WA",4.2,31,6,,Only 6 photos (needs 20+); No website listed
+HIGH,90,Espresso Express Coffee House,coffee shop,"Spokane, WA",(555) 981-5869,"3161 Main St, Spokane, WA",4.4,41,6,,Only 6 photos (needs 20+); No website listed
+HIGH,85,Bean There Cafe,coffee shop,"Spokane, WA",(555) 771-1881,"7809 Main St, Spokane, WA",3.5,12,8,,Only 8 photos (needs 20+); Only 12 reviews (low social proof)
+HIGH,85,Joe's Coffee Cafe,coffee shop,"Spokane, WA",(555) 344-3772,"4024 Main St, Spokane, WA",3.8,19,5,https://www.joe'scoffeecafe.com,Only 5 photos (needs 20+); Only 19 reviews (low social proof)
+HIGH,85,Espresso Express Shop,coffee shop,"Spokane, WA",(555) 128-5031,"932 Main St, Spokane, WA",3.6,21,8,,Only 8 photos (needs 20+); Only 21 reviews (low social proof)
+HIGH,65,Morning Grind Roasters,coffee shop,"Spokane, WA",(555) 215-5351,"2976 Main St, Spokane, WA",3.7,45,2,,Only 2 photos (needs 20+); No website listed
+HIGH,60,Joe's Coffee Coffee House,coffee shop,"Spokane, WA",(555) 416-7561,"7124 Main St, Spokane, WA",4.5,45,7,https://www.joe'scoffeecoffeehouse.com,Only 7 photos (needs 20+); Established business (has reviews)
+HIGH,60,Espresso Express Roasters,coffee shop,"Spokane, WA",(555) 106-9788,"3665 Main St, Spokane, WA",4.1,31,6,https://www.espressoexpressroasters.com,Only 6 photos (needs 20+); Established business (has reviews)
+HIGH,60,Espresso Express Bar,coffee shop,"Spokane, WA",(555) 295-9535,"3969 Main St, Spokane, WA",4.7,30,5,https://www.espressoexpressbar.com,Only 5 photos (needs 20+); Established business (has reviews)
+HIGH,60,Espresso Express Cafe,coffee shop,"Spokane, WA",(555) 105-1197,"5110 Main St, Spokane, WA",4.6,38,8,https://www.espressoexpresscafe.com,Only 8 photos (needs 20+); Established business (has reviews)
+HIGH,110,Glamour Barber Shop,salon,"Spokane, WA",(555) 792-8316,"8524 Main St, Spokane, WA",4.5,19,8,,Only 8 photos (needs 20+); Only 19 reviews (low social proof)
+HIGH,95,Bella's Hair Salon,salon,"Spokane, WA",(555) 920-7777,"5455 Main St, Spokane, WA",4.5,18,7,,Only 7 photos (needs 20+); Only 18 reviews (low social proof)
+HIGH,95,Perfect Look Spa,salon,"Spokane, WA",(555) 827-3791,"7598 Main St, Spokane, WA",4.2,10,5,https://www.perfectlookspa.com,Only 5 photos (needs 20+); Only 10 reviews (low social proof)
+HIGH,95,Perfect Look Studio,salon,"Spokane, WA",(555) 434-8659,"3266 Main St, Spokane, WA",4.7,21,2,,Only 2 photos (needs 20+); Only 21 reviews (low social proof)
+HIGH,95,Glamour Lounge,salon,"Spokane, WA",(555) 183-4805,"5710 Main St, Spokane, WA",4.1,25,3,,Only 3 photos (needs 20+); Only 25 reviews (low social proof)
+HIGH,85,The Cut Lounge,salon,"Spokane, WA",(555) 858-5655,"6985 Main St, Spokane, WA",3.7,14,5,,Only 5 photos (needs 20+); Only 14 reviews (low social proof)
+HIGH,80,The Cut Spa,salon,"Spokane, WA",(555) 812-8651,"2614 Main St, Spokane, WA",4.7,18,5,https://www.thecutspa.com,Only 5 photos (needs 20+); Only 18 reviews (low social proof)
+HIGH,80,The Cut Lounge,salon,"Spokane, WA",(555) 361-3614,"847 Main St, Spokane, WA",4.2,21,2,https://www.thecutlounge.com,Only 2 photos (needs 20+); Only 21 reviews (low social proof)
+HIGH,80,Glamour Spa,salon,"Spokane, WA",(555) 284-4138,"8464 Main St, Spokane, WA",4.1,15,3,https://www.glamourspa.com,Only 3 photos (needs 20+); Only 15 reviews (low social proof)
+HIGH,80,The Cut Barber Shop,salon,"Spokane, WA",(555) 723-2819,"2079 Main St, Spokane, WA",4.0,18,8,https://www.thecutbarbershop.com,Only 8 photos (needs 20+); Only 18 reviews (low social proof)
+HIGH,75,Perfect Look Barber Shop,salon,"Spokane, WA",(555) 534-6863,"4814 Main St, Spokane, WA",4.5,43,5,,Only 5 photos (needs 20+); No website listed
+HIGH,70,Bella's Hair Barber Shop,salon,"Spokane, WA",(555) 841-4214,"4400 Main St, Spokane, WA",3.7,22,7,https://www.bella'shairbarbershop.com,Only 7 photos (needs 20+); Only 22 reviews (low social proof)
+HIGH,65,Glamour Salon,salon,"Spokane, WA",(555) 595-9522,"2097 Main St, Spokane, WA",3.7,32,4,,Only 4 photos (needs 20+); No website listed
+HIGH,65,Perfect Look Studio,salon,"Spokane, WA",(555) 472-5534,"8409 Main St, Spokane, WA",3.5,34,8,,Only 8 photos (needs 20+); No website listed
+MEDIUM,50,The Cut Studio,salon,"Spokane, WA",(555) 270-3835,"2497 Main St, Spokane, WA",3.5,31,8,https://www.thecutstudio.com,Only 8 photos (needs 20+); Established business (has reviews)
+HIGH,95,CrossFit Gym,gym,"Spokane, WA",(555) 766-6398,"3661 Main St, Spokane, WA",4.2,27,4,,Only 4 photos (needs 20+); Only 27 reviews (low social proof)
+HIGH,80,Power Fitness,gym,"Spokane, WA",(555) 814-2610,"1436 Main St, Spokane, WA",3.8,33,8,,Only 8 photos (needs 20+); No website listed
+HIGH,80,Fit Zone Fitness,gym,"Spokane, WA",(555) 101-2851,"6035 Main St, Spokane, WA",4.1,21,5,https://www.fitzonefitness.com,Only 5 photos (needs 20+); Only 21 reviews (low social proof)
+HIGH,75,CrossFit Training Center,gym,"Spokane, WA",(555) 443-2715,"7338 Main St, Spokane, WA",4.7,45,6,,Only 6 photos (needs 20+); No website listed
+HIGH,75,CrossFit Training Center,gym,"Spokane, WA",(555) 356-1872,"2149 Main St, Spokane, WA",4.2,43,7,https://www.crossfittrainingcenter.com,Only 7 photos (needs 20+); Missing business hours
+HIGH,75,Fit Zone Studio,gym,"Spokane, WA",(555) 178-6108,"9825 Main St, Spokane, WA",4.6,40,7,,Only 7 photos (needs 20+); No website listed
+HIGH,75,Peak Performance Box,gym,"Spokane, WA",(555) 140-6502,"8739 Main St, Spokane, WA",4.0,41,8,,Only 8 photos (needs 20+); No website listed
+HIGH,75,Fit Zone Studio,gym,"Spokane, WA",(555) 365-9259,"3940 Main St, Spokane, WA",4.4,40,8,,Only 8 photos (needs 20+); No website listed
+HIGH,70,Peak Performance Fitness,gym,"Spokane, WA",(555) 357-9436,"8560 Main St, Spokane, WA",3.7,10,3,https://www.peakperformancefitness.com,Only 3 photos (needs 20+); Only 10 reviews (low social proof)
+HIGH,65,Peak Performance Box,gym,"Spokane, WA",(555) 679-3078,"1765 Main St, Spokane, WA",3.7,31,8,,Only 8 photos (needs 20+); No website listed
+HIGH,65,CrossFit Training Center,gym,"Spokane, WA",(555) 190-9626,"5302 Main St, Spokane, WA",3.7,44,5,,Only 5 photos (needs 20+); No website listed
+HIGH,65,Power Fitness,gym,"Spokane, WA",(555) 998-8661,"3525 Main St, Spokane, WA",3.6,39,5,,Only 5 photos (needs 20+); No website listed
+HIGH,60,Fit Zone Training Center,gym,"Spokane, WA",(555) 775-7923,"9799 Main St, Spokane, WA",4.4,34,5,https://www.fitzonetrainingcenter.com,Only 5 photos (needs 20+); Established business (has reviews)
+HIGH,60,Iron Works Fitness,gym,"Spokane, WA",(555) 679-9374,"8744 Main St, Spokane, WA",4.5,35,2,https://www.ironworksfitness.com,Only 2 photos (needs 20+); Established business (has reviews)
+MEDIUM,50,Peak Performance Studio,gym,"Spokane, WA",(555) 541-6136,"1349 Main St, Spokane, WA",3.9,31,2,https://www.peakperformancestudio.com,Only 2 photos (needs 20+); Established business (has reviews)
+HIGH,95,Premier Services,restaurant,"Spokane, WA",(555) 990-1785,"5067 Main St, Spokane, WA",4.2,20,6,https://www.premierservices.com,Only 6 photos (needs 20+); Only 20 reviews (low social proof)
+HIGH,95,Local Company,restaurant,"Spokane, WA",(555) 299-5412,"4570 Main St, Spokane, WA",4.3,9,2,,Only 2 photos (needs 20+); Only 9 reviews (low social proof)
+HIGH,85,Best Shop,restaurant,"Spokane, WA",(555) 676-9236,"6579 Main St, Spokane, WA",3.8,5,3,,Only 3 photos (needs 20+); Only 5 reviews (low social proof)
+HIGH,80,Local Shop,restaurant,"Spokane, WA",(555) 660-3889,"3359 Main St, Spokane, WA",4.1,26,8,https://www.localshop.com,Only 8 photos (needs 20+); Only 26 reviews (low social proof)
+HIGH,80,Premier Business,restaurant,"Spokane, WA",(555) 108-2025,"8683 Main St, Spokane, WA",4.1,28,2,https://www.premierbusiness.com,Only 2 photos (needs 20+); Only 28 reviews (low social proof)
+HIGH,75,Local Store,restaurant,"Spokane, WA",(555) 538-9219,"4177 Main St, Spokane, WA",4.5,31,4,https://www.localstore.com,Only 4 photos (needs 20+); Missing business hours
+HIGH,75,Premier Shop,restaurant,"Spokane, WA",(555) 749-3347,"3005 Main St, Spokane, WA",4.1,37,4,,Only 4 photos (needs 20+); No website listed
+HIGH,75,Local Services,restaurant,"Spokane, WA",(555) 561-8275,"7936 Main St, Spokane, WA",4.3,33,7,,Only 7 photos (needs 20+); No website listed
+HIGH,75,Premier Services,restaurant,"Spokane, WA",(555) 384-4354,"3893 Main St, Spokane, WA",4.4,37,6,https://www.premierservices.com,Only 6 photos (needs 20+); Missing business hours
+HIGH,75,Premier Store,restaurant,"Spokane, WA",(555) 408-8884,"9555 Main St, Spokane, WA",4.1,35,7,https://www.premierstore.com,Only 7 photos (needs 20+); Missing business hours
+HIGH,70,Premier Business,restaurant,"Spokane, WA",(555) 529-3611,"8784 Main St, Spokane, WA",3.7,7,6,https://www.premierbusiness.com,Only 6 photos (needs 20+); Only 7 reviews (low social proof)
+HIGH,65,City Company,restaurant,"Spokane, WA",(555) 467-7843,"6190 Main St, Spokane, WA",3.8,31,8,https://www.citycompany.com,Only 8 photos (needs 20+); Missing business hours
+HIGH,60,Local Business,restaurant,"Spokane, WA",(555) 794-8115,"6917 Main St, Spokane, WA",4.3,45,3,https://www.localbusiness.com,Only 3 photos (needs 20+); Established business (has reviews)
+HIGH,60,Premier Company,restaurant,"Spokane, WA",(555) 539-6151,"7801 Main St, Spokane, WA",4.0,39,6,https://www.premiercompany.com,Only 6 photos (needs 20+); Established business (has reviews)
+MEDIUM,50,Quality Shop,restaurant,"Spokane, WA",(555) 236-5803,"1522 Main St, Spokane, WA",3.9,31,3,https://www.qualityshop.com,Only 3 photos (needs 20+); Established business (has reviews)

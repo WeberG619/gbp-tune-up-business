@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.org/kml/2.2">
+<Document>
+    <name>GBP Optimization Targets</name>
+    <description>Local businesses that need Google Business Profile optimization</description>
+
+    <Style id="high_priority">
+        <IconStyle>
+            <color>ff0000ff</color>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="medium_priority">
+        <IconStyle>
+            <color>ff00ffff</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="low_priority">
+        <IconStyle>
+            <color>ff00ff00</color>
+            <scale>0.8</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Placemark>
+        <name>Brew Haven Coffee House</name>
+        <description><![CDATA[
+Business: Brew Haven Coffee House
+Phone: (555) 737-3745
+Rating: 3.7 stars
+Reviews: 41
+Photos: 7
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); No website listed
+
+Address: 5560 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+</Document>
+</kml>

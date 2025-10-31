@@ -1,0 +1,6 @@
+priority,score,business_name,industry,location,phone,address,rating,reviews,photos,website,reasons
+LOW,25,Rejavanate (Sandpoint),coffee shop,"Sandpoint, ID",(208) 255-4545,"1009 US-2, Sandpoint, ID 83864, USA",4.6,214,10,,No website listed; Good rating (cares about reputation)
+LOW,25,The Bernklau,coffee shop,"Sandpoint, ID",(208) 946-5255,"316 Pine St, Sandpoint, ID 83864, USA",4.7,170,10,,No website listed; Good rating (cares about reputation)
+LOW,10,Evans Brothers Coffee,coffee shop,"Sandpoint, ID",(208) 265-5553,"524 Church St, Sandpoint, ID 83864, USA",4.7,718,10,https://www.evansbrotherscoffee.com/,Good rating (cares about reputation)
+LOW,10,Northern Grind,coffee shop,"Sandpoint, ID",(208) 671-3223,"317 Oak St, Sandpoint, ID 83864, USA",4.8,107,10,http://ngorders.com/,Good rating (cares about reputation)
+LOW,10,Paneah's Bistro,coffee shop,"Sandpoint, ID",(208) 946-8677,"334 N 1st Ave STE 200, Sandpoint, ID 83864, USA",4.9,85,10,https://www.paneahsbistro.com/,Good rating (cares about reputation)

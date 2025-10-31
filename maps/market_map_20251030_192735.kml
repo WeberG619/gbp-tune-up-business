@@ -1,0 +1,3638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.org/kml/2.2">
+<Document>
+    <name>GBP Optimization Targets</name>
+    <description>Local businesses that need Google Business Profile optimization</description>
+
+    <Style id="high_priority">
+        <IconStyle>
+            <color>ff0000ff</color>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="medium_priority">
+        <IconStyle>
+            <color>ff00ffff</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="low_priority">
+        <IconStyle>
+            <color>ff00ff00</color>
+            <scale>0.8</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Placemark>
+        <name>Joe's Coffee Coffee House</name>
+        <description><![CDATA[
+Business: Joe's Coffee Coffee House
+Phone: (555) 657-4020
+Rating: 4.4 stars
+Reviews: 19
+Photos: 3
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 19 reviews (low social proof)
+
+Address: 8271 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Brew Haven Coffee House</name>
+        <description><![CDATA[
+Business: Brew Haven Coffee House
+Phone: (555) 237-2010
+Rating: 4.5 stars
+Reviews: 39
+Photos: 5
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 5705 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Bar</name>
+        <description><![CDATA[
+Business: Espresso Express Bar
+Phone: (555) 932-9802
+Rating: 3.7 stars
+Reviews: 22
+Photos: 2
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 22 reviews (low social proof)
+
+Address: 6477 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bean There Roasters</name>
+        <description><![CDATA[
+Business: Bean There Roasters
+Phone: (555) 858-6761
+Rating: 3.8 stars
+Reviews: 9
+Photos: 3
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 9 reviews (low social proof)
+
+Address: 969 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bean There Coffee House</name>
+        <description><![CDATA[
+Business: Bean There Coffee House
+Phone: (555) 902-2925
+Rating: 4.1 stars
+Reviews: 28
+Photos: 3
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 28 reviews (low social proof)
+
+Address: 783 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Morning Grind Roasters</name>
+        <description><![CDATA[
+Business: Morning Grind Roasters
+Phone: (555) 415-3439
+Rating: 4.4 stars
+Reviews: 29
+Photos: 7
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 29 reviews (low social proof)
+
+Address: 7071 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Roasters</name>
+        <description><![CDATA[
+Business: Joe's Coffee Roasters
+Phone: (555) 619-7282
+Rating: 4.0 stars
+Reviews: 13
+Photos: 8
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 13 reviews (low social proof)
+
+Address: 9757 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bean There Shop</name>
+        <description><![CDATA[
+Business: Bean There Shop
+Phone: (555) 381-8227
+Rating: 4.7 stars
+Reviews: 34
+Photos: 2
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); No website listed
+
+Address: 4221 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Shop</name>
+        <description><![CDATA[
+Business: Espresso Express Shop
+Phone: (555) 489-4028
+Rating: 4.4 stars
+Reviews: 45
+Photos: 3
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Missing business hours
+
+Address: 9401 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bean There Shop</name>
+        <description><![CDATA[
+Business: Bean There Shop
+Phone: (555) 566-5671
+Rating: 4.5 stars
+Reviews: 38
+Photos: 2
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); No website listed
+
+Address: 9918 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Shop</name>
+        <description><![CDATA[
+Business: Joe's Coffee Shop
+Phone: (555) 530-7072
+Rating: 3.8 stars
+Reviews: 8
+Photos: 5
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 8 reviews (low social proof)
+
+Address: 9786 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Brew Haven Coffee House</name>
+        <description><![CDATA[
+Business: Brew Haven Coffee House
+Phone: (555) 435-2461
+Rating: 3.7 stars
+Reviews: 15
+Photos: 7
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 15 reviews (low social proof)
+
+Address: 586 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Morning Grind Coffee House</name>
+        <description><![CDATA[
+Business: Morning Grind Coffee House
+Phone: (555) 762-2923
+Rating: 3.9 stars
+Reviews: 30
+Photos: 4
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 5722 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Roasters</name>
+        <description><![CDATA[
+Business: Joe's Coffee Roasters
+Phone: (555) 380-4646
+Rating: 3.8 stars
+Reviews: 36
+Photos: 4
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 9182 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Bar</name>
+        <description><![CDATA[
+Business: Espresso Express Bar
+Phone: (555) 302-2853
+Rating: 3.6 stars
+Reviews: 40
+Photos: 8
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); No website listed
+
+Address: 1119 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Style Studio Spa</name>
+        <description><![CDATA[
+Business: Style Studio Spa
+Phone: (555) 717-2298
+Rating: 4.3 stars
+Reviews: 20
+Photos: 5
+
+SCORE: 110/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 20 reviews (low social proof)
+
+Address: 6545 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Spa</name>
+        <description><![CDATA[
+Business: Perfect Look Spa
+Phone: (555) 896-8108
+Rating: 4.3 stars
+Reviews: 11
+Photos: 8
+
+SCORE: 110/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 11 reviews (low social proof)
+
+Address: 6088 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Studio</name>
+        <description><![CDATA[
+Business: The Cut Studio
+Phone: (555) 231-5791
+Rating: 4.7 stars
+Reviews: 21
+Photos: 5
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 21 reviews (low social proof)
+
+Address: 4373 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Style Studio Studio</name>
+        <description><![CDATA[
+Business: Style Studio Studio
+Phone: (555) 438-4610
+Rating: 3.6 stars
+Reviews: 18
+Photos: 8
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 18 reviews (low social proof)
+
+Address: 4631 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Style Studio Barber Shop</name>
+        <description><![CDATA[
+Business: Style Studio Barber Shop
+Phone: (555) 922-4940
+Rating: 3.9 stars
+Reviews: 5
+Photos: 2
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 5 reviews (low social proof)
+
+Address: 7385 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Salon</name>
+        <description><![CDATA[
+Business: The Cut Salon
+Phone: (555) 991-9022
+Rating: 4.4 stars
+Reviews: 9
+Photos: 3
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 9 reviews (low social proof)
+
+Address: 8406 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Salon</name>
+        <description><![CDATA[
+Business: Perfect Look Salon
+Phone: (555) 493-5251
+Rating: 4.6 stars
+Reviews: 10
+Photos: 3
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 10 reviews (low social proof)
+
+Address: 9235 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Barber Shop</name>
+        <description><![CDATA[
+Business: Perfect Look Barber Shop
+Phone: (555) 201-4000
+Rating: 4.4 stars
+Reviews: 34
+Photos: 3
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); No website listed
+
+Address: 2232 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bella's Hair Salon</name>
+        <description><![CDATA[
+Business: Bella's Hair Salon
+Phone: (555) 806-1331
+Rating: 4.5 stars
+Reviews: 39
+Photos: 5
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 5519 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bella's Hair Spa</name>
+        <description><![CDATA[
+Business: Bella's Hair Spa
+Phone: (555) 474-1449
+Rating: 4.4 stars
+Reviews: 39
+Photos: 5
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 9188 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Spa</name>
+        <description><![CDATA[
+Business: Perfect Look Spa
+Phone: (555) 378-5914
+Rating: 4.6 stars
+Reviews: 34
+Photos: 5
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 3677 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Salon</name>
+        <description><![CDATA[
+Business: Perfect Look Salon
+Phone: (555) 610-9280
+Rating: 3.8 stars
+Reviews: 34
+Photos: 4
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 7399 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Glamour Studio</name>
+        <description><![CDATA[
+Business: Glamour Studio
+Phone: (555) 517-4798
+Rating: 4.6 stars
+Reviews: 30
+Photos: 7
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Established business (has reviews)
+
+Address: 8119 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bella's Hair Studio</name>
+        <description><![CDATA[
+Business: Bella's Hair Studio
+Phone: (555) 782-5443
+Rating: 3.7 stars
+Reviews: 40
+Photos: 5
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 5 photos (needs 20+); Established business (has reviews)
+
+Address: 2224 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bella's Hair Studio</name>
+        <description><![CDATA[
+Business: Bella's Hair Studio
+Phone: (555) 219-1845
+Rating: 3.9 stars
+Reviews: 35
+Photos: 4
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 4 photos (needs 20+); Established business (has reviews)
+
+Address: 3041 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Training Center</name>
+        <description><![CDATA[
+Business: Peak Performance Training Center
+Phone: (555) 313-8408
+Rating: 3.9 stars
+Reviews: 7
+Photos: 6
+
+SCORE: 100/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 1071 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CrossFit Fitness</name>
+        <description><![CDATA[
+Business: CrossFit Fitness
+Phone: (555) 175-1967
+Rating: 3.5 stars
+Reviews: 28
+Photos: 3
+
+SCORE: 100/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 28 reviews (low social proof)
+
+Address: 8021 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Power Training Center</name>
+        <description><![CDATA[
+Business: Power Training Center
+Phone: (555) 665-4552
+Rating: 4.7 stars
+Reviews: 15
+Photos: 6
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 15 reviews (low social proof)
+
+Address: 7254 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Iron Works Box</name>
+        <description><![CDATA[
+Business: Iron Works Box
+Phone: (555) 136-6612
+Rating: 4.4 stars
+Reviews: 13
+Photos: 5
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 13 reviews (low social proof)
+
+Address: 8725 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Fitness</name>
+        <description><![CDATA[
+Business: Peak Performance Fitness
+Phone: (555) 205-5593
+Rating: 4.5 stars
+Reviews: 14
+Photos: 7
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 14 reviews (low social proof)
+
+Address: 1112 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Box</name>
+        <description><![CDATA[
+Business: Peak Performance Box
+Phone: (555) 499-5014
+Rating: 4.3 stars
+Reviews: 5
+Photos: 7
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 5 reviews (low social proof)
+
+Address: 1730 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Box</name>
+        <description><![CDATA[
+Business: Peak Performance Box
+Phone: (555) 912-2352
+Rating: 4.8 stars
+Reviews: 7
+Photos: 3
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 4935 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Iron Works Training Center</name>
+        <description><![CDATA[
+Business: Iron Works Training Center
+Phone: (555) 200-8482
+Rating: 4.0 stars
+Reviews: 6
+Photos: 8
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 6 reviews (low social proof)
+
+Address: 3437 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CrossFit Studio</name>
+        <description><![CDATA[
+Business: CrossFit Studio
+Phone: (555) 298-2161
+Rating: 4.0 stars
+Reviews: 5
+Photos: 5
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 5 reviews (low social proof)
+
+Address: 3598 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Power Training Center</name>
+        <description><![CDATA[
+Business: Power Training Center
+Phone: (555) 832-2646
+Rating: 4.6 stars
+Reviews: 31
+Photos: 5
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 3574 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Studio</name>
+        <description><![CDATA[
+Business: Peak Performance Studio
+Phone: (555) 585-6817
+Rating: 3.7 stars
+Reviews: 19
+Photos: 7
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 19 reviews (low social proof)
+
+Address: 3078 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Training Center</name>
+        <description><![CDATA[
+Business: Fit Zone Training Center
+Phone: (555) 495-9787
+Rating: 4.0 stars
+Reviews: 37
+Photos: 3
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Established business (has reviews)
+
+Address: 2875 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Box</name>
+        <description><![CDATA[
+Business: Peak Performance Box
+Phone: (555) 281-8148
+Rating: 4.5 stars
+Reviews: 31
+Photos: 2
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Established business (has reviews)
+
+Address: 6554 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Studio</name>
+        <description><![CDATA[
+Business: Fit Zone Studio
+Phone: (555) 514-1951
+Rating: 4.3 stars
+Reviews: 42
+Photos: 5
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Established business (has reviews)
+
+Address: 2583 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Iron Works Gym</name>
+        <description><![CDATA[
+Business: Iron Works Gym
+Phone: (555) 411-7998
+Rating: 3.5 stars
+Reviews: 45
+Photos: 7
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 7 photos (needs 20+); Established business (has reviews)
+
+Address: 1031 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Quality Store</name>
+        <description><![CDATA[
+Business: Quality Store
+Phone: (555) 130-5236
+Rating: 4.3 stars
+Reviews: 7
+Photos: 3
+
+SCORE: 110/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 2516 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Services</name>
+        <description><![CDATA[
+Business: Local Services
+Phone: (555) 705-4089
+Rating: 4.1 stars
+Reviews: 10
+Photos: 3
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 10 reviews (low social proof)
+
+Address: 8179 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Best Store</name>
+        <description><![CDATA[
+Business: Best Store
+Phone: (555) 316-8238
+Rating: 4.6 stars
+Reviews: 6
+Photos: 4
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 6 reviews (low social proof)
+
+Address: 2138 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>City Shop</name>
+        <description><![CDATA[
+Business: City Shop
+Phone: (555) 727-6503
+Rating: 4.6 stars
+Reviews: 12
+Photos: 7
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 12 reviews (low social proof)
+
+Address: 6661 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Best Services</name>
+        <description><![CDATA[
+Business: Best Services
+Phone: (555) 834-9831
+Rating: 4.8 stars
+Reviews: 15
+Photos: 5
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 15 reviews (low social proof)
+
+Address: 1555 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Shop</name>
+        <description><![CDATA[
+Business: Premier Shop
+Phone: (555) 823-1985
+Rating: 3.9 stars
+Reviews: 18
+Photos: 2
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 18 reviews (low social proof)
+
+Address: 3521 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>City Business</name>
+        <description><![CDATA[
+Business: City Business
+Phone: (555) 561-6706
+Rating: 4.2 stars
+Reviews: 25
+Photos: 3
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 25 reviews (low social proof)
+
+Address: 3627 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Quality Store</name>
+        <description><![CDATA[
+Business: Quality Store
+Phone: (555) 275-9895
+Rating: 3.6 stars
+Reviews: 45
+Photos: 3
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); No website listed
+
+Address: 2265 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>City Store</name>
+        <description><![CDATA[
+Business: City Store
+Phone: (555) 899-4945
+Rating: 3.7 stars
+Reviews: 37
+Photos: 7
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); No website listed
+
+Address: 3788 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Best Services</name>
+        <description><![CDATA[
+Business: Best Services
+Phone: (555) 952-8565
+Rating: 4.2 stars
+Reviews: 30
+Photos: 6
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); No website listed
+
+Address: 8704 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Best Company</name>
+        <description><![CDATA[
+Business: Best Company
+Phone: (555) 415-2125
+Rating: 4.2 stars
+Reviews: 33
+Photos: 7
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); No website listed
+
+Address: 6148 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Company</name>
+        <description><![CDATA[
+Business: Premier Company
+Phone: (555) 932-7196
+Rating: 4.6 stars
+Reviews: 40
+Photos: 4
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 635 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>City Services</name>
+        <description><![CDATA[
+Business: City Services
+Phone: (555) 596-7048
+Rating: 4.0 stars
+Reviews: 44
+Photos: 4
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 7285 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>City Services</name>
+        <description><![CDATA[
+Business: City Services
+Phone: (555) 711-9331
+Rating: 4.4 stars
+Reviews: 34
+Photos: 2
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Established business (has reviews)
+
+Address: 9082 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Company</name>
+        <description><![CDATA[
+Business: Premier Company
+Phone: (555) 206-4381
+Rating: 3.6 stars
+Reviews: 40
+Photos: 5
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 5 photos (needs 20+); Established business (has reviews)
+
+Address: 7950 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Brew Haven Coffee House</name>
+        <description><![CDATA[
+Business: Brew Haven Coffee House
+Phone: (555) 534-5103
+Rating: 4.7 stars
+Reviews: 27
+Photos: 4
+
+SCORE: 110/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 27 reviews (low social proof)
+
+Address: 9631 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Morning Grind Coffee House</name>
+        <description><![CDATA[
+Business: Morning Grind Coffee House
+Phone: (555) 450-8689
+Rating: 3.8 stars
+Reviews: 7
+Photos: 8
+
+SCORE: 100/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 3996 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Morning Grind Bar</name>
+        <description><![CDATA[
+Business: Morning Grind Bar
+Phone: (555) 706-2315
+Rating: 4.6 stars
+Reviews: 8
+Photos: 5
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 8 reviews (low social proof)
+
+Address: 4998 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bean There Bar</name>
+        <description><![CDATA[
+Business: Bean There Bar
+Phone: (555) 547-3554
+Rating: 4.8 stars
+Reviews: 28
+Photos: 7
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 28 reviews (low social proof)
+
+Address: 9354 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Brew Haven Roasters</name>
+        <description><![CDATA[
+Business: Brew Haven Roasters
+Phone: (555) 162-5019
+Rating: 4.0 stars
+Reviews: 23
+Photos: 6
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 23 reviews (low social proof)
+
+Address: 4391 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Brew Haven Bar</name>
+        <description><![CDATA[
+Business: Brew Haven Bar
+Phone: (555) 984-8431
+Rating: 4.3 stars
+Reviews: 6
+Photos: 2
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 6 reviews (low social proof)
+
+Address: 4787 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Cafe</name>
+        <description><![CDATA[
+Business: Espresso Express Cafe
+Phone: (555) 457-1715
+Rating: 4.2 stars
+Reviews: 16
+Photos: 6
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 16 reviews (low social proof)
+
+Address: 4185 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Roasters</name>
+        <description><![CDATA[
+Business: Joe's Coffee Roasters
+Phone: (555) 831-3619
+Rating: 4.5 stars
+Reviews: 17
+Photos: 3
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 17 reviews (low social proof)
+
+Address: 4310 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Bar</name>
+        <description><![CDATA[
+Business: Joe's Coffee Bar
+Phone: (555) 532-2779
+Rating: 3.5 stars
+Reviews: 19
+Photos: 8
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 19 reviews (low social proof)
+
+Address: 5581 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Brew Haven Bar</name>
+        <description><![CDATA[
+Business: Brew Haven Bar
+Phone: (555) 629-2183
+Rating: 3.5 stars
+Reviews: 25
+Photos: 2
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 25 reviews (low social proof)
+
+Address: 8722 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Roasters</name>
+        <description><![CDATA[
+Business: Espresso Express Roasters
+Phone: (555) 284-2397
+Rating: 3.9 stars
+Reviews: 29
+Photos: 4
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 29 reviews (low social proof)
+
+Address: 7924 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Bar</name>
+        <description><![CDATA[
+Business: Joe's Coffee Bar
+Phone: (555) 579-5114
+Rating: 3.6 stars
+Reviews: 12
+Photos: 6
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 12 reviews (low social proof)
+
+Address: 9189 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Shop</name>
+        <description><![CDATA[
+Business: Espresso Express Shop
+Phone: (555) 120-9017
+Rating: 4.7 stars
+Reviews: 15
+Photos: 4
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 15 reviews (low social proof)
+
+Address: 7074 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Brew Haven Cafe</name>
+        <description><![CDATA[
+Business: Brew Haven Cafe
+Phone: (555) 126-9515
+Rating: 4.2 stars
+Reviews: 38
+Photos: 3
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); No website listed
+
+Address: 9770 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Roasters</name>
+        <description><![CDATA[
+Business: Joe's Coffee Roasters
+Phone: (555) 555-2679
+Rating: 4.3 stars
+Reviews: 37
+Photos: 5
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Established business (has reviews)
+
+Address: 5761 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Lounge</name>
+        <description><![CDATA[
+Business: Perfect Look Lounge
+Phone: (555) 403-4593
+Rating: 3.6 stars
+Reviews: 18
+Photos: 5
+
+SCORE: 100/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 18 reviews (low social proof)
+
+Address: 9748 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Style Studio Spa</name>
+        <description><![CDATA[
+Business: Style Studio Spa
+Phone: (555) 328-1955
+Rating: 4.7 stars
+Reviews: 13
+Photos: 2
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 13 reviews (low social proof)
+
+Address: 5415 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Studio</name>
+        <description><![CDATA[
+Business: The Cut Studio
+Phone: (555) 652-7753
+Rating: 4.1 stars
+Reviews: 24
+Photos: 8
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 24 reviews (low social proof)
+
+Address: 4444 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Glamour Studio</name>
+        <description><![CDATA[
+Business: Glamour Studio
+Phone: (555) 717-8457
+Rating: 4.2 stars
+Reviews: 45
+Photos: 5
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 5192 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Spa</name>
+        <description><![CDATA[
+Business: The Cut Spa
+Phone: (555) 550-3812
+Rating: 3.9 stars
+Reviews: 24
+Photos: 2
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 24 reviews (low social proof)
+
+Address: 2143 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Salon</name>
+        <description><![CDATA[
+Business: Perfect Look Salon
+Phone: (555) 500-1699
+Rating: 3.8 stars
+Reviews: 28
+Photos: 8
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 28 reviews (low social proof)
+
+Address: 454 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Barber Shop</name>
+        <description><![CDATA[
+Business: The Cut Barber Shop
+Phone: (555) 893-7087
+Rating: 3.6 stars
+Reviews: 14
+Photos: 5
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 14 reviews (low social proof)
+
+Address: 5838 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Glamour Salon</name>
+        <description><![CDATA[
+Business: Glamour Salon
+Phone: (555) 315-3428
+Rating: 4.7 stars
+Reviews: 29
+Photos: 4
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 29 reviews (low social proof)
+
+Address: 487 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Glamour Salon</name>
+        <description><![CDATA[
+Business: Glamour Salon
+Phone: (555) 196-6162
+Rating: 4.0 stars
+Reviews: 24
+Photos: 6
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 24 reviews (low social proof)
+
+Address: 5433 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Style Studio Barber Shop</name>
+        <description><![CDATA[
+Business: Style Studio Barber Shop
+Phone: (555) 494-5836
+Rating: 4.1 stars
+Reviews: 17
+Photos: 5
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 17 reviews (low social proof)
+
+Address: 1550 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Lounge</name>
+        <description><![CDATA[
+Business: The Cut Lounge
+Phone: (555) 687-6361
+Rating: 4.3 stars
+Reviews: 39
+Photos: 3
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); No website listed
+
+Address: 5661 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bella's Hair Studio</name>
+        <description><![CDATA[
+Business: Bella's Hair Studio
+Phone: (555) 336-5887
+Rating: 3.7 stars
+Reviews: 28
+Photos: 8
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 28 reviews (low social proof)
+
+Address: 3922 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Barber Shop</name>
+        <description><![CDATA[
+Business: Perfect Look Barber Shop
+Phone: (555) 933-9619
+Rating: 3.6 stars
+Reviews: 30
+Photos: 2
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); No website listed
+
+Address: 2572 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bella's Hair Studio</name>
+        <description><![CDATA[
+Business: Bella's Hair Studio
+Phone: (555) 993-4501
+Rating: 3.7 stars
+Reviews: 42
+Photos: 4
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 1878 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Glamour Spa</name>
+        <description><![CDATA[
+Business: Glamour Spa
+Phone: (555) 725-3891
+Rating: 3.5 stars
+Reviews: 36
+Photos: 4
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 4 photos (needs 20+); Established business (has reviews)
+
+Address: 3376 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Iron Works Gym</name>
+        <description><![CDATA[
+Business: Iron Works Gym
+Phone: (555) 737-6631
+Rating: 4.0 stars
+Reviews: 12
+Photos: 6
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 12 reviews (low social proof)
+
+Address: 3736 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Gym</name>
+        <description><![CDATA[
+Business: Peak Performance Gym
+Phone: (555) 914-3519
+Rating: 4.3 stars
+Reviews: 7
+Photos: 4
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 8465 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Iron Works Box</name>
+        <description><![CDATA[
+Business: Iron Works Box
+Phone: (555) 647-5052
+Rating: 4.5 stars
+Reviews: 11
+Photos: 7
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 11 reviews (low social proof)
+
+Address: 2214 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Training Center</name>
+        <description><![CDATA[
+Business: Peak Performance Training Center
+Phone: (555) 561-5436
+Rating: 4.3 stars
+Reviews: 34
+Photos: 5
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 8592 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CrossFit Studio</name>
+        <description><![CDATA[
+Business: CrossFit Studio
+Phone: (555) 671-2904
+Rating: 4.3 stars
+Reviews: 45
+Photos: 2
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); No website listed
+
+Address: 4199 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Iron Works Gym</name>
+        <description><![CDATA[
+Business: Iron Works Gym
+Phone: (555) 417-8820
+Rating: 3.8 stars
+Reviews: 22
+Photos: 7
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 22 reviews (low social proof)
+
+Address: 1172 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Fitness</name>
+        <description><![CDATA[
+Business: Fit Zone Fitness
+Phone: (555) 654-5065
+Rating: 3.8 stars
+Reviews: 16
+Photos: 7
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 16 reviews (low social proof)
+
+Address: 5188 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CrossFit Box</name>
+        <description><![CDATA[
+Business: CrossFit Box
+Phone: (555) 919-1731
+Rating: 4.6 stars
+Reviews: 21
+Photos: 2
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 21 reviews (low social proof)
+
+Address: 2933 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Iron Works Fitness</name>
+        <description><![CDATA[
+Business: Iron Works Fitness
+Phone: (555) 150-4592
+Rating: 4.3 stars
+Reviews: 32
+Photos: 3
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); No website listed
+
+Address: 5829 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CrossFit Studio</name>
+        <description><![CDATA[
+Business: CrossFit Studio
+Phone: (555) 129-8638
+Rating: 4.4 stars
+Reviews: 37
+Photos: 2
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Missing business hours
+
+Address: 726 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Training Center</name>
+        <description><![CDATA[
+Business: Peak Performance Training Center
+Phone: (555) 307-5429
+Rating: 4.8 stars
+Reviews: 38
+Photos: 3
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); No website listed
+
+Address: 4402 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Gym</name>
+        <description><![CDATA[
+Business: Fit Zone Gym
+Phone: (555) 664-9009
+Rating: 3.5 stars
+Reviews: 6
+Photos: 4
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 6 reviews (low social proof)
+
+Address: 9740 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Training Center</name>
+        <description><![CDATA[
+Business: Peak Performance Training Center
+Phone: (555) 179-3339
+Rating: 3.9 stars
+Reviews: 32
+Photos: 4
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 1981 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Training Center</name>
+        <description><![CDATA[
+Business: Fit Zone Training Center
+Phone: (555) 626-3100
+Rating: 3.9 stars
+Reviews: 38
+Photos: 5
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 2522 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Studio</name>
+        <description><![CDATA[
+Business: Fit Zone Studio
+Phone: (555) 131-6830
+Rating: 4.2 stars
+Reviews: 30
+Photos: 2
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Established business (has reviews)
+
+Address: 7726 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>City Services</name>
+        <description><![CDATA[
+Business: City Services
+Phone: (555) 487-9407
+Rating: 3.6 stars
+Reviews: 8
+Photos: 2
+
+SCORE: 100/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 8 reviews (low social proof)
+
+Address: 3114 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Business</name>
+        <description><![CDATA[
+Business: Local Business
+Phone: (555) 406-6960
+Rating: 4.2 stars
+Reviews: 6
+Photos: 5
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 6 reviews (low social proof)
+
+Address: 6689 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Company</name>
+        <description><![CDATA[
+Business: Premier Company
+Phone: (555) 864-7254
+Rating: 4.5 stars
+Reviews: 8
+Photos: 2
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 8 reviews (low social proof)
+
+Address: 9982 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Best Company</name>
+        <description><![CDATA[
+Business: Best Company
+Phone: (555) 997-1606
+Rating: 4.1 stars
+Reviews: 10
+Photos: 8
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 10 reviews (low social proof)
+
+Address: 344 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Business</name>
+        <description><![CDATA[
+Business: Premier Business
+Phone: (555) 597-1401
+Rating: 4.5 stars
+Reviews: 37
+Photos: 4
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 1664 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Services</name>
+        <description><![CDATA[
+Business: Premier Services
+Phone: (555) 505-2269
+Rating: 4.6 stars
+Reviews: 38
+Photos: 2
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); No website listed
+
+Address: 4101 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Services</name>
+        <description><![CDATA[
+Business: Local Services
+Phone: (555) 500-1708
+Rating: 3.9 stars
+Reviews: 26
+Photos: 3
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 26 reviews (low social proof)
+
+Address: 769 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Company</name>
+        <description><![CDATA[
+Business: Local Company
+Phone: (555) 396-4392
+Rating: 3.9 stars
+Reviews: 16
+Photos: 2
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 16 reviews (low social proof)
+
+Address: 5998 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Quality Shop</name>
+        <description><![CDATA[
+Business: Quality Shop
+Phone: (555) 615-4004
+Rating: 4.3 stars
+Reviews: 37
+Photos: 2
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); No website listed
+
+Address: 1488 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Best Business</name>
+        <description><![CDATA[
+Business: Best Business
+Phone: (555) 710-6463
+Rating: 4.4 stars
+Reviews: 32
+Photos: 2
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); No website listed
+
+Address: 7945 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Services</name>
+        <description><![CDATA[
+Business: Premier Services
+Phone: (555) 426-9575
+Rating: 4.1 stars
+Reviews: 40
+Photos: 5
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Missing business hours
+
+Address: 2760 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Company</name>
+        <description><![CDATA[
+Business: Premier Company
+Phone: (555) 688-5194
+Rating: 3.7 stars
+Reviews: 23
+Photos: 8
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 23 reviews (low social proof)
+
+Address: 1413 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Shop</name>
+        <description><![CDATA[
+Business: Local Shop
+Phone: (555) 662-1752
+Rating: 3.7 stars
+Reviews: 31
+Photos: 6
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); No website listed
+
+Address: 6833 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Best Company</name>
+        <description><![CDATA[
+Business: Best Company
+Phone: (555) 492-2163
+Rating: 4.7 stars
+Reviews: 40
+Photos: 6
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Established business (has reviews)
+
+Address: 9840 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>City Company</name>
+        <description><![CDATA[
+Business: City Company
+Phone: (555) 490-1347
+Rating: 4.8 stars
+Reviews: 36
+Photos: 8
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Established business (has reviews)
+
+Address: 6942 Main St, Coeur d'Alene, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Morning Grind Coffee House</name>
+        <description><![CDATA[
+Business: Morning Grind Coffee House
+Phone: (555) 519-9108
+Rating: 3.6 stars
+Reviews: 25
+Photos: 2
+
+SCORE: 100/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 25 reviews (low social proof)
+
+Address: 9177 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Shop</name>
+        <description><![CDATA[
+Business: Espresso Express Shop
+Phone: (555) 157-2347
+Rating: 3.9 stars
+Reviews: 9
+Photos: 6
+
+SCORE: 100/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 9 reviews (low social proof)
+
+Address: 6682 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Morning Grind Shop</name>
+        <description><![CDATA[
+Business: Morning Grind Shop
+Phone: (555) 344-5024
+Rating: 4.0 stars
+Reviews: 12
+Photos: 5
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 12 reviews (low social proof)
+
+Address: 5328 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Cafe</name>
+        <description><![CDATA[
+Business: Joe's Coffee Cafe
+Phone: (555) 442-8250
+Rating: 4.3 stars
+Reviews: 20
+Photos: 5
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 20 reviews (low social proof)
+
+Address: 5359 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Morning Grind Bar</name>
+        <description><![CDATA[
+Business: Morning Grind Bar
+Phone: (555) 414-2675
+Rating: 4.7 stars
+Reviews: 10
+Photos: 7
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 10 reviews (low social proof)
+
+Address: 5858 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Roasters</name>
+        <description><![CDATA[
+Business: Joe's Coffee Roasters
+Phone: (555) 279-4661
+Rating: 4.2 stars
+Reviews: 31
+Photos: 6
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); No website listed
+
+Address: 3538 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Coffee House</name>
+        <description><![CDATA[
+Business: Espresso Express Coffee House
+Phone: (555) 981-5869
+Rating: 4.4 stars
+Reviews: 41
+Photos: 6
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); No website listed
+
+Address: 3161 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bean There Cafe</name>
+        <description><![CDATA[
+Business: Bean There Cafe
+Phone: (555) 771-1881
+Rating: 3.5 stars
+Reviews: 12
+Photos: 8
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 12 reviews (low social proof)
+
+Address: 7809 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Cafe</name>
+        <description><![CDATA[
+Business: Joe's Coffee Cafe
+Phone: (555) 344-3772
+Rating: 3.8 stars
+Reviews: 19
+Photos: 5
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 19 reviews (low social proof)
+
+Address: 4024 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Shop</name>
+        <description><![CDATA[
+Business: Espresso Express Shop
+Phone: (555) 128-5031
+Rating: 3.6 stars
+Reviews: 21
+Photos: 8
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 21 reviews (low social proof)
+
+Address: 932 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Morning Grind Roasters</name>
+        <description><![CDATA[
+Business: Morning Grind Roasters
+Phone: (555) 215-5351
+Rating: 3.7 stars
+Reviews: 45
+Photos: 2
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); No website listed
+
+Address: 2976 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Joe's Coffee Coffee House</name>
+        <description><![CDATA[
+Business: Joe's Coffee Coffee House
+Phone: (555) 416-7561
+Rating: 4.5 stars
+Reviews: 45
+Photos: 7
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Established business (has reviews)
+
+Address: 7124 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Roasters</name>
+        <description><![CDATA[
+Business: Espresso Express Roasters
+Phone: (555) 106-9788
+Rating: 4.1 stars
+Reviews: 31
+Photos: 6
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Established business (has reviews)
+
+Address: 3665 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Bar</name>
+        <description><![CDATA[
+Business: Espresso Express Bar
+Phone: (555) 295-9535
+Rating: 4.7 stars
+Reviews: 30
+Photos: 5
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Established business (has reviews)
+
+Address: 3969 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Espresso Express Cafe</name>
+        <description><![CDATA[
+Business: Espresso Express Cafe
+Phone: (555) 105-1197
+Rating: 4.6 stars
+Reviews: 38
+Photos: 8
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Established business (has reviews)
+
+Address: 5110 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Glamour Barber Shop</name>
+        <description><![CDATA[
+Business: Glamour Barber Shop
+Phone: (555) 792-8316
+Rating: 4.5 stars
+Reviews: 19
+Photos: 8
+
+SCORE: 110/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 19 reviews (low social proof)
+
+Address: 8524 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bella's Hair Salon</name>
+        <description><![CDATA[
+Business: Bella's Hair Salon
+Phone: (555) 920-7777
+Rating: 4.5 stars
+Reviews: 18
+Photos: 7
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 18 reviews (low social proof)
+
+Address: 5455 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Spa</name>
+        <description><![CDATA[
+Business: Perfect Look Spa
+Phone: (555) 827-3791
+Rating: 4.2 stars
+Reviews: 10
+Photos: 5
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 10 reviews (low social proof)
+
+Address: 7598 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Studio</name>
+        <description><![CDATA[
+Business: Perfect Look Studio
+Phone: (555) 434-8659
+Rating: 4.7 stars
+Reviews: 21
+Photos: 2
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 21 reviews (low social proof)
+
+Address: 3266 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Glamour Lounge</name>
+        <description><![CDATA[
+Business: Glamour Lounge
+Phone: (555) 183-4805
+Rating: 4.1 stars
+Reviews: 25
+Photos: 3
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 25 reviews (low social proof)
+
+Address: 5710 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Lounge</name>
+        <description><![CDATA[
+Business: The Cut Lounge
+Phone: (555) 858-5655
+Rating: 3.7 stars
+Reviews: 14
+Photos: 5
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 14 reviews (low social proof)
+
+Address: 6985 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Spa</name>
+        <description><![CDATA[
+Business: The Cut Spa
+Phone: (555) 812-8651
+Rating: 4.7 stars
+Reviews: 18
+Photos: 5
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 18 reviews (low social proof)
+
+Address: 2614 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Lounge</name>
+        <description><![CDATA[
+Business: The Cut Lounge
+Phone: (555) 361-3614
+Rating: 4.2 stars
+Reviews: 21
+Photos: 2
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 21 reviews (low social proof)
+
+Address: 847 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Glamour Spa</name>
+        <description><![CDATA[
+Business: Glamour Spa
+Phone: (555) 284-4138
+Rating: 4.1 stars
+Reviews: 15
+Photos: 3
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 15 reviews (low social proof)
+
+Address: 8464 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Barber Shop</name>
+        <description><![CDATA[
+Business: The Cut Barber Shop
+Phone: (555) 723-2819
+Rating: 4.0 stars
+Reviews: 18
+Photos: 8
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 18 reviews (low social proof)
+
+Address: 2079 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Barber Shop</name>
+        <description><![CDATA[
+Business: Perfect Look Barber Shop
+Phone: (555) 534-6863
+Rating: 4.5 stars
+Reviews: 43
+Photos: 5
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 4814 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bella's Hair Barber Shop</name>
+        <description><![CDATA[
+Business: Bella's Hair Barber Shop
+Phone: (555) 841-4214
+Rating: 3.7 stars
+Reviews: 22
+Photos: 7
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 22 reviews (low social proof)
+
+Address: 4400 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Glamour Salon</name>
+        <description><![CDATA[
+Business: Glamour Salon
+Phone: (555) 595-9522
+Rating: 3.7 stars
+Reviews: 32
+Photos: 4
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 2097 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Perfect Look Studio</name>
+        <description><![CDATA[
+Business: Perfect Look Studio
+Phone: (555) 472-5534
+Rating: 3.5 stars
+Reviews: 34
+Photos: 8
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); No website listed
+
+Address: 8409 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Cut Studio</name>
+        <description><![CDATA[
+Business: The Cut Studio
+Phone: (555) 270-3835
+Rating: 3.5 stars
+Reviews: 31
+Photos: 8
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 8 photos (needs 20+); Established business (has reviews)
+
+Address: 2497 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CrossFit Gym</name>
+        <description><![CDATA[
+Business: CrossFit Gym
+Phone: (555) 766-6398
+Rating: 4.2 stars
+Reviews: 27
+Photos: 4
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 27 reviews (low social proof)
+
+Address: 3661 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Power Fitness</name>
+        <description><![CDATA[
+Business: Power Fitness
+Phone: (555) 814-2610
+Rating: 3.8 stars
+Reviews: 33
+Photos: 8
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); No website listed
+
+Address: 1436 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Fitness</name>
+        <description><![CDATA[
+Business: Fit Zone Fitness
+Phone: (555) 101-2851
+Rating: 4.1 stars
+Reviews: 21
+Photos: 5
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 21 reviews (low social proof)
+
+Address: 6035 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CrossFit Training Center</name>
+        <description><![CDATA[
+Business: CrossFit Training Center
+Phone: (555) 443-2715
+Rating: 4.7 stars
+Reviews: 45
+Photos: 6
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); No website listed
+
+Address: 7338 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CrossFit Training Center</name>
+        <description><![CDATA[
+Business: CrossFit Training Center
+Phone: (555) 356-1872
+Rating: 4.2 stars
+Reviews: 43
+Photos: 7
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Missing business hours
+
+Address: 2149 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Studio</name>
+        <description><![CDATA[
+Business: Fit Zone Studio
+Phone: (555) 178-6108
+Rating: 4.6 stars
+Reviews: 40
+Photos: 7
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); No website listed
+
+Address: 9825 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Box</name>
+        <description><![CDATA[
+Business: Peak Performance Box
+Phone: (555) 140-6502
+Rating: 4.0 stars
+Reviews: 41
+Photos: 8
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); No website listed
+
+Address: 8739 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Studio</name>
+        <description><![CDATA[
+Business: Fit Zone Studio
+Phone: (555) 365-9259
+Rating: 4.4 stars
+Reviews: 40
+Photos: 8
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); No website listed
+
+Address: 3940 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Fitness</name>
+        <description><![CDATA[
+Business: Peak Performance Fitness
+Phone: (555) 357-9436
+Rating: 3.7 stars
+Reviews: 10
+Photos: 3
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 10 reviews (low social proof)
+
+Address: 8560 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Box</name>
+        <description><![CDATA[
+Business: Peak Performance Box
+Phone: (555) 679-3078
+Rating: 3.7 stars
+Reviews: 31
+Photos: 8
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); No website listed
+
+Address: 1765 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CrossFit Training Center</name>
+        <description><![CDATA[
+Business: CrossFit Training Center
+Phone: (555) 190-9626
+Rating: 3.7 stars
+Reviews: 44
+Photos: 5
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 5302 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Power Fitness</name>
+        <description><![CDATA[
+Business: Power Fitness
+Phone: (555) 998-8661
+Rating: 3.6 stars
+Reviews: 39
+Photos: 5
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 3525 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fit Zone Training Center</name>
+        <description><![CDATA[
+Business: Fit Zone Training Center
+Phone: (555) 775-7923
+Rating: 4.4 stars
+Reviews: 34
+Photos: 5
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Established business (has reviews)
+
+Address: 9799 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Iron Works Fitness</name>
+        <description><![CDATA[
+Business: Iron Works Fitness
+Phone: (555) 679-9374
+Rating: 4.5 stars
+Reviews: 35
+Photos: 2
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Established business (has reviews)
+
+Address: 8744 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Peak Performance Studio</name>
+        <description><![CDATA[
+Business: Peak Performance Studio
+Phone: (555) 541-6136
+Rating: 3.9 stars
+Reviews: 31
+Photos: 2
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 2 photos (needs 20+); Established business (has reviews)
+
+Address: 1349 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Services</name>
+        <description><![CDATA[
+Business: Premier Services
+Phone: (555) 990-1785
+Rating: 4.2 stars
+Reviews: 20
+Photos: 6
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 20 reviews (low social proof)
+
+Address: 5067 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Company</name>
+        <description><![CDATA[
+Business: Local Company
+Phone: (555) 299-5412
+Rating: 4.3 stars
+Reviews: 9
+Photos: 2
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 9 reviews (low social proof)
+
+Address: 4570 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Best Shop</name>
+        <description><![CDATA[
+Business: Best Shop
+Phone: (555) 676-9236
+Rating: 3.8 stars
+Reviews: 5
+Photos: 3
+
+SCORE: 85/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 5 reviews (low social proof)
+
+Address: 6579 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Shop</name>
+        <description><![CDATA[
+Business: Local Shop
+Phone: (555) 660-3889
+Rating: 4.1 stars
+Reviews: 26
+Photos: 8
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Only 26 reviews (low social proof)
+
+Address: 3359 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Business</name>
+        <description><![CDATA[
+Business: Premier Business
+Phone: (555) 108-2025
+Rating: 4.1 stars
+Reviews: 28
+Photos: 2
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 28 reviews (low social proof)
+
+Address: 8683 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Store</name>
+        <description><![CDATA[
+Business: Local Store
+Phone: (555) 538-9219
+Rating: 4.5 stars
+Reviews: 31
+Photos: 4
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Missing business hours
+
+Address: 4177 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Shop</name>
+        <description><![CDATA[
+Business: Premier Shop
+Phone: (555) 749-3347
+Rating: 4.1 stars
+Reviews: 37
+Photos: 4
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 3005 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Services</name>
+        <description><![CDATA[
+Business: Local Services
+Phone: (555) 561-8275
+Rating: 4.3 stars
+Reviews: 33
+Photos: 7
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); No website listed
+
+Address: 7936 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Services</name>
+        <description><![CDATA[
+Business: Premier Services
+Phone: (555) 384-4354
+Rating: 4.4 stars
+Reviews: 37
+Photos: 6
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Missing business hours
+
+Address: 3893 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Store</name>
+        <description><![CDATA[
+Business: Premier Store
+Phone: (555) 408-8884
+Rating: 4.1 stars
+Reviews: 35
+Photos: 7
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Missing business hours
+
+Address: 9555 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Business</name>
+        <description><![CDATA[
+Business: Premier Business
+Phone: (555) 529-3611
+Rating: 3.7 stars
+Reviews: 7
+Photos: 6
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 8784 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>City Company</name>
+        <description><![CDATA[
+Business: City Company
+Phone: (555) 467-7843
+Rating: 3.8 stars
+Reviews: 31
+Photos: 8
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Missing business hours
+
+Address: 6190 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Local Business</name>
+        <description><![CDATA[
+Business: Local Business
+Phone: (555) 794-8115
+Rating: 4.3 stars
+Reviews: 45
+Photos: 3
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Established business (has reviews)
+
+Address: 6917 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Premier Company</name>
+        <description><![CDATA[
+Business: Premier Company
+Phone: (555) 539-6151
+Rating: 4.0 stars
+Reviews: 39
+Photos: 6
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Established business (has reviews)
+
+Address: 7801 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Quality Shop</name>
+        <description><![CDATA[
+Business: Quality Shop
+Phone: (555) 236-5803
+Rating: 3.9 stars
+Reviews: 31
+Photos: 3
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 3 photos (needs 20+); Established business (has reviews)
+
+Address: 1522 Main St, Spokane, WA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+</Document>
+</kml>

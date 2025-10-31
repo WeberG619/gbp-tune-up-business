@@ -1,0 +1,4078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.org/kml/2.2">
+<Document>
+    <name>GBP Optimization Targets</name>
+    <description>Local businesses that need Google Business Profile optimization</description>
+
+    <Style id="high_priority">
+        <IconStyle>
+            <color>ff0000ff</color>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="medium_priority">
+        <IconStyle>
+            <color>ff00ffff</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="low_priority">
+        <IconStyle>
+            <color>ff00ff00</color>
+            <scale>0.8</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Placemark>
+        <name>Movement Gym</name>
+        <description><![CDATA[
+Business: Movement Gym
+Phone: (208) 263-9999
+Rating: 4.5 stars
+Reviews: 8
+Photos: 0
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 8 reviews (low social proof)
+
+Address: 103 S 3rd Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Alpine Elite Gymnastics</name>
+        <description><![CDATA[
+Business: Alpine Elite Gymnastics
+Phone: (208) 254-1173
+Rating: 4.3 stars
+Reviews: 9
+Photos: 1
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 9 reviews (low social proof)
+
+Address: 1313 Wright Wy, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Future Physique Pilates</name>
+        <description><![CDATA[
+Business: Future Physique Pilates
+Phone: (208) 610-2130
+Rating: 5 stars
+Reviews: 5
+Photos: 7
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 5 reviews (low social proof)
+
+Address: 416 Larkspur St Suite B, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>James E. Russell Sports Center</name>
+        <description><![CDATA[
+Business: James E. Russell Sports Center
+Phone: (208) 946-2063
+Rating: 3.3 stars
+Reviews: 9
+Photos: 2
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 9 reviews (low social proof)
+
+Address: 2016 Pine St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Shed</name>
+        <description><![CDATA[
+Business: The Shed
+Phone: 
+Rating: 5 stars
+Reviews: 1
+Photos: 1
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 1 reviews (low social proof)
+
+Address: 1223 Michigan St E, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>KR Physical Fitness</name>
+        <description><![CDATA[
+Business: KR Physical Fitness
+Phone: (208) 610-3447
+Rating: 5 stars
+Reviews: 37
+Photos: 4
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Established business (has reviews)
+
+Address: 1103 W Superior, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Xhale Pilates Studio</name>
+        <description><![CDATA[
+Business: Xhale Pilates Studio
+Phone: (208) 755-2687
+Rating: 5 stars
+Reviews: 4
+Photos: 0
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 4 reviews (low social proof)
+
+Address: 225 Cedar St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Unique Fitness (UFIT)</name>
+        <description><![CDATA[
+Business: Unique Fitness (UFIT)
+Phone: (208) 627-6079
+Rating: 4.8 stars
+Reviews: 25
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 25 reviews (low social proof); Established business (has reviews)
+
+Address: 1007 W Superior, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Yellow Room</name>
+        <description><![CDATA[
+Business: The Yellow Room
+Phone: (208) 738-3864
+Rating: 5 stars
+Reviews: 10
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 10 reviews (low social proof); Established business (has reviews)
+
+Address: 102 Euclid Ave Second Floor, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>7B Energy Wellness Center</name>
+        <description><![CDATA[
+Business: 7B Energy Wellness Center
+Phone: (208) 255-5922
+Rating: 5 stars
+Reviews: 11
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 11 reviews (low social proof); Established business (has reviews)
+
+Address: 30410 ID-200 ste 200A, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sandpoint Rock Gym</name>
+        <description><![CDATA[
+Business: Sandpoint Rock Gym
+Phone: (208) 278-6199
+Rating: 5 stars
+Reviews: 4
+Photos: 10
+
+SCORE: 45/100
+Priority: MEDIUM
+
+Issues:
+Only 4 reviews (low social proof); Missing business hours
+
+Address: 522 Church St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Natural Fitness - Ponderay</name>
+        <description><![CDATA[
+Business: Natural Fitness - Ponderay
+Phone: (208) 263-0676
+Rating: 4.7 stars
+Reviews: 81
+Photos: 5
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 5 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 400 Schweitzer Plaza Dr #6, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Missi Balison Fitness</name>
+        <description><![CDATA[
+Business: Missi Balison Fitness
+Phone: (208) 290-2081
+Rating: 5 stars
+Reviews: 37
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 1250 Gooby Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>BarreX Fitness and Dance</name>
+        <description><![CDATA[
+Business: BarreX Fitness and Dance
+Phone: (208) 946-7861
+Rating: 5 stars
+Reviews: 1
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Only 1 reviews (low social proof); Good rating (cares about reputation)
+
+Address: 229 Pine St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sandpoint Hot Yoga</name>
+        <description><![CDATA[
+Business: Sandpoint Hot Yoga
+Phone: (208) 946-7646
+Rating: 5 stars
+Reviews: 38
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 1243 Michigan St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sand Creek Salon</name>
+        <description><![CDATA[
+Business: Sand Creek Salon
+Phone: (208) 255-7897
+Rating: 4.8 stars
+Reviews: 26
+Photos: 0
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 26 reviews (low social proof)
+
+Address: 214 N S 1st Ave B, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Paris Hair Designs</name>
+        <description><![CDATA[
+Business: Paris Hair Designs
+Phone: (208) 263-7283
+Rating: 4.9 stars
+Reviews: 20
+Photos: 2
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 20 reviews (low social proof)
+
+Address: 810 Ebbett Way, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Headlines Salon</name>
+        <description><![CDATA[
+Business: Headlines Salon
+Phone: (208) 263-7831
+Rating: 4.9 stars
+Reviews: 10
+Photos: 2
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 10 reviews (low social proof)
+
+Address: 223 Cedar St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>be.You.tiful Salon</name>
+        <description><![CDATA[
+Business: be.You.tiful Salon
+Phone: (208) 217-4149
+Rating: 4.6 stars
+Reviews: 11
+Photos: 10
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 11 reviews (low social proof); No website listed
+
+Address: 1319 US-2, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Cathy's Corner Hair Salon</name>
+        <description><![CDATA[
+Business: Cathy's Corner Hair Salon
+Phone: (208) 290-4988
+Rating: 4.6 stars
+Reviews: 29
+Photos: 10
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 29 reviews (low social proof); No website listed
+
+Address: 121 S 2nd Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Salon Luxe</name>
+        <description><![CDATA[
+Business: Salon Luxe
+Phone: (208) 255-5893
+Rating: 4.6 stars
+Reviews: 47
+Photos: 1
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); No website listed
+
+Address: 111A Main St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Belleza Design</name>
+        <description><![CDATA[
+Business: Belleza Design
+Phone: (208) 263-9490
+Rating: 4.9 stars
+Reviews: 43
+Photos: 4
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 324 S Florence Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sunflower Day Spa & Tanning</name>
+        <description><![CDATA[
+Business: Sunflower Day Spa & Tanning
+Phone: (208) 660-4913
+Rating: 4.7 stars
+Reviews: 35
+Photos: 0
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); No website listed
+
+Address: 819 US-2 #105, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Syringa Salon</name>
+        <description><![CDATA[
+Business: Syringa Salon
+Phone: (208) 610-2459
+Rating: 3.9 stars
+Reviews: 39
+Photos: 2
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Missing business hours
+
+Address: 502 Cedar St suite b, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Revival Salon</name>
+        <description><![CDATA[
+Business: Revival Salon
+Phone: (602) 614-9200
+Rating: 5 stars
+Reviews: 23
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 23 reviews (low social proof); Established business (has reviews)
+
+Address: 1807 Culvers Dr, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fifth Element Hair Studio</name>
+        <description><![CDATA[
+Business: Fifth Element Hair Studio
+Phone: (208) 304-4346
+Rating: 5 stars
+Reviews: 44
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 334 N 1st Ave #204A, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Align Holistic Hair & Wellbeing</name>
+        <description><![CDATA[
+Business: Align Holistic Hair & Wellbeing
+Phone: (208) 255-6998
+Rating: 5 stars
+Reviews: 31
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 102 Euclid Ave Suite 213, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Breezy's Salon</name>
+        <description><![CDATA[
+Business: Breezy's Salon
+Phone: (208) 265-9181
+Rating: 4.9 stars
+Reviews: 54
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 1801 Culvers Dr Unit 1, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Rasor's Edge Salon, LLC</name>
+        <description><![CDATA[
+Business: Rasor's Edge Salon, LLC
+Phone: (208) 763-8078
+Rating: 4.8 stars
+Reviews: 54
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+Missing business hours; Good rating (cares about reputation)
+
+Address: 30736 ID-200 Suite 103, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bogadi Construction & Development, Inc</name>
+        <description><![CDATA[
+Business: Bogadi Construction & Development, Inc
+Phone: (208) 661-0302
+Rating: 5 stars
+Reviews: 8
+Photos: 6
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 8 reviews (low social proof)
+
+Address: 20395 US-2, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Selle Valley Construction</name>
+        <description><![CDATA[
+Business: Selle Valley Construction
+Phone: (208) 263-1808
+Rating: 5 stars
+Reviews: 7
+Photos: 9
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 9 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 667 Triangle Dr, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Dana Construction Company LLC</name>
+        <description><![CDATA[
+Business: Dana Construction Company LLC
+Phone: (208) 691-2042
+Rating: 4.2 stars
+Reviews: 5
+Photos: 0
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 5 reviews (low social proof)
+
+Address: 217 Cedar St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Durfee Construction LLC</name>
+        <description><![CDATA[
+Business: Durfee Construction LLC
+Phone: (208) 920-0925
+Rating: 4.2 stars
+Reviews: 5
+Photos: 6
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 5 reviews (low social proof)
+
+Address: 819 Poplar St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Idagon Homes LLC</name>
+        <description><![CDATA[
+Business: Idagon Homes LLC
+Phone: (208) 304-2394
+Rating: 4.6 stars
+Reviews: 15
+Photos: 2
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 15 reviews (low social proof)
+
+Address: 1225 Washington Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Mountain View Construction</name>
+        <description><![CDATA[
+Business: Mountain View Construction
+Phone: (208) 263-1058
+Rating: 3.4 stars
+Reviews: 5
+Photos: 9
+
+SCORE: 70/100
+Priority: HIGH
+
+Issues:
+Only 9 photos (needs 20+); Only 5 reviews (low social proof)
+
+Address: 468211 US-95, Sagle, ID 83860, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>AJ Construction and Development, LLC</name>
+        <description><![CDATA[
+Business: AJ Construction and Development, LLC
+Phone: (208) 290-5788
+Rating: 4.8 stars
+Reviews: 18
+Photos: 10
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 18 reviews (low social proof); Missing business hours
+
+Address: 8459 Sunnyside Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Haymond Brothers Construction</name>
+        <description><![CDATA[
+Business: Haymond Brothers Construction
+Phone: (208) 610-6315
+Rating: 4.5 stars
+Reviews: 6
+Photos: 10
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 6 reviews (low social proof); No website listed
+
+Address: 217 Cedar St #84, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Scott Herndon Homes</name>
+        <description><![CDATA[
+Business: Scott Herndon Homes
+Phone: (208) 610-2680
+Rating: 3 stars
+Reviews: 3
+Photos: 0
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 3 reviews (low social proof)
+
+Address: 246 Otts Rd, Sagle, ID 83860, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>John Cloud Construction</name>
+        <description><![CDATA[
+Business: John Cloud Construction
+Phone: (208) 265-5406
+Rating: 5 stars
+Reviews: 4
+Photos: 2
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 4 reviews (low social proof)
+
+Address: 658 Gold Creek Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>JKC Construction</name>
+        <description><![CDATA[
+Business: JKC Construction
+Phone: (208) 946-8588
+Rating: 5 stars
+Reviews: 4
+Photos: 2
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 4 reviews (low social proof)
+
+Address: 414 Church St Suite 112, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Panhandle Contractors LLC</name>
+        <description><![CDATA[
+Business: Panhandle Contractors LLC
+Phone: (208) 946-1474
+Rating: 5 stars
+Reviews: 2
+Photos: 1
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 1596 E Shingle Mill Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sandpoint Builders Inc.</name>
+        <description><![CDATA[
+Business: Sandpoint Builders Inc.
+Phone: (208) 263-7315
+Rating: 4.9 stars
+Reviews: 14
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 14 reviews (low social proof); Established business (has reviews)
+
+Address: 276 Jacobson Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Ramey Construction Company</name>
+        <description><![CDATA[
+Business: Ramey Construction Company
+Phone: (208) 597-7071
+Rating: 4.2 stars
+Reviews: 5
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 5 reviews (low social proof); Established business (has reviews)
+
+Address: 509 Fifth Ave suite g, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Winterhawk Construction</name>
+        <description><![CDATA[
+Business: Winterhawk Construction
+Phone: (208) 290-7832
+Rating: 0 stars
+Reviews: 0
+Photos: 8
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 8 photos (needs 20+); Only 0 reviews (low social proof)
+
+Address: 1024 Cedar Springs Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Collin Beggs Timber Framing, Inc.</name>
+        <description><![CDATA[
+Business: Collin Beggs Timber Framing, Inc.
+Phone: (208) 290-8120
+Rating: 5 stars
+Reviews: 22
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 22 reviews (low social proof); Established business (has reviews)
+
+Address: 396 Sand Crk Pkwy Ln, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>R.W. Bianco Construction</name>
+        <description><![CDATA[
+Business: R.W. Bianco Construction
+Phone: (208) 290-2268
+Rating: 5 stars
+Reviews: 1
+Photos: 10
+
+SCORE: 45/100
+Priority: MEDIUM
+
+Issues:
+Only 1 reviews (low social proof); Missing business hours
+
+Address: 9060 Colburn Culver Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Smithwright</name>
+        <description><![CDATA[
+Business: Smithwright
+Phone: (208) 263-2853
+Rating: 3.7 stars
+Reviews: 7
+Photos: 10
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 7 reviews (low social proof); Established business (has reviews)
+
+Address: 146 Emerald Industrial Park Rd, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Long General Contracting</name>
+        <description><![CDATA[
+Business: Long General Contracting
+Phone: (208) 263-0385
+Rating: 5 stars
+Reviews: 2
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Only 2 reviews (low social proof); Good rating (cares about reputation)
+
+Address: 414 Church St Ste 205L, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Rooter Guys LLC</name>
+        <description><![CDATA[
+Business: Rooter Guys LLC
+Phone: (208) 265-8097
+Rating: 3.7 stars
+Reviews: 6
+Photos: 2
+
+SCORE: 100/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 6 reviews (low social proof)
+
+Address: 401 N 2nd Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>New World Plumbing</name>
+        <description><![CDATA[
+Business: New World Plumbing
+Phone: (208) 597-3152
+Rating: 5 stars
+Reviews: 7
+Photos: 1
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Ahz Plumbing Inc</name>
+        <description><![CDATA[
+Business: Ahz Plumbing Inc
+Phone: (208) 263-0390
+Rating: 5 stars
+Reviews: 1
+Photos: 0
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 1 reviews (low social proof)
+
+Address: 10093 Baldy Mountain Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>A & J Plumbing</name>
+        <description><![CDATA[
+Business: A & J Plumbing
+Phone: (208) 610-1251
+Rating: 4 stars
+Reviews: 2
+Photos: 0
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 407 Hope St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>High Mark Plumbing</name>
+        <description><![CDATA[
+Business: High Mark Plumbing
+Phone: (208) 217-4753
+Rating: 4.4 stars
+Reviews: 7
+Photos: 6
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 206 Mill Rd, Dover, ID 83825, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Consolidated Supply Co.</name>
+        <description><![CDATA[
+Business: Consolidated Supply Co.
+Phone: (208) 263-8561
+Rating: 4.5 stars
+Reviews: 22
+Photos: 5
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 22 reviews (low social proof)
+
+Address: 1802 Industrial Dr, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>North Point Trenchless</name>
+        <description><![CDATA[
+Business: North Point Trenchless
+Phone: (208) 304-5712
+Rating: 5 stars
+Reviews: 8
+Photos: 0
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 8 reviews (low social proof)
+
+Address: 1007 Baldy Mountain Rd #3, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Selkirk Plumbing Inc</name>
+        <description><![CDATA[
+Business: Selkirk Plumbing Inc
+Phone: (208) 265-4752
+Rating: 1 stars
+Reviews: 1
+Photos: 2
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 1 reviews (low social proof)
+
+Address: 100 Hwy 200, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Keller Supply Co</name>
+        <description><![CDATA[
+Business: Keller Supply Co
+Phone: (208) 263-6750
+Rating: 4.2 stars
+Reviews: 6
+Photos: 0
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 6 reviews (low social proof)
+
+Address: 119 McGhee Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Wray Plumbing</name>
+        <description><![CDATA[
+Business: Wray Plumbing
+Phone: (208) 255-5550
+Rating: 5 stars
+Reviews: 2
+Photos: 0
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 31656 ID-200 E, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Northern Gravity Plumbing Co.</name>
+        <description><![CDATA[
+Business: Northern Gravity Plumbing Co.
+Phone: (208) 292-8332
+Rating: 5 stars
+Reviews: 10
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 10 reviews (low social proof); Established business (has reviews)
+
+Address: 2210 Great Northern Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Turner Plumbing</name>
+        <description><![CDATA[
+Business: Turner Plumbing
+Phone: (208) 610-7538
+Rating: 5 stars
+Reviews: 15
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 15 reviews (low social proof); Established business (has reviews)
+
+Address: 468146 US-95, Sagle, ID 83860, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Drain Plus Rooter Services</name>
+        <description><![CDATA[
+Business: Drain Plus Rooter Services
+Phone: (208) 263-8567
+Rating: 3 stars
+Reviews: 2
+Photos: 0
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 0 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Case Plumbing</name>
+        <description><![CDATA[
+Business: Case Plumbing
+Phone: (208) 304-3883
+Rating: 4.8 stars
+Reviews: 32
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 120 S 2nd Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sandpoint Denture Clinic</name>
+        <description><![CDATA[
+Business: Sandpoint Denture Clinic
+Phone: (208) 255-5577
+Rating: 4.4 stars
+Reviews: 14
+Photos: 1
+
+SCORE: 110/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 14 reviews (low social proof)
+
+Address: 204 E Superior St # 9, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Pine Street Dental</name>
+        <description><![CDATA[
+Business: Pine Street Dental
+Phone: (208) 265-4115
+Rating: 5 stars
+Reviews: 14
+Photos: 3
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 14 reviews (low social proof)
+
+Address: 2005 Pine St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Emerson Grant Godbolt</name>
+        <description><![CDATA[
+Business: Emerson Grant Godbolt
+Phone: (208) 263-7641
+Rating: 5 stars
+Reviews: 2
+Photos: 0
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 1310 Ponderosa Dr Suite A, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>MacNeill Family Dental</name>
+        <description><![CDATA[
+Business: MacNeill Family Dental
+Phone: (208) 263-4353
+Rating: 4.8 stars
+Reviews: 43
+Photos: 7
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Established business (has reviews)
+
+Address: 1575 Ontario St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Kaniksu Community Health, Dental</name>
+        <description><![CDATA[
+Business: Kaniksu Community Health, Dental
+Phone: (208) 265-1415
+Rating: 4.5 stars
+Reviews: 32
+Photos: 3
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Established business (has reviews)
+
+Address: 810 Sixth Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Mountain Lake Dental</name>
+        <description><![CDATA[
+Business: Mountain Lake Dental
+Phone: (208) 265-1705
+Rating: 4.9 stars
+Reviews: 900
+Photos: 2
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 2 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 1607 US-2, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sandpoint Smiles (formerly Tom Davies Family Dentistry)</name>
+        <description><![CDATA[
+Business: Sandpoint Smiles (formerly Tom Davies Family Dentistry)
+Phone: (208) 263-8514
+Rating: 5 stars
+Reviews: 106
+Photos: 9
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 9 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 103 W Superior St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Ponderay Dental</name>
+        <description><![CDATA[
+Business: Ponderay Dental
+Phone: (208) 265-6771
+Rating: 5 stars
+Reviews: 58
+Photos: 4
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 4 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 476653 US-95 #1, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sandpoint Kids Dentistry</name>
+        <description><![CDATA[
+Business: Sandpoint Kids Dentistry
+Phone: (208) 597-7800
+Rating: 5 stars
+Reviews: 111
+Photos: 3
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 3 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 1212 N Division Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bonner General Health</name>
+        <description><![CDATA[
+Business: Bonner General Health
+Phone: (208) 263-1441
+Rating: 3 stars
+Reviews: 118
+Photos: 5
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Only 5 photos (needs 20+)
+
+Address: 520 N 3rd Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Ronald B. Welch, DC</name>
+        <description><![CDATA[
+Business: Ronald B. Welch, DC
+Phone: (208) 263-7411
+Rating: 5 stars
+Reviews: 20
+Photos: 0
+
+SCORE: 110/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 20 reviews (low social proof)
+
+Address: 113 Church St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Dr. Bradley Kiriaka</name>
+        <description><![CDATA[
+Business: Dr. Bradley Kiriaka
+Phone: (208) 448-4726
+Rating: 5 stars
+Reviews: 2
+Photos: 1
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 101 N 4th Ave Suite #102, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Edward Hunt, DC</name>
+        <description><![CDATA[
+Business: Edward Hunt, DC
+Phone: (208) 255-2925
+Rating: 5 stars
+Reviews: 1
+Photos: 0
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 1 reviews (low social proof)
+
+Address: 801 Pine St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Northern Lakes Chiropractic Clinic PC</name>
+        <description><![CDATA[
+Business: Northern Lakes Chiropractic Clinic PC
+Phone: (208) 265-1900
+Rating: 4.9 stars
+Reviews: 14
+Photos: 3
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 14 reviews (low social proof)
+
+Address: 30544 ID-200 #330, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sand Point Chiropractic</name>
+        <description><![CDATA[
+Business: Sand Point Chiropractic
+Phone: (206) 527-3111
+Rating: 4.9 stars
+Reviews: 27
+Photos: 2
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 27 reviews (low social proof)
+
+Address: 5418 Sand Point Way NE, Seattle, WA 98105, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Steidl Family Chiropractic</name>
+        <description><![CDATA[
+Business: Steidl Family Chiropractic
+Phone: (208) 290-7097
+Rating: 4.6 stars
+Reviews: 11
+Photos: 1
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 11 reviews (low social proof)
+
+Address: 1301 N Division Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Dr. Mark William Cochran, Holistic Chiropractor</name>
+        <description><![CDATA[
+Business: Dr. Mark William Cochran, Holistic Chiropractor
+Phone: (208) 304-2330
+Rating: 5 stars
+Reviews: 10
+Photos: 1
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 10 reviews (low social proof)
+
+Address: Selkirk Professional Building, 101 N 4th Ave #105, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Reoch Daryl W. DC</name>
+        <description><![CDATA[
+Business: Reoch Daryl W. DC
+Phone: (208) 263-1661
+Rating: 5 stars
+Reviews: 2
+Photos: 0
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 301 S Division Ave Suite B, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Rick A. Baker, DC. - 7B Chiropractic</name>
+        <description><![CDATA[
+Business: Rick A. Baker, DC. - 7B Chiropractic
+Phone: (208) 597-7863
+Rating: 4 stars
+Reviews: 4
+Photos: 3
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 3 photos (needs 20+); Only 4 reviews (low social proof)
+
+Address: 1309 Ponderosa Dr Suite 202, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Thriving Family Chiropractic</name>
+        <description><![CDATA[
+Business: Thriving Family Chiropractic
+Phone: (208) 265-2225
+Rating: 5 stars
+Reviews: 40
+Photos: 2
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Established business (has reviews)
+
+Address: Suite B, 1207 Michigan St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Marker Chiropractic</name>
+        <description><![CDATA[
+Business: Marker Chiropractic
+Phone: (208) 946-3990
+Rating: 5 stars
+Reviews: 1
+Photos: 0
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 1 reviews (low social proof)
+
+Address: 204 E Superior St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Cuda Chiropractic</name>
+        <description><![CDATA[
+Business: Cuda Chiropractic
+Phone: (208) 219-5833
+Rating: 5 stars
+Reviews: 2
+Photos: 0
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 30410 ID-200 suite 100, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Mihin William S DC</name>
+        <description><![CDATA[
+Business: Mihin William S DC
+Phone: (208) 265-2225
+Rating: 4.3 stars
+Reviews: 3
+Photos: 0
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 3 reviews (low social proof)
+
+Address: 1207 Michigan St B, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Freedom Chiropractic Sandpoint</name>
+        <description><![CDATA[
+Business: Freedom Chiropractic Sandpoint
+Phone: (208) 996-3383
+Rating: 5 stars
+Reviews: 21
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 21 reviews (low social proof); Established business (has reviews)
+
+Address: 113 Church St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>North Idaho Chiropractic Neurology Center</name>
+        <description><![CDATA[
+Business: North Idaho Chiropractic Neurology Center
+Phone: (208) 946-5888
+Rating: 4.8 stars
+Reviews: 17
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 17 reviews (low social proof); Established business (has reviews)
+
+Address: 1327 Superior St Suite 103, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Chiropractic Plus</name>
+        <description><![CDATA[
+Business: Chiropractic Plus
+Phone: (208) 610-2916
+Rating: 0 stars
+Reviews: 0
+Photos: 0
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 0 photos (needs 20+); Only 0 reviews (low social proof)
+
+Address: 101 N 4th Ave Suite #102, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sandpoint Chiropractic Clinic</name>
+        <description><![CDATA[
+Business: Sandpoint Chiropractic Clinic
+Phone: (208) 265-9400
+Rating: 4.9 stars
+Reviews: 67
+Photos: 3
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 3 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 400 Schweitzer Plaza Dr Suite 4, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Pend Oreille Chiropractic</name>
+        <description><![CDATA[
+Business: Pend Oreille Chiropractic
+Phone: (208) 255-1108
+Rating: 4.8 stars
+Reviews: 115
+Photos: 1
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 1 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 123 S 3rd Ave STE 6, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Tandoori Grill& bar - Sandpoint</name>
+        <description><![CDATA[
+Business: Tandoori Grill& bar - Sandpoint
+Phone: (208) 916-4075
+Rating: 4.8 stars
+Reviews: 199
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 202 N 2nd Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Bernklau</name>
+        <description><![CDATA[
+Business: The Bernklau
+Phone: (208) 946-5255
+Rating: 4.7 stars
+Reviews: 170
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 316 Pine St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Flavors of Phoenicia</name>
+        <description><![CDATA[
+Business: Flavors of Phoenicia
+Phone: 
+Rating: 4.8 stars
+Reviews: 118
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 477100 US-95 Suite C, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Kessa's Coffee</name>
+        <description><![CDATA[
+Business: Kessa's Coffee
+Phone: (208) 610-7006
+Rating: 5 stars
+Reviews: 46
+Photos: 5
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); No website listed
+
+Address: 775 Bonner Mall Way, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Peppered Mercantile</name>
+        <description><![CDATA[
+Business: The Peppered Mercantile
+Phone: (208) 920-6254
+Rating: 5 stars
+Reviews: 18
+Photos: 10
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 18 reviews (low social proof); No website listed
+
+Address: 108 N 1st Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Rejavanate (Sandpoint)</name>
+        <description><![CDATA[
+Business: Rejavanate (Sandpoint)
+Phone: (208) 255-4545
+Rating: 4.6 stars
+Reviews: 214
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 1009 US-2, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Bernklau</name>
+        <description><![CDATA[
+Business: The Bernklau
+Phone: (208) 946-5255
+Rating: 4.7 stars
+Reviews: 170
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 316 Pine St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Brim Coffee Shop</name>
+        <description><![CDATA[
+Business: The Brim Coffee Shop
+Phone: (208) 255-4863
+Rating: 4.6 stars
+Reviews: 193
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 830 Kootenai Cutoff Rd, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Kessa's Coffee</name>
+        <description><![CDATA[
+Business: Kessa's Coffee
+Phone: (208) 610-9698
+Rating: 4.8 stars
+Reviews: 136
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 120 S Division Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Hoot Owl Cafe</name>
+        <description><![CDATA[
+Business: Hoot Owl Cafe
+Phone: (208) 265-9348
+Rating: 4.7 stars
+Reviews: 1343
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 30784 ID-200, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Lakeside CrossFit Athletic and Wellness Club</name>
+        <description><![CDATA[
+Business: Lakeside CrossFit Athletic and Wellness Club
+Phone: (208) 415-9226
+Rating: 5 stars
+Reviews: 33
+Photos: 8
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 8 photos (needs 20+); Established business (has reviews)
+
+Address: 215 E Lakeside Ave, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Christ Fit Gym CDA</name>
+        <description><![CDATA[
+Business: Christ Fit Gym CDA
+Phone: (208) 721-2834
+Rating: 5 stars
+Reviews: 15
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 15 reviews (low social proof); Established business (has reviews)
+
+Address: 7736 N Government Wy, Dalton Gardens, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Anytime Fitness</name>
+        <description><![CDATA[
+Business: Anytime Fitness
+Phone: (208) 966-4253
+Rating: 4.7 stars
+Reviews: 158
+Photos: 7
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 7 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 370 E Kathleen Ave Suite 800, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>360 Fitness North Idaho</name>
+        <description><![CDATA[
+Business: 360 Fitness North Idaho
+Phone: (208) 930-1972
+Rating: 4.3 stars
+Reviews: 78
+Photos: 9
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 9 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 208 Coeur D Alene Ave, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The HOP Coeur d’Alene (The House of Pumps)</name>
+        <description><![CDATA[
+Business: The HOP Coeur d’Alene (The House of Pumps)
+Phone: (208) 625-9504
+Rating: 5 stars
+Reviews: 50
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 600 W Kathleen Ave Suite 10, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Exercise Institute</name>
+        <description><![CDATA[
+Business: Exercise Institute
+Phone: (208) 666-9094
+Rating: 5 stars
+Reviews: 32
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 1960 N Beebe Blvd #100c, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Salon 208</name>
+        <description><![CDATA[
+Business: Salon 208
+Phone: (208) 805-2710
+Rating: 4.9 stars
+Reviews: 21
+Photos: 1
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 21 reviews (low social proof)
+
+Address: 407 E Reid Ave, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Shine Salon</name>
+        <description><![CDATA[
+Business: Shine Salon
+Phone: (208) 667-2500
+Rating: 4.8 stars
+Reviews: 39
+Photos: 9
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 9 photos (needs 20+); No website listed
+
+Address: 724 E Lakeside Ave, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sola Salon Studios</name>
+        <description><![CDATA[
+Business: Sola Salon Studios
+Phone: (509) 750-6694
+Rating: 4.6 stars
+Reviews: 66
+Photos: 9
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 9 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 2062 Main St, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Midtown Salon</name>
+        <description><![CDATA[
+Business: Midtown Salon
+Phone: (208) 292-4755
+Rating: 4.9 stars
+Reviews: 66
+Photos: 10
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+No website listed; Missing business hours
+
+Address: 1928 N 4th St, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Voiage Beauty by Tiffney</name>
+        <description><![CDATA[
+Business: Voiage Beauty by Tiffney
+Phone: (208) 770-8724
+Rating: 4.6 stars
+Reviews: 119
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 754 N 4th St, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Urban Edge Salon</name>
+        <description><![CDATA[
+Business: Urban Edge Salon
+Phone: (208) 772-3343
+Rating: 4.9 stars
+Reviews: 475
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 9010 Hess St, Hayden, ID 83835, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>711 Ward Construction</name>
+        <description><![CDATA[
+Business: 711 Ward Construction
+Phone: (208) 352-0111
+Rating: 5 stars
+Reviews: 2
+Photos: 0
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 402 E Sherman Ave, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Monarch Custom Homes</name>
+        <description><![CDATA[
+Business: Monarch Custom Homes
+Phone: (208) 772-9333
+Rating: 4.7 stars
+Reviews: 40
+Photos: 7
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Established business (has reviews)
+
+Address: 5097 N Bldg Center Dr, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CDA Construction</name>
+        <description><![CDATA[
+Business: CDA Construction
+Phone: (208) 340-4052
+Rating: 5 stars
+Reviews: 22
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 22 reviews (low social proof); Established business (has reviews)
+
+Address: 3868 Palmer Dr, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Edwards Smith Construction</name>
+        <description><![CDATA[
+Business: Edwards Smith Construction
+Phone: (208) 765-8602
+Rating: 4.8 stars
+Reviews: 16
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 16 reviews (low social proof); Established business (has reviews)
+
+Address: 1112 N Government Wy, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Nl Kile Construction Remodeling Contractor</name>
+        <description><![CDATA[
+Business: Nl Kile Construction Remodeling Contractor
+Phone: (208) 215-2586
+Rating: 5 stars
+Reviews: 12
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 12 reviews (low social proof); Established business (has reviews)
+
+Address: 1864 E Hanley Ave, Dalton Gardens, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Vision Built Construction LLC</name>
+        <description><![CDATA[
+Business: Vision Built Construction LLC
+Phone: (208) 758-0181
+Rating: 4.3 stars
+Reviews: 20
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 20 reviews (low social proof); Established business (has reviews)
+
+Address: 3655 N Government Wy #10, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Ginno Construction</name>
+        <description><![CDATA[
+Business: Ginno Construction
+Phone: (208) 667-5560
+Rating: 4 stars
+Reviews: 23
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 23 reviews (low social proof); Established business (has reviews)
+
+Address: 3893 N Schreiber Way, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Rosenberger Construction</name>
+        <description><![CDATA[
+Business: Rosenberger Construction
+Phone: (208) 772-5018
+Rating: 4.7 stars
+Reviews: 27
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 27 reviews (low social proof); Established business (has reviews)
+
+Address: 10149 N Taryne St, Hayden, ID 83835, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Camas Contracting</name>
+        <description><![CDATA[
+Business: Camas Contracting
+Phone: (208) 550-3305
+Rating: 0 stars
+Reviews: 0
+Photos: 1
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 1 photos (needs 20+); Only 0 reviews (low social proof)
+
+Address: 409 Coeur D Alene Ave Suite 14, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Aspen Construction & Design, LLC</name>
+        <description><![CDATA[
+Business: Aspen Construction & Design, LLC
+Phone: (208) 216-1964
+Rating: 4.8 stars
+Reviews: 26
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 26 reviews (low social proof); Established business (has reviews)
+
+Address: 5861 N Pinegrove Dr, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Affordable Custom Builders</name>
+        <description><![CDATA[
+Business: Affordable Custom Builders
+Phone: (208) 661-2497
+Rating: 4.9 stars
+Reviews: 26
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 26 reviews (low social proof); Established business (has reviews)
+
+Address: 401-1/2 E Sherman Ave Ste 207, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Coeur Builders</name>
+        <description><![CDATA[
+Business: Coeur Builders
+Phone: (208) 661-2497
+Rating: 5 stars
+Reviews: 6
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 6 reviews (low social proof); Established business (has reviews)
+
+Address: 401-1/2 Sherman Ave Ste 207, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Weldons construction</name>
+        <description><![CDATA[
+Business: Weldons construction
+Phone: (208) 640-9508
+Rating: 5 stars
+Reviews: 1
+Photos: 10
+
+SCORE: 45/100
+Priority: MEDIUM
+
+Issues:
+Only 1 reviews (low social proof); No website listed
+
+Address: 709 N 12th St, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Kingdom Construction</name>
+        <description><![CDATA[
+Business: Kingdom Construction
+Phone: (208) 699-4781
+Rating: 4.8 stars
+Reviews: 37
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 100 sun up road, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Johnson Construction</name>
+        <description><![CDATA[
+Business: Johnson Construction
+Phone: (208) 755-4362
+Rating: 5 stars
+Reviews: 3
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Only 3 reviews (low social proof); Good rating (cares about reputation)
+
+Address: 201 N 3rd St, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Atlas Building Group</name>
+        <description><![CDATA[
+Business: Atlas Building Group
+Phone: (208) 818-7941
+Rating: 5 stars
+Reviews: 43
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 2026 N Beebe Blvd, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Messina Construction</name>
+        <description><![CDATA[
+Business: Messina Construction
+Phone: (208) 765-5714
+Rating: 5 stars
+Reviews: 1
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Only 1 reviews (low social proof); Good rating (cares about reputation)
+
+Address: 2900 N Government Wy PMB 239, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Synergy Contracting, LLC.</name>
+        <description><![CDATA[
+Business: Synergy Contracting, LLC.
+Phone: (208) 660-0159
+Rating: 5 stars
+Reviews: 3
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Only 3 reviews (low social proof); Good rating (cares about reputation)
+
+Address: 426 E Orchard Ave, Hayden, ID 83835, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>All-Ways Plumbing</name>
+        <description><![CDATA[
+Business: All-Ways Plumbing
+Phone: (208) 773-0970
+Rating: 5 stars
+Reviews: 2
+Photos: 0
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 941 N 16th St, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The 24 Hr Plumber</name>
+        <description><![CDATA[
+Business: The 24 Hr Plumber
+Phone: (208) 291-1235
+Rating: 5 stars
+Reviews: 1
+Photos: 1
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 1 reviews (low social proof)
+
+Address: 3813 N Honeysuckle Dr, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fall Line Plumbing</name>
+        <description><![CDATA[
+Business: Fall Line Plumbing
+Phone: (208) 699-2184
+Rating: 5 stars
+Reviews: 17
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 17 reviews (low social proof); Established business (has reviews)
+
+Address: 217 E Foster Ave, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Eagle Plumbing</name>
+        <description><![CDATA[
+Business: Eagle Plumbing
+Phone: (208) 667-4646
+Rating: 4.8 stars
+Reviews: 194
+Photos: 9
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 9 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 174 E Neider Ave #113, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Honest Plumbing</name>
+        <description><![CDATA[
+Business: Honest Plumbing
+Phone: (208) 987-3234
+Rating: 5 stars
+Reviews: 232
+Photos: 8
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 8 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 174 E Neider Ave #502, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fred's Plumbing</name>
+        <description><![CDATA[
+Business: Fred's Plumbing
+Phone: (208) 260-4970
+Rating: 4.7 stars
+Reviews: 79
+Photos: 4
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 4 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 2955 W Dakota Ave, Hayden, ID 83835, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Neuman's Plumbing, Inc.</name>
+        <description><![CDATA[
+Business: Neuman's Plumbing, Inc.
+Phone: (208) 772-4380
+Rating: 4.6 stars
+Reviews: 31
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 7560 N Government Wy, Dalton Gardens, ID 83815, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Coeur d' Alene Family Dentistry</name>
+        <description><![CDATA[
+Business: Coeur d' Alene Family Dentistry
+Phone: (208) 664-9129
+Rating: 5 stars
+Reviews: 332
+Photos: 2
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 2 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 2201 N Government Wy suite g, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Advanced Family Dentistry</name>
+        <description><![CDATA[
+Business: Advanced Family Dentistry
+Phone: (208) 667-1154
+Rating: 5 stars
+Reviews: 446
+Photos: 6
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 6 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 910 W Ironwood Dr, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Ideal Family Dental</name>
+        <description><![CDATA[
+Business: Ideal Family Dental
+Phone: (208) 664-4831
+Rating: 4.9 stars
+Reviews: 340
+Photos: 3
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 3 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 700 W Ironwood Dr STE 241, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Element Dental</name>
+        <description><![CDATA[
+Business: Element Dental
+Phone: (208) 664-2160
+Rating: 4.9 stars
+Reviews: 464
+Photos: 8
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 8 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 1015 W Ironwood Dr, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Lakeview Dental</name>
+        <description><![CDATA[
+Business: Lakeview Dental
+Phone: (208) 714-4580
+Rating: 4.9 stars
+Reviews: 239
+Photos: 5
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 5 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 801 Milwaukee Dr, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Scholes Family Dental</name>
+        <description><![CDATA[
+Business: Scholes Family Dental
+Phone: (208) 667-1578
+Rating: 4.9 stars
+Reviews: 145
+Photos: 7
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 7 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 1250 W Ironwood Dr STE 216, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Willamette Dental Group - Coeur d'Alene</name>
+        <description><![CDATA[
+Business: Willamette Dental Group - Coeur d'Alene
+Phone: (855) 433-6825
+Rating: 4.5 stars
+Reviews: 129
+Photos: 4
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 4 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 943 W Ironwood Dr Suite 200, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Smart Family Dentistry</name>
+        <description><![CDATA[
+Business: Smart Family Dentistry
+Phone: (208) 667-0012
+Rating: 5 stars
+Reviews: 52
+Photos: 0
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 0 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 1717 Lincoln Wy Suite 204, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>DDS Northwest</name>
+        <description><![CDATA[
+Business: DDS Northwest
+Phone: (208) 765-3322
+Rating: 4.4 stars
+Reviews: 179
+Photos: 2
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 2 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 1800 Lincoln Wy Suite 200, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Helping Hands Chiropractic and Wellness Center</name>
+        <description><![CDATA[
+Business: Helping Hands Chiropractic and Wellness Center
+Phone: (208) 664-0444
+Rating: 4.8 stars
+Reviews: 16
+Photos: 5
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 16 reviews (low social proof)
+
+Address: 116 W Neider Ave, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Stoddard Chiropractic: Stoddard Charlene R DC</name>
+        <description><![CDATA[
+Business: Stoddard Chiropractic: Stoddard Charlene R DC
+Phone: (208) 667-0875
+Rating: 5 stars
+Reviews: 16
+Photos: 7
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 7 photos (needs 20+); Only 16 reviews (low social proof)
+
+Address: 1025 W Ironwood Dr STE 2, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>CV Chiropractic</name>
+        <description><![CDATA[
+Business: CV Chiropractic
+Phone: (208) 966-4930
+Rating: 5 stars
+Reviews: 14
+Photos: 4
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 14 reviews (low social proof)
+
+Address: 2415 N Government Wy Suite 6, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Thrive Chiropractic Advanced Wellness Solutions</name>
+        <description><![CDATA[
+Business: Thrive Chiropractic Advanced Wellness Solutions
+Phone: (208) 665-9688
+Rating: 5 stars
+Reviews: 21
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 21 reviews (low social proof); Established business (has reviews)
+
+Address: 1230 N Northwood Center Ct, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Walk In Chiropractic - Coeur d'Alene</name>
+        <description><![CDATA[
+Business: Walk In Chiropractic - Coeur d'Alene
+Phone: (208) 930-1123
+Rating: 4.7 stars
+Reviews: 302
+Photos: 7
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 7 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 3500 N Government Wy #106, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Unlimited Health Chiropractic</name>
+        <description><![CDATA[
+Business: Unlimited Health Chiropractic
+Phone: (208) 930-4944
+Rating: 4.9 stars
+Reviews: 222
+Photos: 9
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 9 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 320 E Neider Ave Suite 103, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>First Care Chiropractic</name>
+        <description><![CDATA[
+Business: First Care Chiropractic
+Phone: (208) 772-0802
+Rating: 5 stars
+Reviews: 95
+Photos: 3
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 3 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 6125 N Sunshine St A, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Muscle Works Chiropractic & Muscle Activation</name>
+        <description><![CDATA[
+Business: Muscle Works Chiropractic & Muscle Activation
+Phone: (208) 660-2480
+Rating: 5 stars
+Reviews: 87
+Photos: 9
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 9 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 110 E Wallace Ave, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Priebe Chiropractic</name>
+        <description><![CDATA[
+Business: Priebe Chiropractic
+Phone: (208) 664-5225
+Rating: 4.8 stars
+Reviews: 77
+Photos: 1
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 1 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 850 W Ironwood Dr STE 104, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Monday Mornings Coffee Co.</name>
+        <description><![CDATA[
+Business: Monday Mornings Coffee Co.
+Phone: 
+Rating: 4.1 stars
+Reviews: 27
+Photos: 0
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 27 reviews (low social proof)
+
+Address: 1750 West Appleway Ave., Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Milk and Honey Coffee</name>
+        <description><![CDATA[
+Business: Milk and Honey Coffee
+Phone: 
+Rating: 4.6 stars
+Reviews: 13
+Photos: 2
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 13 reviews (low social proof)
+
+Address: 5277 N Government Wy, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Anchored Coffee Company Ironwood</name>
+        <description><![CDATA[
+Business: Anchored Coffee Company Ironwood
+Phone: (208) 551-2388
+Rating: 4.7 stars
+Reviews: 34
+Photos: 5
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Established business (has reviews)
+
+Address: 930 W Ironwood Dr, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Cornerstone Coffee and Sweets</name>
+        <description><![CDATA[
+Business: Cornerstone Coffee and Sweets
+Phone: (208) 930-1664
+Rating: 4.9 stars
+Reviews: 79
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 814 N 4th St, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sebastian's Coffee & Pastries</name>
+        <description><![CDATA[
+Business: Sebastian's Coffee & Pastries
+Phone: (208) 551-3939
+Rating: 5 stars
+Reviews: 90
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 1114 W Ironwood Dr, Coeur d'Alene, ID 83814, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Roasted Coffee Company Coeur d'Alene</name>
+        <description><![CDATA[
+Business: Roasted Coffee Company Coeur d'Alene
+Phone: (208) 518-1555
+Rating: 4.9 stars
+Reviews: 59
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 233 W Dalton Ave, Coeur d'Alene, ID 83815, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Hit Fitness Spokane</name>
+        <description><![CDATA[
+Business: Hit Fitness Spokane
+Phone: (707) 477-1337
+Rating: 5 stars
+Reviews: 11
+Photos: 4
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); Only 11 reviews (low social proof)
+
+Address: 309 W 2nd Ave, Spokane, WA 99201, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Spokane Club Athletic Facility And Gym</name>
+        <description><![CDATA[
+Business: Spokane Club Athletic Facility And Gym
+Phone: (509) 838-8511
+Rating: 4.5 stars
+Reviews: 11
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 11 reviews (low social proof); Established business (has reviews)
+
+Address: 1002 W Main Ave, Spokane, WA 99201, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Forward</name>
+        <description><![CDATA[
+Business: Forward
+Phone: (509) 230-6565
+Rating: 4.9 stars
+Reviews: 156
+Photos: 7
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 7 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 6501 N Cedar Rd Building 1, Spokane, WA 99208, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Southside Lifting Club</name>
+        <description><![CDATA[
+Business: Southside Lifting Club
+Phone: (509) 321-7064
+Rating: 4.8 stars
+Reviews: 45
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 2910 E 57th Ave suite 3, Spokane, WA 99223, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Eden Salon</name>
+        <description><![CDATA[
+Business: Eden Salon
+Phone: (509) 822-7483
+Rating: 5 stars
+Reviews: 45
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 1901 N Madison St, Spokane, WA 99205, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Coven Hair Co.</name>
+        <description><![CDATA[
+Business: Coven Hair Co.
+Phone: 
+Rating: 5 stars
+Reviews: 50
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 22 W Main Ave Ste 3, Spokane, WA 99201, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>KoCo Salon & Spa</name>
+        <description><![CDATA[
+Business: KoCo Salon & Spa
+Phone: (509) 319-9326
+Rating: 5 stars
+Reviews: 31
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 10407 N Newport Hwy, Spokane, WA 99218, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Roots Salon and Spa</name>
+        <description><![CDATA[
+Business: Roots Salon and Spa
+Phone: (509) 413-2914
+Rating: 4.8 stars
+Reviews: 88
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 1012 S Perry St, Spokane, WA 99202, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Baker Construction & Development</name>
+        <description><![CDATA[
+Business: Baker Construction & Development
+Phone: (509) 535-3668
+Rating: 4.5 stars
+Reviews: 32
+Photos: 5
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Established business (has reviews)
+
+Address: 2711 E Sprague Ave, Spokane, WA 99202, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Construction Services</name>
+        <description><![CDATA[
+Business: Construction Services
+Phone: (509) 777-0004
+Rating: 5 stars
+Reviews: 1
+Photos: 1
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 1 reviews (low social proof)
+
+Address: 120 North Stevens Street, 1612 S Williams Ln Suite 300, Spokane, WA 99201, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Ramey Construction Company</name>
+        <description><![CDATA[
+Business: Ramey Construction Company
+Phone: (509) 483-9000
+Rating: 4.8 stars
+Reviews: 17
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 17 reviews (low social proof); Established business (has reviews)
+
+Address: 5930 N Freya St, Spokane, WA 99217, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Scotts Custom Construction and Spokane Handyman Service</name>
+        <description><![CDATA[
+Business: Scotts Custom Construction and Spokane Handyman Service
+Phone: (509) 862-2458
+Rating: 4.9 stars
+Reviews: 25
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 25 reviews (low social proof); Established business (has reviews)
+
+Address: 1312 N Monroe St STE 189, Spokane, WA 99201, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Alpine Construction</name>
+        <description><![CDATA[
+Business: Alpine Construction
+Phone: (509) 448-8099
+Rating: 4.1 stars
+Reviews: 17
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 17 reviews (low social proof); Established business (has reviews)
+
+Address: 4419 E Glennaire Dr, Spokane, WA 99223, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Kelsey & Company General Contracting Llc</name>
+        <description><![CDATA[
+Business: Kelsey & Company General Contracting Llc
+Phone: (509) 590-7271
+Rating: 5 stars
+Reviews: 12
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 12 reviews (low social proof); Established business (has reviews)
+
+Address: 816 W Francis Ave #413, Spokane, WA 99205, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Brother's Keeper Construction</name>
+        <description><![CDATA[
+Business: Brother's Keeper Construction
+Phone: (509) 989-3846
+Rating: 5 stars
+Reviews: 22
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 22 reviews (low social proof); Established business (has reviews)
+
+Address: 1509 W Alice Ave, Spokane, WA 99205, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Wren Building Co.</name>
+        <description><![CDATA[
+Business: Wren Building Co.
+Phone: (509) 863-8833
+Rating: 5 stars
+Reviews: 16
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 16 reviews (low social proof); Established business (has reviews)
+
+Address: 518 W Riverside Ave, Spokane, WA 99201, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Walker Construction</name>
+        <description><![CDATA[
+Business: Walker Construction
+Phone: (509) 535-3354
+Rating: 4.3 stars
+Reviews: 15
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 15 reviews (low social proof); Established business (has reviews)
+
+Address: 1800 E Trent Ave, Spokane, WA 99202, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Count On It Construction LLC</name>
+        <description><![CDATA[
+Business: Count On It Construction LLC
+Phone: (509) 209-6657
+Rating: 4.7 stars
+Reviews: 30
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 418 E Pacific Ave, Spokane, WA 99202, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Garco Construction</name>
+        <description><![CDATA[
+Business: Garco Construction
+Phone: (509) 535-4688
+Rating: 4.9 stars
+Reviews: 35
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 4114 E Broadway Ave, Spokane, WA 99202, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Heinemann Construction LLC</name>
+        <description><![CDATA[
+Business: Heinemann Construction LLC
+Phone: (509) 844-1414
+Rating: 5 stars
+Reviews: 31
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 17 N Flora Rd Unit B, Veradale, WA 99037, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Strohmaier Design & Build</name>
+        <description><![CDATA[
+Business: Strohmaier Design & Build
+Phone: (509) 434-6177
+Rating: 4.9 stars
+Reviews: 31
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 4217 E Main Ave, Spokane, WA 99202, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sashiks Construction LLC</name>
+        <description><![CDATA[
+Business: Sashiks Construction LLC
+Phone: (425) 344-7683
+Rating: 5 stars
+Reviews: 45
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 11306 N Morrill Dr, Mead, WA 99021, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Cougar Rooter</name>
+        <description><![CDATA[
+Business: Cougar Rooter
+Phone: (509) 319-9078
+Rating: 5 stars
+Reviews: 47
+Photos: 9
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 9 photos (needs 20+); No website listed
+
+Address: 3120 S Grand Blvd #8054, Spokane, WA 99203, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Spokane Plumbing and Heating</name>
+        <description><![CDATA[
+Business: Spokane Plumbing and Heating
+Phone: (509) 519-2626
+Rating: 4.6 stars
+Reviews: 56
+Photos: 7
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 7 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 5827 N Florida St, Spokane, WA 99217, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Tactical Plumbing & Piping</name>
+        <description><![CDATA[
+Business: Tactical Plumbing & Piping
+Phone: (509) 263-2160
+Rating: 5 stars
+Reviews: 63
+Photos: 9
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 9 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 3615 E Trent Ave, Spokane, WA 99202, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Plumber Faucets N' Stuff</name>
+        <description><![CDATA[
+Business: Plumber Faucets N' Stuff
+Phone: (509) 924-8881
+Rating: 4.9 stars
+Reviews: 51
+Photos: 3
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 3 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 12205 E 1st Ave, Spokane Valley, WA 99206, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Cascade Dental Care - North Spokane</name>
+        <description><![CDATA[
+Business: Cascade Dental Care - North Spokane
+Phone: (509) 466-9638
+Rating: 4.8 stars
+Reviews: 230
+Photos: 5
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 5 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 101 W Cascade Way # 202, Spokane, WA 99208, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Maple Street Family Dentistry</name>
+        <description><![CDATA[
+Business: Maple Street Family Dentistry
+Phone: (509) 928-5001
+Rating: 4.8 stars
+Reviews: 255
+Photos: 8
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 8 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 4610 N Ash St #102, Spokane, WA 99205, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Complete Dental Care</name>
+        <description><![CDATA[
+Business: Complete Dental Care
+Phone: (509) 328-2539
+Rating: 4.8 stars
+Reviews: 306
+Photos: 3
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 3 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 707 W Francis Ave # 100, Spokane, WA 99205, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Bright Now! Dental & Orthodontics - Spokane, WA</name>
+        <description><![CDATA[
+Business: Bright Now! Dental & Orthodontics - Spokane, WA
+Phone: (509) 464-2001
+Rating: 4.3 stars
+Reviews: 456
+Photos: 7
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 7 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 7407 N Division St # K, Spokane, WA 99208, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>University Chiropractic</name>
+        <description><![CDATA[
+Business: University Chiropractic
+Phone: (509) 590-0156
+Rating: 4.9 stars
+Reviews: 369
+Photos: 8
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 8 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 13701 E Sprague Ave, Spokane Valley, WA 99216, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sicilia Chiropractic</name>
+        <description><![CDATA[
+Business: Sicilia Chiropractic
+Phone: (509) 489-2883
+Rating: 5 stars
+Reviews: 263
+Photos: 0
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 0 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 611 W Garland Ave, Spokane, WA 99205, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Raab Chiropractic</name>
+        <description><![CDATA[
+Business: Raab Chiropractic
+Phone: (509) 327-8005
+Rating: 4.9 stars
+Reviews: 156
+Photos: 4
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 4 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 1432 W Francis Ave, Spokane, WA 99205, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Lockhart Chiropractic and Massage</name>
+        <description><![CDATA[
+Business: Lockhart Chiropractic and Massage
+Phone: (509) 413-2482
+Rating: 5 stars
+Reviews: 140
+Photos: 2
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 2 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 1410 N Mullan Rd #100, Spokane Valley, WA 99206, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Black Sheep Coffee Co</name>
+        <description><![CDATA[
+Business: Black Sheep Coffee Co
+Phone: 
+Rating: 4.2 stars
+Reviews: 21
+Photos: 2
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 21 reviews (low social proof)
+
+Address: 5226 N Division St, Spokane, WA 99207, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Black Sheep Coffee Company</name>
+        <description><![CDATA[
+Business: Black Sheep Coffee Company
+Phone: 
+Rating: 4.6 stars
+Reviews: 205
+Photos: 2
+
+SCORE: 55/100
+Priority: MEDIUM
+
+Issues:
+Only 2 photos (needs 20+); No website listed
+
+Address: 921 E Houston Ave, Spokane, WA 99208, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Devil's Brew</name>
+        <description><![CDATA[
+Business: Devil's Brew
+Phone: (509) 981-8103
+Rating: 4.2 stars
+Reviews: 97
+Photos: 1
+
+SCORE: 55/100
+Priority: MEDIUM
+
+Issues:
+Only 1 photos (needs 20+); No website listed
+
+Address: 1228 W Northwest Blvd suite a, Spokane, WA 99205, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Vanilla & Honey Espresso</name>
+        <description><![CDATA[
+Business: Vanilla & Honey Espresso
+Phone: 
+Rating: 4.8 stars
+Reviews: 27
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 27 reviews (low social proof); Established business (has reviews)
+
+Address: 7 W Pacific Ave, Spokane, WA 99202, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Grit Grounds Coffee</name>
+        <description><![CDATA[
+Business: Grit Grounds Coffee
+Phone: (509) 392-4548
+Rating: 5 stars
+Reviews: 38
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 4808 E Sprague Ave suite 206, Spokane, WA 99212, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>BRU COFFEE HAUSE</name>
+        <description><![CDATA[
+Business: BRU COFFEE HAUSE
+Phone: 
+Rating: 4.6 stars
+Reviews: 198
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 9803 N Division St, Spokane, WA 99218, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Brews Bros Coffee Bar</name>
+        <description><![CDATA[
+Business: Brews Bros Coffee Bar
+Phone: (509) 456-5858
+Rating: 4.5 stars
+Reviews: 536
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 734 W Sprague Ave, Spokane, WA 99201, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+</Document>
+</kml>

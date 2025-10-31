@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.org/kml/2.2">
+<Document>
+    <name>GBP Optimization Targets</name>
+    <description>Local businesses that need Google Business Profile optimization</description>
+
+    <Style id="high_priority">
+        <IconStyle>
+            <color>ff0000ff</color>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="medium_priority">
+        <IconStyle>
+            <color>ff00ffff</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="low_priority">
+        <IconStyle>
+            <color>ff00ff00</color>
+            <scale>0.8</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Placemark>
+        <name>Movement Gym</name>
+        <description><![CDATA[
+Business: Movement Gym
+Phone: (208) 263-9999
+Rating: 4.5 stars
+Reviews: 8
+Photos: 0
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 8 reviews (low social proof)
+
+Address: 103 S 3rd Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Shed</name>
+        <description><![CDATA[
+Business: The Shed
+Phone: 
+Rating: 5 stars
+Reviews: 1
+Photos: 1
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 1 reviews (low social proof)
+
+Address: 1223 Michigan St E, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Unique Fitness (UFIT)</name>
+        <description><![CDATA[
+Business: Unique Fitness (UFIT)
+Phone: (208) 627-6079
+Rating: 4.8 stars
+Reviews: 25
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 25 reviews (low social proof); Established business (has reviews)
+
+Address: 1007 W Superior, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Natural Fitness - Ponderay</name>
+        <description><![CDATA[
+Business: Natural Fitness - Ponderay
+Phone: (208) 263-0676
+Rating: 4.7 stars
+Reviews: 81
+Photos: 5
+
+SCORE: 40/100
+Priority: MEDIUM
+
+Issues:
+Only 5 photos (needs 20+); Good rating (cares about reputation)
+
+Address: 400 Schweitzer Plaza Dr #6, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Missi Balison Fitness</name>
+        <description><![CDATA[
+Business: Missi Balison Fitness
+Phone: (208) 290-2081
+Rating: 5 stars
+Reviews: 37
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 1250 Gooby Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>BarreX Fitness and Dance</name>
+        <description><![CDATA[
+Business: BarreX Fitness and Dance
+Phone: (208) 946-7861
+Rating: 5 stars
+Reviews: 1
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Only 1 reviews (low social proof); Good rating (cares about reputation)
+
+Address: 229 Pine St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Selle Valley Construction</name>
+        <description><![CDATA[
+Business: Selle Valley Construction
+Phone: (208) 263-1808
+Rating: 5 stars
+Reviews: 7
+Photos: 9
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 9 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 667 Triangle Dr, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Dana Construction Company LLC</name>
+        <description><![CDATA[
+Business: Dana Construction Company LLC
+Phone: (208) 691-2042
+Rating: 4.2 stars
+Reviews: 5
+Photos: 0
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 5 reviews (low social proof)
+
+Address: 217 Cedar St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>AJ Construction and Development, LLC</name>
+        <description><![CDATA[
+Business: AJ Construction and Development, LLC
+Phone: (208) 290-5788
+Rating: 4.8 stars
+Reviews: 18
+Photos: 10
+
+SCORE: 65/100
+Priority: HIGH
+
+Issues:
+Only 18 reviews (low social proof); Missing business hours
+
+Address: 8459 Sunnyside Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>John Cloud Construction</name>
+        <description><![CDATA[
+Business: John Cloud Construction
+Phone: (208) 265-5406
+Rating: 5 stars
+Reviews: 4
+Photos: 2
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 4 reviews (low social proof)
+
+Address: 658 Gold Creek Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>JKC Construction</name>
+        <description><![CDATA[
+Business: JKC Construction
+Phone: (208) 946-8588
+Rating: 5 stars
+Reviews: 4
+Photos: 2
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 2 photos (needs 20+); Only 4 reviews (low social proof)
+
+Address: 414 Church St Suite 112, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Panhandle Contractors LLC</name>
+        <description><![CDATA[
+Business: Panhandle Contractors LLC
+Phone: (208) 946-1474
+Rating: 5 stars
+Reviews: 2
+Photos: 1
+
+SCORE: 60/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 1596 E Shingle Mill Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sandpoint Builders Inc.</name>
+        <description><![CDATA[
+Business: Sandpoint Builders Inc.
+Phone: (208) 263-7315
+Rating: 4.9 stars
+Reviews: 14
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 14 reviews (low social proof); Established business (has reviews)
+
+Address: 276 Jacobson Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Ramey Construction Company</name>
+        <description><![CDATA[
+Business: Ramey Construction Company
+Phone: (208) 597-7071
+Rating: 4.2 stars
+Reviews: 5
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 5 reviews (low social proof); Established business (has reviews)
+
+Address: 509 Fifth Ave suite g, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>R.W. Bianco Construction</name>
+        <description><![CDATA[
+Business: R.W. Bianco Construction
+Phone: (208) 290-2268
+Rating: 5 stars
+Reviews: 1
+Photos: 10
+
+SCORE: 45/100
+Priority: MEDIUM
+
+Issues:
+Only 1 reviews (low social proof); Missing business hours
+
+Address: 9060 Colburn Culver Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Long General Contracting</name>
+        <description><![CDATA[
+Business: Long General Contracting
+Phone: (208) 263-0385
+Rating: 5 stars
+Reviews: 2
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Only 2 reviews (low social proof); Good rating (cares about reputation)
+
+Address: 414 Church St Ste 205L, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>New World Plumbing</name>
+        <description><![CDATA[
+Business: New World Plumbing
+Phone: (208) 597-3152
+Rating: 5 stars
+Reviews: 7
+Photos: 1
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Ahz Plumbing Inc</name>
+        <description><![CDATA[
+Business: Ahz Plumbing Inc
+Phone: (208) 263-0390
+Rating: 5 stars
+Reviews: 1
+Photos: 0
+
+SCORE: 90/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 1 reviews (low social proof)
+
+Address: 10093 Baldy Mountain Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>High Mark Plumbing</name>
+        <description><![CDATA[
+Business: High Mark Plumbing
+Phone: (208) 217-4753
+Rating: 4.4 stars
+Reviews: 7
+Photos: 6
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 7 reviews (low social proof)
+
+Address: 206 Mill Rd, Dover, ID 83825, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Consolidated Supply Co.</name>
+        <description><![CDATA[
+Business: Consolidated Supply Co.
+Phone: (208) 263-8561
+Rating: 4.5 stars
+Reviews: 22
+Photos: 5
+
+SCORE: 80/100
+Priority: HIGH
+
+Issues:
+Only 5 photos (needs 20+); Only 22 reviews (low social proof)
+
+Address: 1802 Industrial Dr, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Wray Plumbing</name>
+        <description><![CDATA[
+Business: Wray Plumbing
+Phone: (208) 255-5550
+Rating: 5 stars
+Reviews: 2
+Photos: 0
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 2 reviews (low social proof)
+
+Address: 31656 ID-200 E, Ponderay, ID 83852, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Northern Gravity Plumbing Co.</name>
+        <description><![CDATA[
+Business: Northern Gravity Plumbing Co.
+Phone: (208) 292-8332
+Rating: 5 stars
+Reviews: 10
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 10 reviews (low social proof); Established business (has reviews)
+
+Address: 2210 Great Northern Rd, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Case Plumbing</name>
+        <description><![CDATA[
+Business: Case Plumbing
+Phone: (208) 304-3883
+Rating: 4.8 stars
+Reviews: 32
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 120 S 2nd Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Sand Creek Salon</name>
+        <description><![CDATA[
+Business: Sand Creek Salon
+Phone: (208) 255-7897
+Rating: 4.8 stars
+Reviews: 26
+Photos: 0
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 0 photos (needs 20+); Only 26 reviews (low social proof)
+
+Address: 214 N S 1st Ave B, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Salon Luxe</name>
+        <description><![CDATA[
+Business: Salon Luxe
+Phone: (208) 255-5893
+Rating: 4.6 stars
+Reviews: 47
+Photos: 1
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 1 photos (needs 20+); No website listed
+
+Address: 111A Main St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Belleza Design</name>
+        <description><![CDATA[
+Business: Belleza Design
+Phone: (208) 263-9490
+Rating: 4.9 stars
+Reviews: 43
+Photos: 4
+
+SCORE: 75/100
+Priority: HIGH
+
+Issues:
+Only 4 photos (needs 20+); No website listed
+
+Address: 324 S Florence Ave, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Revival Salon</name>
+        <description><![CDATA[
+Business: Revival Salon
+Phone: (602) 614-9200
+Rating: 5 stars
+Reviews: 23
+Photos: 10
+
+SCORE: 50/100
+Priority: MEDIUM
+
+Issues:
+Only 23 reviews (low social proof); Established business (has reviews)
+
+Address: 1807 Culvers Dr, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#medium_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Fifth Element Hair Studio</name>
+        <description><![CDATA[
+Business: Fifth Element Hair Studio
+Phone: (208) 304-4346
+Rating: 5 stars
+Reviews: 44
+Photos: 10
+
+SCORE: 30/100
+Priority: LOW
+
+Issues:
+Established business (has reviews); Good rating (cares about reputation)
+
+Address: 334 N 1st Ave #204A, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.org/kml/2.2">
+<Document>
+    <name>GBP Optimization Targets</name>
+    <description>Local businesses that need Google Business Profile optimization</description>
+
+    <Style id="high_priority">
+        <IconStyle>
+            <color>ff0000ff</color>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="medium_priority">
+        <IconStyle>
+            <color>ff00ffff</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="low_priority">
+        <IconStyle>
+            <color>ff00ff00</color>
+            <scale>0.8</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Placemark>
+        <name>Joe's Coffee Bar</name>
+        <description><![CDATA[
+Business: Joe's Coffee Bar
+Phone: (555) 231-7130
+Rating: 4.1 stars
+Reviews: 11
+Photos: 6
+
+SCORE: 95/100
+Priority: HIGH
+
+Issues:
+Only 6 photos (needs 20+); Only 11 reviews (low social proof)
+
+Address: 3497 Main St, Sandpoint, ID
+]]></description>
+        <styleUrl>#high_priority</styleUrl>
+    </Placemark>
+
+</Document>
+</kml>

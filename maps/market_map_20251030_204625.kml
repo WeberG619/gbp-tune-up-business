@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.org/kml/2.2">
+<Document>
+    <name>GBP Optimization Targets</name>
+    <description>Local businesses that need Google Business Profile optimization</description>
+
+    <Style id="high_priority">
+        <IconStyle>
+            <color>ff0000ff</color>
+            <scale>1.2</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="medium_priority">
+        <IconStyle>
+            <color>ff00ffff</color>
+            <scale>1.0</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/ylw-stars.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Style id="low_priority">
+        <IconStyle>
+            <color>ff00ff00</color>
+            <scale>0.8</scale>
+            <Icon>
+                <href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+            </Icon>
+        </IconStyle>
+    </Style>
+
+    <Placemark>
+        <name>Rejavanate (Sandpoint)</name>
+        <description><![CDATA[
+Business: Rejavanate (Sandpoint)
+Phone: (208) 255-4545
+Rating: 4.6 stars
+Reviews: 214
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 1009 US-2, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>The Bernklau</name>
+        <description><![CDATA[
+Business: The Bernklau
+Phone: (208) 946-5255
+Rating: 4.7 stars
+Reviews: 170
+Photos: 10
+
+SCORE: 25/100
+Priority: LOW
+
+Issues:
+No website listed; Good rating (cares about reputation)
+
+Address: 316 Pine St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Evans Brothers Coffee</name>
+        <description><![CDATA[
+Business: Evans Brothers Coffee
+Phone: (208) 265-5553
+Rating: 4.7 stars
+Reviews: 718
+Photos: 10
+
+SCORE: 10/100
+Priority: LOW
+
+Issues:
+Good rating (cares about reputation)
+
+Address: 524 Church St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Northern Grind</name>
+        <description><![CDATA[
+Business: Northern Grind
+Phone: (208) 671-3223
+Rating: 4.8 stars
+Reviews: 107
+Photos: 10
+
+SCORE: 10/100
+Priority: LOW
+
+Issues:
+Good rating (cares about reputation)
+
+Address: 317 Oak St, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+    <Placemark>
+        <name>Paneah's Bistro</name>
+        <description><![CDATA[
+Business: Paneah's Bistro
+Phone: (208) 946-8677
+Rating: 4.9 stars
+Reviews: 85
+Photos: 10
+
+SCORE: 10/100
+Priority: LOW
+
+Issues:
+Good rating (cares about reputation)
+
+Address: 334 N 1st Ave STE 200, Sandpoint, ID 83864, USA
+]]></description>
+        <styleUrl>#low_priority</styleUrl>
+    </Placemark>
+
+</Document>
+</kml>
