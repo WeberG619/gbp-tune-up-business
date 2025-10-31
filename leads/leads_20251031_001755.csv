@@ -1,0 +1,11 @@
+priority,score,business_name,phone,address,rating,reviews,photos,website,reasons,place_id
+HIGH,100,Morning Grind Cafe,(555) 883-6747,"6519 Main St, Seattle, WA",3.6,22,3,,Only 3 photos (needs 20+); Only 22 reviews (low social proof),demo_place_3
+HIGH,95,Brew Haven Cafe,(555) 441-7969,"795 Main St, Seattle, WA",4.3,11,2,,Only 2 photos (needs 20+); Only 11 reviews (low social proof),demo_place_0
+HIGH,95,Espresso Express Roasters,(555) 910-5318,"4677 Main St, Seattle, WA",4.0,18,4,,Only 4 photos (needs 20+); Only 18 reviews (low social proof),demo_place_6
+HIGH,95,Brew Haven Roasters,(555) 124-2404,"510 Main St, Seattle, WA",4.2,14,5,,Only 5 photos (needs 20+); Only 14 reviews (low social proof),demo_place_9
+HIGH,85,Bean There Roasters,(555) 264-8690,"2262 Main St, Seattle, WA",3.8,19,3,,Only 3 photos (needs 20+); Only 19 reviews (low social proof),demo_place_5
+HIGH,85,Brew Haven Bar,(555) 256-8099,"3038 Main St, Seattle, WA",3.7,8,8,,Only 8 photos (needs 20+); Only 8 reviews (low social proof),demo_place_8
+HIGH,80,Brew Haven Roasters,(555) 381-9905,"7741 Main St, Seattle, WA",4.4,8,8,https://www.brewhavenroasters.com,Only 8 photos (needs 20+); Only 8 reviews (low social proof),demo_place_7
+HIGH,75,Espresso Express Shop,(555) 531-7648,"557 Main St, Seattle, WA",4.3,30,6,,Only 6 photos (needs 20+); No website listed,demo_place_2
+HIGH,65,Morning Grind Shop,(555) 272-7056,"6508 Main St, Seattle, WA",3.9,31,6,,Only 6 photos (needs 20+); No website listed,demo_place_1
+HIGH,60,Joe's Coffee Cafe,(555) 889-9152,"4322 Main St, Seattle, WA",4.2,31,5,https://www.joe'scoffeecafe.com,Only 5 photos (needs 20+); Established business (has reviews),demo_place_4

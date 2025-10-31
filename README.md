@@ -48,6 +48,8 @@ ls reports/
 ### 🛠️ Tools (100% Working)
 - **GBP Audit Tool** - Generates professional PDF audit reports (works without API!)
 - **Photo Batch Processor** - Batch optimize and resize photos for GBP
+- **🆕 Automated Lead Finder** - Finds 50+ qualified leads per day automatically
+- **🆕 Bulk Audit Generator** - Creates 30+ reports in minutes
 - **Demo Mode** - 4 portfolio-ready sample reports included
 - **Enhanced Reports** - Beautiful, client-ready PDF reports with your contact info
 
@@ -59,12 +61,15 @@ ls reports/
 - **Client intake form** (comprehensive)
 - **Invoice template** (professional)
 - **Client tracking spreadsheet** (CSV format)
+- **🆕 Email outreach templates** (5 proven templates with follow-up sequences)
 
-### 💼 Sales Materials
+### 💼 Sales & Marketing Materials
 - Pitch scripts (word-for-word)
 - Pricing calculator
 - Objection handlers
-- Email sequences
+- **🆕 Landing page** (deploy in 5 minutes, free hosting)
+- **🆕 30+ social media posts** (LinkedIn, Facebook, Instagram, Twitter)
+- **🆕 Paid ad templates** (Facebook, Instagram, Google Ads ready-to-use)
 - Service page copy (ready for Carrd/Webflow)
 
 ### 📚 Documentation
@@ -120,10 +125,19 @@ Best-performing niches:
 - [Service Delivery](docs/SERVICE_DELIVERY.md) - 90-minute delivery checklist
 - [Setup Guide](docs/SETUP.md) - Tool installation and configuration
 
+**Customer Acquisition Automation:**
+- **🆕 [Automation Guide](docs/AUTOMATION_GUIDE.md)** - Find 50+ leads per day automatically ⭐
+- [Email Outreach](templates/email_outreach.md) - Proven templates + sequences
+- [Social Media Content](marketing/social-media-content.md) - 30+ days of posts
+- [Paid Ads](marketing/paid-ads-templates.md) - Facebook, Instagram, Google Ads
+- [Landing Page Guide](landing-page/README.md) - Deploy in 5 minutes
+
 **When You're Ready to Scale:**
 - [API Setup Guide](docs/API_SETUP_GUIDE.md) - Get real data (optional, not required to start)
 
-## 🎬 Usage Example
+## 🎬 Usage Examples
+
+### Manual Client Acquisition
 
 ```bash
 # Generate professional PDF audit report (works without API!)
@@ -145,6 +159,43 @@ python tools/photo_processor.py raw_photos/ optimized_photos/
 # ✓ Auto-resize, enhance, and optimize
 # ✓ Batch process 20+ photos in seconds
 ```
+
+### 🆕 Automated Customer Acquisition
+
+```bash
+# Find 50 qualified leads in your city
+python tools/lead_finder.py "Austin, TX" --industry "coffee shop" --limit 50
+# ✓ Searches Google for businesses
+# ✓ Analyzes their profiles
+# ✓ Scores lead quality (0-100)
+# ✓ Saves to CSV: leads/leads_20251031.csv
+
+# Generate audit reports for all leads (bulk!)
+python tools/bulk_audit.py leads/leads_20251031.csv \
+  --your-name "John Smith" \
+  --your-phone "(206) 555-1234"
+# ✓ Creates 50 personalized PDFs in 2 minutes
+# ✓ Ready to attach to emails
+# ✓ Saves to: reports/bulk_20251031/
+
+# Send outreach emails using templates
+# Use email templates in templates/email_outreach.md
+# With Gmail, Mailchimp, or GMass for mail merge
+
+# Deploy landing page for inbound leads
+# See landing-page/README.md - deploy to Netlify in 5 minutes
+# Captures leads 24/7 automatically
+```
+
+**🚀 Full Automation Workflow:**
+1. Run `lead_finder.py` → Get 50 leads
+2. Run `bulk_audit.py` → Generate 50 reports
+3. Send emails with reports → Get responses
+4. Deploy landing page → Get inbound leads
+5. Post social media → Build brand
+6. Run ads → Scale to 10-20 leads/day
+
+**Result:** 50-100 leads per week on autopilot
 
 **Demo mode works great for:**
 - Creating portfolio examples
