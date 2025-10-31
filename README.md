@@ -1,8 +1,8 @@
-# GBP Tune-Up Business System
+# Visible Local - GBP Optimization Business System
 
 **Complete business-in-a-box for Google Business Profile optimization services**
 
-Launch a profitable local service business in 48 hours with zero upfront costs.
+Launch your "Visible Local" business in 48 hours with zero upfront costs. Everything is ready: professional website, email campaigns, and automation tools.
 
 ## 💰 Business Model
 

@@ -1,13 +1,13 @@
-# 📧 Email Automation Guide
+# 📧 Email Automation Guide - Visible Local
 
-Send professional outreach emails to your 79 leads with email addresses.
+Send professional outreach emails branded as "Visible Local" to your 76 leads with email addresses.
 
 ---
 
 ## ✅ What You Have
 
-- **79 businesses with email addresses** (from your 202 total leads)
-- **5 proven email templates** ready to use
+- **76 businesses with email addresses** (from your 202 total leads)
+- **5 proven email templates** with "Visible Local" branding
 - **Personalized emails** with their specific gaps
 - **Automated tool** to generate emails in seconds
 
@@ -33,7 +33,9 @@ python tools/email_campaign.py \
   --export
 ```
 
-**Output:** `email_campaigns/campaign_template1_YYYYMMDD.csv` with 79 personalized emails ready to send!
+**Output:** `email_campaigns/campaign_template1_YYYYMMDD.csv` with 76 personalized emails ready to send!
+
+**Latest campaign:** `email_campaigns/campaign_template3_20251031_004344.csv` (already generated with Visible Local branding)
 
 ---
 
@@ -50,7 +52,7 @@ You have 3 options:
 3. Click "Send emails"
 4. Done! Tracks opens, clicks, replies automatically
 
-**Free tier:** 50 emails/day (perfect for your 79 leads over 2 days)
+**Free tier:** 50 emails/day (perfect for your 76 leads over 2 days)
 
 ---
 
@@ -67,7 +69,7 @@ You have 3 options:
    - Mark as sent in spreadsheet
 
 **Pro:** Most personal, highest reply rate
-**Con:** Time-consuming (79 emails = ~2 hours)
+**Con:** Time-consuming (76 emails = ~2 hours)
 
 ---
 
@@ -104,9 +106,9 @@ You have 3 options:
 - **Expected response rate:** 12-18%
 
 ### Template 4: Local Connection
-- **Subject:** "Weber here - noticed {Business Name} needs some Google love"
-- **Tone:** Local, personal, urgent
-- **Best for:** Sandpoint/local businesses
+- **Subject:** "Local business owner here - noticed {Business Name}'s Google listing"
+- **Tone:** Local, personal, professional
+- **Best for:** North Idaho/local businesses
 - **Expected response rate:** 15-20%
 
 ### Template 5: Results-Focused
@@ -131,7 +133,7 @@ You have 3 options:
 
 ### Week 2: Scale
 
-**Day 1:** Send winning template to remaining 39 leads
+**Day 1:** Send winning template to remaining 36 leads
 **Day 2:** Follow up with non-responders (different template)
 **Day 3:** Close deals
 
@@ -153,7 +155,7 @@ You have 3 options:
 
 ### ❌ DON'Ts:
 
-- Don't send all 79 at once (looks spammy)
+- Don't send all 76 at once (looks spammy)
 - Don't use ALL CAPS or excessive punctuation!!!
 - Don't attach large files (use links instead)
 - Don't send from "noreply@" addresses
@@ -180,8 +182,9 @@ Also - are you free for a quick 10-min call this week? I can walk you through th
 Best times for me: [YOUR AVAILABILITY]
 
 Thanks!
-Weber
-(208) 555-1234
+Visible Local
+contact@visiblelocal.co
+North Idaho
 ```
 
 Then:
@@ -201,7 +204,7 @@ One quick question (helps me improve): What made you say no? Too expensive? Not 
 
 Either way, best of luck with the business!
 
-Weber
+Visible Local
 ```
 
 **Why ask?** You'll learn objections and improve your pitch.
@@ -228,8 +231,9 @@ Want me to send it? Just reply "yes."
 If not interested, reply "no thanks" and I won't bug you again!
 
 Best,
-Weber
-(208) 555-1234
+Visible Local
+contact@visiblelocal.co
+North Idaho
 ```
 
 **Send this once.** If still no response, move on.
@@ -239,19 +243,19 @@ Weber
 ## 📈 Expected Results
 
 ### Conservative (Worst Case):
-- **79 emails sent**
+- **76 emails sent**
 - **5% response rate** = 4 responses
 - **50% close rate** = 2 clients
 - **Revenue:** $358
 
 ### Realistic (Average):
-- **79 emails sent**
+- **76 emails sent**
 - **12% response rate** = 9 responses
 - **50% close rate** = 4-5 clients
 - **Revenue:** $716-895
 
 ### Optimistic (Best Case):
-- **79 emails sent**
+- **76 emails sent**
 - **18% response rate** = 14 responses
 - **60% close rate** = 8-9 clients
 - **Revenue:** $1,432-1,611
@@ -274,7 +278,7 @@ Use Mailchimp or GMass automation to set this up once and let it run.
 
 ## ✅ Pre-Send Checklist
 
-Before hitting send on 79 emails:
+Before hitting send on 76 emails:
 
 - [ ] Test email sent to yourself (check formatting)
 - [ ] Unsubscribe link included (if using bulk tool)
@@ -291,7 +295,7 @@ Before hitting send on 79 emails:
 ## 🚨 Legal Compliance (CAN-SPAM Act)
 
 ✅ **Required:**
-- Include your physical address (Sandpoint, ID 83864)
+- Include your physical address (North Idaho)
 - Include unsubscribe link (GMass/Mailchimp add automatically)
 - Don't use misleading subject lines
 - Honor unsubscribe requests within 10 days
@@ -306,17 +310,17 @@ Before hitting send on 79 emails:
 
 ## 💡 Pro Tips
 
-1. **Send from your personal email** (weber@gmail.com) not a generic address - higher open rates
+1. **Send from your professional email** - Use "Visible Local" in your name field for higher open rates
 
 2. **A/B test subject lines** on first 20 emails:
    - 10 with Subject A
    - 10 with Subject B
-   - Use winner for remaining 59
+   - Use winner for remaining 56
 
-3. **Warm up your email** if sending 79 in one day:
-   - Day 1: 20 emails
-   - Day 2: 30 emails
-   - Day 3: 29 emails
+3. **Warm up your email** if sending 76 in one day:
+   - Day 1: 25 emails
+   - Day 2: 25 emails
+   - Day 3: 26 emails
    - Avoids spam filters
 
 4. **Track everything:**
@@ -337,7 +341,7 @@ They'll call after reading your email. Be ready:
 
 **Your Script:**
 
-"Hi, this is Weber! Thanks for calling. Are you calling about the Google Business Profile audit I emailed?
+"Hi, this is Visible Local! Thanks for calling. Are you calling about the Google Business Profile audit I emailed?
 
 [They say yes]
 
@@ -358,13 +362,14 @@ I actually have a slot open [THIS WEEK]. Want to book it?"
 ## 🎉 You're Ready!
 
 You now have:
-- ✅ 79 email addresses
-- ✅ 5 professional templates
+- ✅ 76 email addresses
+- ✅ 5 professional templates with "Visible Local" branding
 - ✅ Automated tool to generate campaigns
 - ✅ Sending strategy
 - ✅ Response handling scripts
+- ✅ Campaign already generated: `campaign_template3_20251031_004344.csv`
 
-**Next step: Run the email campaign tool and start sending!**
+**Next step: Send your emails using GMass or manually!**
 
 ```bash
 python tools/email_campaign.py \

@@ -1,24 +1,19 @@
-# Update Contact Information
+# Update Contact Information - Visible Local
 
 ## Quick Reference: Where to Update Your Contact Info
 
 After you get your real phone number and email, update these placeholders:
 
-### 1. In `index.html` (4 locations)
+### 1. In `index.html` (2 locations)
 
 Search for these and replace with your real info:
 
-**Phone Number:** `(208) 555-1234`
-- Line ~472 (Footer section)
+**Email Address:** `contact@visiblelocal.co`
+- Line 220 (Contact section)
+- Line 273 (Footer section)
 
-**Email Address:** `weber@apexlocalmarketing.com`
-- Line ~474 (Footer section)
-
-**Your Name:** `Weber`
-- Line ~471 (Footer section)
-
-**Location:** `Serving North Idaho`
-- Line ~475 (Footer section - update if needed)
+**Business Name:** Visible Local (already set)
+**Location:** North Idaho (already set)
 
 ### 2. How to Update (Windows)
 
@@ -26,11 +21,10 @@ Search for these and replace with your real info:
 1. Open File Explorer → `D:\gbp-tune-up-business\landing-page\`
 2. Right-click `index.html` → Open with Notepad
 3. Press `Ctrl+H` (Find & Replace)
-4. Find: `(208) 555-1234`
-5. Replace with: Your real phone number
-6. Click "Replace All"
-7. Repeat for email and name
-8. Save (`Ctrl+S`)
+4. Find: `contact@visiblelocal.co`
+5. Replace with: `your.real.email@gmail.com`
+6. Click "Replace All" (should replace 2 instances)
+7. Save (`Ctrl+S`)
 
 **Method 2: Using VS Code (Better)**
 1. Open VS Code
@@ -90,10 +84,10 @@ Search for these and replace with your real info:
 
 ## Get a Domain Name (Optional - When You're Ready)
 
-### Recommended Domains for "Apex Local Marketing":
-- **apexlocalmarketing.com** - $12/year
-- **apexlocal.co** - $20/year
-- **apexidaho.com** - $12/year
+### Recommended Domains for "Visible Local":
+- **visiblelocal.com** - $12/year (Perfect match!)
+- **visiblelocal.co** - $20/year (Modern alternative)
+- **getvisible.local** - If .local TLD available
 
 ### Where to Buy:
 - **Namecheap.com** - Cheapest, best interface
@@ -150,36 +144,33 @@ Then Netlify auto-deploys (if connected to GitHub)
 
 | Item | Current Placeholder | Your Real Info |
 |------|-------------------|----------------|
-| Phone | (208) 555-1234 | [Get Google Voice number] |
-| Email | weber@apexlocalmarketing.com | [Your real email] |
-| Name | Weber | [Your name] |
-| Domain | mellifluous-torrone-836797.netlify.app | [Buy apexlocalmarketing.com] |
+| Email | contact@visiblelocal.co | [Your real email] |
+| Business | Visible Local | ✓ Set |
+| Phone | Optional | [Get Google Voice if needed] |
+| Domain | mellifluous-torrone-836797.netlify.app | [Buy visiblelocal.com when ready] |
 
 ---
 
 ## Contact Info Checklist
 
 Before going live:
-- [ ] Get real phone number (Google Voice or OpenPhone)
-- [ ] Update phone in `index.html` (1 location)
-- [ ] Update email in `index.html` (1 location)
-- [ ] Update name if needed
+- [ ] Update email in `index.html` (2 locations: lines 220 & 273)
+- [ ] Optional: Get phone number (Google Voice or OpenPhone)
 - [ ] Test contact form submission
-- [ ] Test phone number (call it, make sure it forwards)
 - [ ] Test email (send test email, make sure you receive it)
 - [ ] Deploy to Netlify
 - [ ] Test live website
-- [ ] (Optional) Buy domain and connect to Netlify
+- [ ] (Optional) Buy domain visiblelocal.com and connect to Netlify
 
 ---
 
 ## Pro Tips
 
-1. **Use Google Voice initially** - It's free and you can upgrade later
+1. **Phone is optional** - You can start without a phone number, just use email
 2. **Test everything** before sending emails to leads
-3. **Update .env file too** (in project root) with your contact info
-4. **Get a professional email** - Gmail is fine, but `weber@apexlocalmarketing.com` looks better
-5. **Set up email forwarding** - Once you have a domain, create email forwards
+3. **Update email campaigns** - All templates already use contact@visiblelocal.co, just update with your real email
+4. **Get a professional email** - Gmail works fine, or get `contact@visiblelocal.com` once you buy the domain
+5. **Set up email forwarding** - Once you have visiblelocal.com domain, create email forwards
 
 ---
 

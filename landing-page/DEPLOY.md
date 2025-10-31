@@ -1,12 +1,14 @@
-# 🚀 Landing Page Deployment Guide
+# 🚀 Landing Page Deployment Guide - Visible Local
 
-Deploy your professional GBP Services website to Netlify in 5 minutes.
+Deploy your professional "Visible Local" website to Netlify in 5 minutes.
 
 ---
 
 ## ✅ What's Included
 
-- **Professional landing page** with your branding (Weber, (208) 555-1234)
+- **Professional landing page** with "Visible Local" branding
+- **Dark slate + warm amber design** (no template feel)
+- **Zero emojis** - only real SVG icons
 - **Contact form** that captures leads
 - **Mobile responsive** design
 - **SEO optimized** for local searches
@@ -88,16 +90,17 @@ netlify deploy --prod
 
 Edit these files with your real information:
 
-**1. `index.html`** (Lines you need to update):
-- Line 194: `weber@gbpservices.com` → Your real email
-- Line 536: `(208) 555-1234` → Your real phone
-- Line 544: `weber@gbpservices.com` → Your real email
+**1. `index.html`** (2 locations to update):
+- Line 220: `contact@visiblelocal.co` → Your real email (Contact form)
+- Line 273: `contact@visiblelocal.co` → Your real email (Footer)
 
-**2. `.env` file** (Already updated with your info):
-```
-YOUR_NAME=Weber
-YOUR_PHONE=(208) 555-1234
-YOUR_EMAIL=your.email@gmail.com  ← Update this!
+**Quick Find & Replace:**
+1. Open index.html in Notepad
+2. Press Ctrl+H
+3. Find: `contact@visiblelocal.co`
+4. Replace: `your.real.email@gmail.com`
+5. Replace All (2 instances)
+6. Save
 ```
 
 ### Change Colors/Branding

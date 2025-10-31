@@ -43,11 +43,11 @@ I've attached a free audit report showing exactly what's missing from your profi
 Want to see it? Just reply "yes" and I'll send it over.
 
 Best regards,
-Weber
-(208) 555-1234
-weber@gbpservices.com
+Visible Local
+contact@visiblelocal.co
+North Idaho
 
-P.S. I'm local to North Idaho and can usually start within 1-2 days. First 5 businesses this week get $30 off."""
+P.S. I'm local to North Idaho and can usually start within 1-2 days."""
     },
 
     2: {
@@ -68,9 +68,9 @@ I specialize in fixing this - takes 90 minutes, costs $179, and businesses typic
 If you're interested in a free audit showing exactly what's missing, just let me know. No pressure if not!
 
 Cheers,
-Weber
-GBP Services | Sandpoint, ID
-(208) 555-1234"""
+Visible Local
+contact@visiblelocal.co
+North Idaho"""
     },
 
     3: {
@@ -93,36 +93,35 @@ Just reply "send it" and I'll email it over.
 If not interested, no worries - I won't bug you again!
 
 Best,
-Weber
-(208) 555-1234
-weber@gbpservices.com"""
+Visible Local
+contact@visiblelocal.co
+North Idaho"""
     },
 
     4: {
-        "subject": "Weber here - noticed {business_name} needs some Google love",
+        "subject": "Local business owner here - noticed {business_name}'s Google listing",
         "body": """Hey,
 
-I'm a local business owner in Sandpoint and I help other local businesses get more customers through Google.
+I run Visible Local and help North Idaho businesses get more customers through Google.
 
 I was checking out {business_name} and noticed your Google profile could use some work:
 
 {reasons}
 
-I've helped 50+ Idaho businesses boost their Google visibility - most see 2-3X more calls within the first month.
-
 What I do:
 • Professional photos (20+)
-• Complete profile setup
+• Complete profile optimization
 • Weekly posts + review management
 • $179 one-time or $59/mo ongoing
 
-I'm running a special this week: First 3 sign-ups get it done within 24 hours + $30 off.
+Most businesses see noticeably more calls within the first month.
 
-Interested? Call/text me: (208) 555-1234
+Interested? Reply and I'll send a free audit showing exactly what's missing.
 
 Thanks,
-Weber
-North Idaho GBP Services"""
+Visible Local
+contact@visiblelocal.co
+North Idaho"""
     },
 
     5: {
@@ -140,14 +139,14 @@ I checked out {business_name} and found these gaps:
 
 Good news: This is easy to fix. Takes 90 minutes, costs $179, and you'll see results within days.
 
-I've done this for 50+ North Idaho businesses. Average result: 2-3X more calls/visits from Google.
-
 Want a free audit showing your current score vs. competitors?
 
-Reply "yes" or call (208) 555-1234.
+Reply "yes" and I'll send it over.
 
 Best regards,
-Weber"""
+Visible Local
+contact@visiblelocal.co
+North Idaho"""
     }
 }
 
@@ -247,7 +246,7 @@ def export_emails_to_csv(leads: List[Dict], template_id: int, output_path: str):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Email campaign tool for GBP Services'
+        description='Email campaign tool for Visible Local'
     )
     parser.add_argument('--csv', required=True, help='CSV file with leads (must have email column)')
     parser.add_argument('--template', type=int, default=1, choices=[1,2,3,4,5],

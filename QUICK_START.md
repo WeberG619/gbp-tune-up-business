@@ -1,6 +1,7 @@
-# 🚀 QUICK START - Everything is Ready!
+# 🚀 QUICK START - Visible Local
 
-**Date:** October 30, 2025
+**Business Name:** Visible Local
+**Date:** October 31, 2025
 **Status:** ✅ Email campaign generated, website ready to deploy
 
 ---
@@ -8,14 +9,15 @@
 ## ✅ What's Already Done For You
 
 ### 1. **Email Campaign - READY TO SEND** ✅
-- **76 personalized emails** generated
-- **File:** `email_campaigns/campaign_template3_20251030_235704.csv`
+- **76 personalized emails** generated with "Visible Local" branding
+- **File:** `email_campaigns/campaign_template3_20251031_004344.csv`
 - **Template:** Free Audit Offer (best for cold outreach)
 - **Expected:** 9-14 responses, 4-6 clients, $716-1,074
 
 ### 2. **Professional Website - READY TO DEPLOY** ✅
+- **Business Name:** Visible Local
 - **Files:** `landing-page/` (index.html, styles.css, script.js)
-- **Design:** Modern, mobile-responsive, conversion-optimized
+- **Design:** Modern dark slate + amber, mobile-responsive, zero emojis
 - **Status:** Just needs your real email address
 
 ### 3. **Lead Database** ✅
@@ -38,7 +40,7 @@ D:\gbp-tune-up-business\landing-page\index.html
 1. Open File Explorer → Navigate to `D:\gbp-tune-up-business\landing-page\`
 2. Right-click `index.html` → Open with Notepad
 3. Press `Ctrl+H` (Find & Replace)
-4. Find: `weber@gbpservices.com`
+4. Find: `contact@visiblelocal.co`
 5. Replace with: `your.real.email@gmail.com`
 6. Click "Replace All" (should replace 2 instances)
 7. Save (`Ctrl+S`)
@@ -75,7 +77,7 @@ D:\gbp-tune-up-business\landing-page\index.html
 
 **File location (Windows):**
 ```
-D:\gbp-tune-up-business\email_campaigns\campaign_template3_20251030_235704.csv
+D:\gbp-tune-up-business\email_campaigns\campaign_template3_20251031_004344.csv
 ```
 
 **Option A: GMass (Recommended - FREE)**
@@ -83,7 +85,7 @@ D:\gbp-tune-up-business\email_campaigns\campaign_template3_20251030_235704.csv
 1. Go to https://www.gmass.co/ → Install Chrome extension
 2. Open Gmail
 3. Click GMass button → "Upload CSV"
-4. Browse to: `D:\gbp-tune-up-business\email_campaigns\campaign_template3_20251030_235704.csv`
+4. Browse to: `D:\gbp-tune-up-business\email_campaigns\campaign_template3_20251031_004344.csv`
 5. Map columns:
    - "email" → Email Address
    - "subject" → Subject Line
@@ -149,8 +151,8 @@ I can walk you through the report and answer questions.
 Best times for me: [YOUR AVAILABILITY]
 
 Thanks!
-Weber
-(208) 555-1234
+Visible Local
+contact@visiblelocal.co
 ```
 
 **Then generate their audit (from WSL/terminal):**
@@ -235,8 +237,8 @@ python tools/gbp_audit.py "Business Name" "City, State"
 All files at: `D:\gbp-tune-up-business\`
 
 **Files you'll use:**
-- `landing-page\index.html` - Update your email here
-- `email_campaigns\campaign_template3_20251030_235704.csv` - 76 emails ready to send
+- `landing-page\index.html` - Update your email here (Visible Local branding)
+- `email_campaigns\campaign_template3_20251031_004344.csv` - 76 emails ready with Visible Local branding
 - `maps\market_leads_20251030_214319_with_emails.csv` - Full lead database
 - `maps\action_plan_20251030_214319.md` - Top 10 walk-in targets
 
