@@ -1,301 +1,234 @@
 /**
  * LocalSearchPro - Professional Website JavaScript
- * Handles navigation, form submission, and interactive elements
+ * Enterprise-grade interactions and functionality
  */
 
 (function() {
     'use strict';
 
-    // Smooth scrolling for navigation links
-    function initSmoothScrolling() {
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                const href = this.getAttribute('href');
-                if (href === '#') return;
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (href === '#' || !href) return;
 
-                e.preventDefault();
-                const target = document.querySelector(href);
+            e.preventDefault();
+            const target = document.querySelector(href);
 
-                if (target) {
-                    const navHeight = document.querySelector('.header').offsetHeight;
-                    const targetPosition = target.offsetTop - navHeight;
+            if (target) {
+                const headerOffset = 80;
+                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset;
 
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
 
-                    // Close mobile menu if open
-                    const navMenu = document.querySelector('.nav-menu');
-                    if (navMenu.classList.contains('active')) {
-                        navMenu.classList.remove('active');
-                    }
+                // Close mobile menu if open
+                const navMenu = document.querySelector('.nav-menu');
+                if (navMenu && navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    const toggle = document.querySelector('.mobile-toggle');
+                    if (toggle) toggle.classList.remove('active');
                 }
-            });
+            }
         });
-    }
+    });
 
     // Mobile menu toggle
-    function initMobileMenu() {
-        const mobileToggle = document.querySelector('.mobile-toggle');
-        const navMenu = document.querySelector('.nav-menu');
+    const mobileToggle = document.querySelector('.mobile-toggle');
+    const navMenu = document.querySelector('.nav-menu');
 
-        if (mobileToggle && navMenu) {
-            mobileToggle.addEventListener('click', function() {
-                navMenu.classList.toggle('active');
-                this.classList.toggle('active');
-            });
+    if (mobileToggle && navMenu) {
+        mobileToggle.addEventListener('click', function(e) {
+            e.stopPropagation();
+            navMenu.classList.toggle('active');
+            this.classList.toggle('active');
+        });
 
-            // Close menu when clicking outside
-            document.addEventListener('click', function(e) {
-                if (!e.target.closest('.nav-container')) {
-                    navMenu.classList.remove('active');
-                    mobileToggle.classList.remove('active');
-                }
-            });
-        }
-    }
-
-    // FAQ accordion functionality
-    function initFAQ() {
-        const faqItems = document.querySelectorAll('.faq-item');
-
-        faqItems.forEach(item => {
-            const question = item.querySelector('.faq-question');
-            const answer = item.querySelector('.faq-answer');
-
-            if (question && answer) {
-                // Set initial state
-                answer.style.display = 'none';
-
-                question.addEventListener('click', function() {
-                    const isActive = item.classList.contains('active');
-
-                    // Close all other FAQ items
-                    faqItems.forEach(otherItem => {
-                        if (otherItem !== item) {
-                            otherItem.classList.remove('active');
-                            const otherAnswer = otherItem.querySelector('.faq-answer');
-                            if (otherAnswer) {
-                                otherAnswer.style.display = 'none';
-                            }
-                        }
-                    });
-
-                    // Toggle current item
-                    item.classList.toggle('active');
-                    answer.style.display = isActive ? 'none' : 'block';
-                });
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.nav-container')) {
+                navMenu.classList.remove('active');
+                mobileToggle.classList.remove('active');
             }
         });
+
+        // Close menu when clicking a link
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileToggle.classList.remove('active');
+            });
+        });
     }
 
-    // Form submission handler
-    function initContactForm() {
-        const form = document.getElementById('auditForm');
+    // FAQ accordion
+    const faqItems = document.querySelectorAll('.faq-item');
 
-        if (form) {
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        const answer = item.querySelector('.faq-answer');
 
-                // Get form data
-                const formData = new FormData(form);
-                const data = {
-                    name: formData.get('name'),
-                    business: formData.get('business'),
-                    email: formData.get('email'),
-                    phone: formData.get('phone'),
-                    googleUrl: formData.get('googleUrl'),
-                    message: formData.get('message')
-                };
+        if (question && answer) {
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
 
-                // Validate required fields
-                if (!data.name || !data.business || !data.email || !data.phone) {
-                    alert('Please fill in all required fields.');
-                    return;
-                }
-
-                // Email validation
-                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                if (!emailRegex.test(data.email)) {
-                    alert('Please enter a valid email address.');
-                    return;
-                }
-
-                // Show loading state
-                const submitButton = form.querySelector('.btn-submit');
-                const originalText = submitButton.textContent;
-                submitButton.textContent = 'Sending...';
-                submitButton.disabled = true;
-
-                // TODO: Replace with your actual form handling
-                // Option 1: Use a service like Formspree, Basin, or Getform
-                // Option 2: Send to your own backend API
-                // Option 3: Use email.js or similar service
-
-                // Example with timeout (replace with actual submission)
-                setTimeout(() => {
-                    console.log('Form submitted:', data);
-
-                    // Show success message
-                    alert('Thank you! We\'ll send your free audit report within 24 hours.');
-
-                    // Reset form
-                    form.reset();
-                    submitButton.textContent = originalText;
-                    submitButton.disabled = false;
-
-                    // Scroll to top
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                }, 1000);
-
-                // PRODUCTION: Replace setTimeout above with actual form submission
-                // Example using fetch API:
-                /*
-                fetch('YOUR_FORM_ENDPOINT_URL', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(data)
-                })
-                .then(response => response.json())
-                .then(result => {
-                    alert('Thank you! We\'ll send your free audit report within 24 hours.');
-                    form.reset();
-                    submitButton.textContent = originalText;
-                    submitButton.disabled = false;
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    alert('Oops! Something went wrong. Please call us directly.');
-                    submitButton.textContent = originalText;
-                    submitButton.disabled = false;
+                // Close all other FAQs
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
                 });
-                */
+
+                // Toggle current FAQ
+                item.classList.toggle('active');
             });
         }
-    }
+    });
 
-    // Intersection Observer for scroll animations
-    function initScrollAnimations() {
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
+    // Form submission
+    const contactForm = document.getElementById('auditForm');
 
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, observerOptions);
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
 
-        // Select elements to animate
-        const animatedElements = document.querySelectorAll(
-            '.service-item, .result-card, .pricing-card, .problem-item, .timeline-item'
-        );
+            const formData = new FormData(this);
+            const data = {
+                name: formData.get('name'),
+                business: formData.get('business'),
+                email: formData.get('email'),
+                phone: formData.get('phone'),
+                googleUrl: formData.get('googleUrl') || '',
+                message: formData.get('message') || ''
+            };
 
-        animatedElements.forEach(el => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(20px)';
-            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-            observer.observe(el);
-        });
-    }
-
-    // Sticky header shadow on scroll
-    function initStickyHeader() {
-        const header = document.querySelector('.header');
-        let lastScroll = 0;
-
-        window.addEventListener('scroll', function() {
-            const currentScroll = window.pageYOffset;
-
-            if (currentScroll > 50) {
-                header.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
-            } else {
-                header.style.boxShadow = '0 1px 2px 0 rgba(0, 0, 0, 0.05)';
+            // Validate required fields
+            if (!data.name || !data.business || !data.email || !data.phone) {
+                alert('Please fill in all required fields.');
+                return;
             }
 
-            lastScroll = currentScroll;
-        });
-    }
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(data.email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
 
-    // Phone number click tracking (for analytics)
-    function initPhoneTracking() {
-        const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+            const submitBtn = this.querySelector('.btn-primary');
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
 
-        phoneLinks.forEach(link => {
-            link.addEventListener('click', function() {
-                // Track phone click event
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'phone_click', {
-                        'event_category': 'engagement',
-                        'event_label': 'Phone Number Clicked'
-                    });
-                }
-                console.log('Phone number clicked:', this.href);
+            // TODO: Replace with actual form submission
+            // Example: Use Formspree, Basin, or your own backend
+            setTimeout(() => {
+                console.log('Form data:', data);
+                alert('Thank you! We\'ll send your free audit report within 24 hours.');
+                contactForm.reset();
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+            }, 1000);
+
+            // FOR PRODUCTION: Replace above with actual API call
+            /*
+            fetch('YOUR_FORM_ENDPOINT', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                alert('Thank you! We\'ll send your free audit report within 24 hours.');
+                contactForm.reset();
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error. Please call us directly.');
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
             });
+            */
         });
     }
 
-    // Email link tracking (for analytics)
-    function initEmailTracking() {
-        const emailLinks = document.querySelectorAll('a[href^="mailto:"]');
+    // Scroll animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
 
-        emailLinks.forEach(link => {
-            link.addEventListener('click', function() {
-                // Track email click event
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'email_click', {
-                        'event_category': 'engagement',
-                        'event_label': 'Email Link Clicked'
-                    });
-                }
-                console.log('Email link clicked:', this.href);
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    // Observe cards and sections
+    const animatedElements = document.querySelectorAll(
+        '.service-card, .result-card, .price-card, .problem-card, .process-step'
+    );
+
+    animatedElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(el);
+    });
+
+    // Header shadow on scroll
+    const header = document.querySelector('.header');
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+
+        if (currentScroll > 50) {
+            header.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+        } else {
+            header.style.boxShadow = '0 1px 2px 0 rgba(0, 0, 0, 0.05)';
+        }
+
+        lastScroll = currentScroll;
+    });
+
+    // Analytics tracking (if GA is present)
+    const trackEvent = (category, action, label) => {
+        if (typeof gtag !== 'undefined') {
+            gtag('event', action, {
+                'event_category': category,
+                'event_label': label
             });
+        }
+    };
+
+    // Track phone clicks
+    document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+        link.addEventListener('click', () => {
+            trackEvent('engagement', 'phone_click', 'Phone Number');
         });
-    }
+    });
 
-    // CTA button tracking
-    function initCTATracking() {
-        const ctaButtons = document.querySelectorAll('.btn-primary, .pricing-cta');
-
-        ctaButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'cta_click', {
-                        'event_category': 'engagement',
-                        'event_label': this.textContent.trim()
-                    });
-                }
-                console.log('CTA clicked:', this.textContent.trim());
-            });
+    // Track email clicks
+    document.querySelectorAll('a[href^="mailto:"]').forEach(link => {
+        link.addEventListener('click', () => {
+            trackEvent('engagement', 'email_click', 'Email Address');
         });
-    }
+    });
 
-    // Initialize all functions when DOM is ready
-    function init() {
-        initSmoothScrolling();
-        initMobileMenu();
-        initFAQ();
-        initContactForm();
-        initScrollAnimations();
-        initStickyHeader();
-        initPhoneTracking();
-        initEmailTracking();
-        initCTATracking();
-    }
+    // Track CTA clicks
+    document.querySelectorAll('.btn-primary, .btn-secondary').forEach(btn => {
+        btn.addEventListener('click', () => {
+            trackEvent('engagement', 'cta_click', btn.textContent.trim());
+        });
+    });
 
-    // Wait for DOM to be fully loaded
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
-
+    console.log('LocalSearchPro website initialized');
 })();
