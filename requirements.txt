@@ -6,6 +6,9 @@ pillow-heif>=0.13.0
 # PDF generation
 reportlab>=4.0.0
 
+# Configuration and environment
+python-dotenv>=1.0.0
+
 # Optional: Advanced image processing
 # rembg>=2.0.0  # AI background removal (requires onnxruntime)
 # opencv-python>=4.8.0  # Advanced image processing

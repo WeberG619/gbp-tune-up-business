@@ -11,26 +11,44 @@ Launch a profitable local service business in 48 hours with zero upfront costs.
 - **Recurring**: $59/mo (weekly posts + review management)
 - **Target**: 30 clients = $1,770/mo recurring by Month 3
 
-## 🚀 **START HERE:** [GETTING STARTED TODAY →](GETTING_STARTED_TODAY.md)
-
-**Everything is ready to use RIGHT NOW - no API key required!**
-
-### Quick Setup (15 minutes)
+## 🚀 QUICKEST START (5 minutes)
 
 ```bash
-# Clone this repo
+# 1. Clone and install
 git clone https://github.com/WeberG619/gbp-tune-up-business.git
 cd gbp-tune-up-business
-
-# Install dependencies
 pip install -r requirements.txt
 
-# Test the audit tool (generates professional PDF reports)
-python tools/gbp_audit.py --demo --your-name "Your Name" --your-phone "(555) 123-4567"
+# 2. Run setup wizard (configures everything)
+python setup_wizard.py
 
-# Check the reports folder - you now have a portfolio-ready PDF!
-ls reports/
+# 3. Check what you need
+cat PRE_FLIGHT_CHECKLIST.md
 ```
+
+**Then:** [→ Get your first customer](PRE_FLIGHT_CHECKLIST.md)
+
+---
+
+## 📋 **CRITICAL:** [Pre-Flight Checklist →](PRE_FLIGHT_CHECKLIST.md)
+
+**⚠️ READ THIS FIRST** - Shows exactly what's needed to actually get customers
+
+The system works in demo mode, but you need to:
+- ✅ Configure your contact info (2 min)
+- ✅ Set up payment method (5 min - Venmo/Zelle)
+- ✅ Find real leads to contact (10 min)
+
+**Everything else is optional!** See checklist for details.
+
+---
+
+## 📚 Full Documentation
+
+**Start Here:**
+- **[→ PRE-FLIGHT CHECKLIST](PRE_FLIGHT_CHECKLIST.md)** - What's needed to get customers ⚠️
+- [Getting Started Today](GETTING_STARTED_TODAY.md) - Complete 24-hour action plan
+- [Quick Start](QUICK_START.md) - Land your first client today
 
 ### Today: Get Your First Client
 
