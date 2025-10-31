@@ -16,6 +16,15 @@ from typing import Dict, List, Optional
 import requests
 from dataclasses import dataclass, asdict
 
+# PDF generation
+from reportlab.lib.pagesizes import letter
+from reportlab.lib import colors
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.units import inch
+from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, PageBreak
+from reportlab.platypus import Image as RLImage
+from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT
+
 
 @dataclass
 class GBPAuditResult:
@@ -280,15 +289,51 @@ class GBPAuditor:
         """Generate realistic demo data for testing without API"""
         import random
 
+        # Determine business type for more realistic data
+        business_lower = business_name.lower()
+
+        # Industry-specific profiles
+        if any(word in business_lower for word in ['coffee', 'cafe', 'bakery']):
+            photo_range = (3, 7)
+            review_range = (18, 35)
+            rating_range = (3.8, 4.6)
+            has_website_prob = 0.4
+        elif any(word in business_lower for word in ['salon', 'barber', 'spa']):
+            photo_range = (2, 6)
+            review_range = (12, 28)
+            rating_range = (4.0, 4.8)
+            has_website_prob = 0.3
+        elif any(word in business_lower for word in ['gym', 'fitness', 'yoga']):
+            photo_range = (5, 10)
+            review_range = (20, 45)
+            rating_range = (4.2, 4.9)
+            has_website_prob = 0.6
+        elif any(word in business_lower for word in ['plumb', 'hvac', 'electric', 'repair']):
+            photo_range = (1, 4)
+            review_range = (8, 22)
+            rating_range = (3.5, 4.7)
+            has_website_prob = 0.5
+        elif any(word in business_lower for word in ['restaurant', 'pizza', 'burger', 'food']):
+            photo_range = (6, 12)
+            review_range = (25, 60)
+            rating_range = (3.7, 4.5)
+            has_website_prob = 0.5
+        else:
+            # Default/general business
+            photo_range = (3, 8)
+            review_range = (15, 40)
+            rating_range = (3.5, 4.6)
+            has_website_prob = 0.5
+
         return {
             'name': business_name,
             'formatted_address': location,
-            'rating': round(random.uniform(3.5, 4.8), 1),
-            'user_ratings_total': random.randint(15, 45),
-            'photos': [{'reference': f'photo_{i}'} for i in range(random.randint(3, 8))],
+            'rating': round(random.uniform(*rating_range), 1),
+            'user_ratings_total': random.randint(*review_range),
+            'photos': [{'reference': f'photo_{i}'} for i in range(random.randint(*photo_range))],
             'opening_hours': None if random.random() > 0.7 else {'open_now': True},
             'formatted_phone_number': None if random.random() > 0.8 else '(555) 123-4567',
-            'website': None if random.random() > 0.6 else 'https://example.com',
+            'website': None if random.random() > has_website_prob else 'https://example.com',
             'editorial_summary': None if random.random() > 0.7 else {'overview': 'A local business'}
         }
 
@@ -348,6 +393,191 @@ def save_report_json(result: GBPAuditResult, output_path: str = None):
     print(f"💾 Report saved to: {output_path}")
 
 
+def save_report_pdf(result: GBPAuditResult, output_path: str = None, your_name: str = "Your Name",
+                    your_phone: str = "(555) 123-4567", your_email: str = "you@example.com"):
+    """Save audit report as professional PDF"""
+
+    if not output_path:
+        filename = f"audit_{result.business_name.lower().replace(' ', '_')}_{datetime.now().strftime('%Y%m%d')}.pdf"
+        output_path = os.path.join('reports', filename)
+
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    # Create PDF
+    doc = SimpleDocTemplate(output_path, pagesize=letter,
+                           topMargin=0.5*inch, bottomMargin=0.5*inch,
+                           leftMargin=0.75*inch, rightMargin=0.75*inch)
+
+    story = []
+    styles = getSampleStyleSheet()
+
+    # Custom styles
+    title_style = ParagraphStyle(
+        'CustomTitle',
+        parent=styles['Heading1'],
+        fontSize=24,
+        textColor=colors.HexColor('#1a73e8'),
+        spaceAfter=6,
+        alignment=TA_CENTER
+    )
+
+    heading_style = ParagraphStyle(
+        'CustomHeading',
+        parent=styles['Heading2'],
+        fontSize=14,
+        textColor=colors.HexColor('#1a73e8'),
+        spaceAfter=12,
+        spaceBefore=12
+    )
+
+    # Header
+    story.append(Paragraph("GOOGLE BUSINESS PROFILE", title_style))
+    story.append(Paragraph("Audit Report", title_style))
+    story.append(Spacer(1, 0.3*inch))
+
+    # Business info box
+    business_data = [
+        ['Business:', result.business_name],
+        ['Location:', result.location],
+        ['Audit Date:', result.audit_date],
+    ]
+    business_table = Table(business_data, colWidths=[1.5*inch, 4.5*inch])
+    business_table.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (0, -1), colors.HexColor('#f0f0f0')),
+        ('TEXTCOLOR', (0, 0), (-1, -1), colors.black),
+        ('ALIGN', (0, 0), (0, -1), 'RIGHT'),
+        ('ALIGN', (1, 0), (1, -1), 'LEFT'),
+        ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
+        ('FONTNAME', (1, 0), (1, -1), 'Helvetica'),
+        ('FONTSIZE', (0, 0), (-1, -1), 11),
+        ('GRID', (0, 0), (-1, -1), 0.5, colors.grey),
+        ('PADDING', (0, 0), (-1, -1), 8),
+    ]))
+    story.append(business_table)
+    story.append(Spacer(1, 0.3*inch))
+
+    # Score section - BIG and attention-grabbing
+    score_diff = result.competitor_avg_score - result.profile_score
+    score_color = colors.red if score_diff > 20 else colors.orange if score_diff > 10 else colors.green
+
+    story.append(Paragraph("PROFILE PERFORMANCE", heading_style))
+
+    score_data = [
+        ['YOUR SCORE', 'COMPETITOR AVERAGE', 'GAP'],
+        [f'{result.profile_score}/100', f'{result.competitor_avg_score}/100', f'-{score_diff} points']
+    ]
+    score_table = Table(score_data, colWidths=[2*inch, 2*inch, 2*inch])
+    score_table.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#1a73e8')),
+        ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
+        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+        ('FONTSIZE', (0, 0), (-1, 0), 12),
+        ('FONTNAME', (0, 1), (-1, 1), 'Helvetica-Bold'),
+        ('FONTSIZE', (0, 1), (-1, 1), 18),
+        ('BACKGROUND', (0, 1), (0, 1), score_color),
+        ('BACKGROUND', (1, 1), (1, 1), colors.HexColor('#e8f5e9')),
+        ('BACKGROUND', (2, 1), (2, 1), colors.HexColor('#fff3e0')),
+        ('GRID', (0, 0), (-1, -1), 1, colors.white),
+        ('PADDING', (0, 0), (-1, -1), 12),
+    ]))
+    story.append(score_table)
+    story.append(Spacer(1, 0.2*inch))
+
+    # Current status
+    story.append(Paragraph("CURRENT STATUS", heading_style))
+
+    status_data = [
+        ['Metric', 'Your Business', 'Competitors', 'Status'],
+        ['Photos', str(result.photo_count), str(result.competitor_avg_photos),
+         '✓' if result.photo_count >= result.competitor_avg_photos else '✗'],
+        ['Reviews', str(result.review_count), str(result.competitor_avg_reviews),
+         '✓' if result.review_count >= result.competitor_avg_reviews else '✗'],
+        ['Rating', f'{result.avg_rating:.1f}★', f'{result.competitor_avg_rating:.1f}★',
+         '✓' if result.avg_rating >= result.competitor_avg_rating else '✗'],
+        ['Business Hours', '✓' if result.has_hours else '✗', '✓', '✓' if result.has_hours else '✗'],
+        ['Phone Number', '✓' if result.has_phone else '✗', '✓', '✓' if result.has_phone else '✗'],
+        ['Website', '✓' if result.has_website else '✗', '✓', '✓' if result.has_website else '✗'],
+        ['Description', '✓' if result.has_description else '✗', '✓', '✓' if result.has_description else '✗'],
+    ]
+
+    status_table = Table(status_data, colWidths=[1.8*inch, 1.5*inch, 1.5*inch, 1.2*inch])
+    status_table.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#f0f0f0')),
+        ('TEXTCOLOR', (0, 0), (-1, -1), colors.black),
+        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+        ('ALIGN', (0, 0), (0, -1), 'LEFT'),
+        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+        ('FONTSIZE', (0, 0), (-1, 0), 10),
+        ('FONTSIZE', (0, 1), (-1, -1), 10),
+        ('GRID', (0, 0), (-1, -1), 0.5, colors.grey),
+        ('PADDING', (0, 0), (-1, -1), 8),
+        ('ROWBACKGROUNDS', (0, 1), (-1, -1), [colors.white, colors.HexColor('#f9f9f9')]),
+    ]))
+    story.append(status_table)
+    story.append(Spacer(1, 0.2*inch))
+
+    # Missing information alert
+    if result.missing_attributes:
+        story.append(Paragraph("⚠️ MISSING CRITICAL INFORMATION", heading_style))
+        missing_text = "<br/>".join([f"• {attr}" for attr in result.missing_attributes])
+        story.append(Paragraph(missing_text, styles['Normal']))
+        story.append(Spacer(1, 0.2*inch))
+
+    # Priority actions
+    story.append(Paragraph("RECOMMENDED ACTIONS", heading_style))
+
+    actions_text = "<br/>".join([f"{i}. {action}" for i, action in enumerate(result.priority_actions, 1)])
+    story.append(Paragraph(actions_text, styles['Normal']))
+    story.append(Spacer(1, 0.2*inch))
+
+    # Impact estimation - Make it compelling
+    story.append(Paragraph("ESTIMATED BUSINESS IMPACT", heading_style))
+
+    impact_data = [
+        ['Increased Visibility', result.estimated_impact],
+        ['Customer Calls/Visits', result.estimated_impact],
+        ['Search Ranking', 'Higher placement vs. competitors'],
+        ['Customer Trust', 'More complete = more credible'],
+    ]
+    impact_table = Table(impact_data, colWidths=[3*inch, 3*inch])
+    impact_table.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (-1, -1), colors.HexColor('#e8f5e9')),
+        ('TEXTCOLOR', (0, 0), (-1, -1), colors.black),
+        ('ALIGN', (0, 0), (0, -1), 'RIGHT'),
+        ('ALIGN', (1, 0), (1, -1), 'LEFT'),
+        ('FONTNAME', (0, 0), (0, -1), 'Helvetica-Bold'),
+        ('FONTSIZE', (0, 0), (-1, -1), 10),
+        ('GRID', (0, 0), (-1, -1), 0.5, colors.grey),
+        ('PADDING', (0, 0), (-1, -1), 10),
+    ]))
+    story.append(impact_table)
+    story.append(Spacer(1, 0.3*inch))
+
+    # Footer with your contact info
+    story.append(Spacer(1, 0.3*inch))
+    story.append(Paragraph('<para alignment="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</para>', styles['Normal']))
+    story.append(Spacer(1, 0.2*inch))
+
+    footer_style = ParagraphStyle(
+        'Footer',
+        parent=styles['Normal'],
+        fontSize=10,
+        alignment=TA_CENTER
+    )
+
+    story.append(Paragraph(f"<b>Ready to optimize your Google Business Profile?</b>", footer_style))
+    story.append(Spacer(1, 0.1*inch))
+    story.append(Paragraph(f"{your_name} | {your_phone} | {your_email}", footer_style))
+    story.append(Paragraph("Professional Google Business Profile Optimization Services", footer_style))
+
+    # Build PDF
+    doc.build(story)
+
+    print(f"📄 PDF Report saved to: {output_path}")
+    return output_path
+
+
 def main():
     """Main CLI entry point"""
 
@@ -357,8 +587,12 @@ def main():
     parser.add_argument('business_name', nargs='?', help='Business name to audit')
     parser.add_argument('location', nargs='?', help='City, State or address')
     parser.add_argument('--demo', action='store_true', help='Run with demo data')
+    parser.add_argument('--pdf', action='store_true', help='Generate PDF report (default)')
     parser.add_argument('--json', action='store_true', help='Save report as JSON')
     parser.add_argument('--api-key', help='Google Places API key (or set GOOGLE_PLACES_API_KEY env var)')
+    parser.add_argument('--your-name', default='Your Name', help='Your name for PDF footer')
+    parser.add_argument('--your-phone', default='(555) 123-4567', help='Your phone for PDF footer')
+    parser.add_argument('--your-email', default='you@example.com', help='Your email for PDF footer')
 
     args = parser.parse_args()
 
@@ -380,6 +614,13 @@ def main():
 
     if result:
         print_audit_report(result)
+
+        # Generate PDF by default or if --pdf flag is used
+        if args.pdf or (not args.json):
+            save_report_pdf(result,
+                          your_name=args.your_name,
+                          your_phone=args.your_phone,
+                          your_email=args.your_email)
 
         if args.json:
             save_report_json(result)

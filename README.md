@@ -11,9 +11,12 @@ Launch a profitable local service business in 48 hours with zero upfront costs.
 - **Recurring**: $59/mo (weekly posts + review management)
 - **Target**: 30 clients = $1,770/mo recurring by Month 3
 
-## 🚀 Quick Start
+## 🚀 **START HERE:** [GETTING STARTED TODAY →](GETTING_STARTED_TODAY.md)
 
-### Day 1: Setup (2 hours)
+**Everything is ready to use RIGHT NOW - no API key required!**
+
+### Quick Setup (15 minutes)
+
 ```bash
 # Clone this repo
 git clone https://github.com/WeberG619/gbp-tune-up-business.git
@@ -22,33 +25,40 @@ cd gbp-tune-up-business
 # Install dependencies
 pip install -r requirements.txt
 
-# Configure API keys
-cp .env.example .env
-# Edit .env with your Google API credentials
+# Test the audit tool (generates professional PDF reports)
+python tools/gbp_audit.py --demo --your-name "Your Name" --your-phone "(555) 123-4567"
+
+# Check the reports folder - you now have a portfolio-ready PDF!
+ls reports/
 ```
 
-### Day 2: First Customer (4 hours)
-1. Run audit tool on 10 local businesses
-2. Walk in with printed reports
-3. Close 2-3 clients
-4. Deliver same day
+### Today: Get Your First Client
 
-See [CUSTOMER_ACQUISITION.md](docs/CUSTOMER_ACQUISITION.md) for detailed playbook.
+1. **Morning (30 min):** Customize templates with your contact info
+2. **Afternoon (3 hours):** Visit 8-10 local businesses with your pitch
+3. **Evening (2 hours):** Deliver service for your first paying client
+4. **Result:** $179-358 in your first day!
+
+**[→ Read the complete Getting Started guide](GETTING_STARTED_TODAY.md)**
+
+**Later (optional):** [Set up Google API for real data](docs/API_SETUP_GUIDE.md) - but demo mode works great to start!
 
 ## 📦 What's Included
 
-### 🛠️ Tools
-- **GBP Audit Tool** - Automated competitor analysis and gap finder
-- **Photo Batch Processor** - AI upscale + background cleanup
-- **Report Generator** - Professional PDF audit reports
-- **Post Scheduler** - Template-based content calendar
+### 🛠️ Tools (100% Working)
+- **GBP Audit Tool** - Generates professional PDF audit reports (works without API!)
+- **Photo Batch Processor** - Batch optimize and resize photos for GBP
+- **Demo Mode** - 4 portfolio-ready sample reports included
+- **Enhanced Reports** - Beautiful, client-ready PDF reports with your contact info
 
-### 📋 Templates
+### 📋 Templates (Ready to Use)
 - 50 pre-written social posts (seasonal, offers, updates)
 - 30 Q&A templates by industry
 - Review reply templates (5-star and negative)
-- Client intake forms
-- Service agreements
+- **Service agreement** (legally sound, customizable)
+- **Client intake form** (comprehensive)
+- **Invoice template** (professional)
+- **Client tracking spreadsheet** (CSV format)
 
 ### 💼 Sales Materials
 - Pitch scripts (word-for-word)
@@ -101,24 +111,48 @@ Best-performing niches:
 
 ## 📖 Documentation
 
-- [Setup Guide](docs/SETUP.md) - API keys, tools installation
-- [Customer Acquisition](docs/CUSTOMER_ACQUISITION.md) - Get first 10 customers
-- [Service Delivery](docs/SERVICE_DELIVERY.md) - Step-by-step client workflow
-- [Scaling Guide](docs/SCALING.md) - Automate and grow to $5K/mo
-- [FAQ](docs/FAQ.md) - Common questions
+**Start Here:**
+- **[Getting Started Today](GETTING_STARTED_TODAY.md)** - Complete 24-hour action plan ⭐
+- [Quick Start](QUICK_START.md) - Land your first client today
+
+**Business Operations:**
+- [Customer Acquisition](docs/CUSTOMER_ACQUISITION.md) - Get first 10 customers in 7 days
+- [Service Delivery](docs/SERVICE_DELIVERY.md) - 90-minute delivery checklist
+- [Setup Guide](docs/SETUP.md) - Tool installation and configuration
+
+**When You're Ready to Scale:**
+- [API Setup Guide](docs/API_SETUP_GUIDE.md) - Get real data (optional, not required to start)
 
 ## 🎬 Usage Example
 
 ```bash
-# Generate audit report for a local business
-python tools/gbp_audit.py "Joe's Coffee Shop" "Seattle, WA"
+# Generate professional PDF audit report (works without API!)
+python tools/gbp_audit.py --demo \
+  --your-name "John Smith" \
+  --your-phone "(555) 123-4567" \
+  --your-email "john@gbpservices.com"
 
-# Output: audit_report_joes_coffee_shop.pdf
-# - Current profile score: 42/100
-# - Competitor average: 78/100
-# - Missing: 17 photos, 8 Q&As, weekly posts
-# - Estimated impact: +15-25 calls/week
+# Output: reports/audit_joes_coffee_shop_20251031.pdf
+# ✓ Professional PDF report ready to show clients
+# ✓ Current profile score: 42/100
+# ✓ Competitor average: 78/100
+# ✓ Missing: 17 photos, 8 Q&As, weekly posts
+# ✓ Estimated impact: +15-25 calls/week
+# ✓ Your contact info in footer
+
+# Optimize photos for Google Business Profile
+python tools/photo_processor.py raw_photos/ optimized_photos/
+# ✓ Auto-resize, enhance, and optimize
+# ✓ Batch process 20+ photos in seconds
 ```
+
+**Demo mode works great for:**
+- Creating portfolio examples
+- Learning the system
+- Practicing your pitch
+- Starting your business TODAY
+
+**Later, add Google API for real data:** See [API Setup Guide](docs/API_SETUP_GUIDE.md)
 
 ## 🤝 Contributing
 

@@ -1,0 +1,6 @@
+Client ID,Business Name,Contact Name,Phone,Email,Industry,Status,Package,Price,Deposit Paid,Final Paid,Total Paid,Balance Due,Lead Date,Close Date,Service Date,Completion Date,Monthly Subscriber,Monthly Start Date,Referral Source,Notes,Follow-up Date,Priority
+001,Joe's Coffee Shop,Joe Smith,(555) 123-4567,joe@example.com,Coffee Shop,Completed,One-Time,$179.00,$89.50,$89.50,$179.00,$0.00,2025-01-15,2025-01-15,2025-01-16,2025-01-16,No,,Walk-in,Great customer - might do monthly later,2025-02-15,Standard
+002,Bella's Salon,Bella Rodriguez,(555) 234-5678,bella@example.com,Salon,In Progress,One-Time + Monthly,$179.00,$179.00,$0.00,$179.00,$0.00,2025-01-16,2025-01-16,2025-01-18,,Yes,2025-02-01,Referral from Joe,Scheduled for photos on 1/18,2025-01-18,High
+003,Quick Fix Plumbing,Mike Johnson,(555) 345-6789,mike@quickfix.com,Home Services,Lead,One-Time,$179.00,$0.00,$0.00,$0.00,$179.00,2025-01-17,,,,No,,Google Search,Interested but wants to think about it,2025-01-20,Standard
+004,Peak CrossFit,Sarah Chen,(555) 456-7890,sarah@peakfit.com,Fitness,Quoted,One-Time + Rush,$229.00,$0.00,$0.00,$0.00,$229.00,2025-01-17,,,,No,,Social Media,Needs it done by Friday,2025-01-18,Rush
+005,,,,,,,,,,,,,,,,,,,,,
