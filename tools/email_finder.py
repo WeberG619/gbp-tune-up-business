@@ -56,9 +56,11 @@ class EmailFinder:
 
             # Filter out garbage/non-business emails
             garbage_domains = [
-                'example.com', 'test.com', 'domain.com', 'yoursite.com',
+                'example.com', 'test.com', 'domain.com', 'yoursite.com', 'mysite.com',
                 'sentry-next.wixpress.com',  # Wix error tracking (NOT business email!)
                 'wixpress.com',              # Wix generic
+                'sentry.io',                 # Sentry error tracking
+                'sentry.wixpress.com',       # More Sentry
                 'latinotype.com',            # Font company
                 'latofonts.com',             # Font company
                 'myfonts.com',               # Font company
@@ -72,6 +74,9 @@ class EmailFinder:
                 'privacy@',                  # Generic privacy emails
                 'noreply@',                  # No-reply addresses
                 'donotreply@',               # No-reply addresses
+                'example@',                  # Example emails
+                'contact@example',           # Example emails
+                'your-email@',               # Placeholder emails
             ]
 
             filtered_emails = [
