@@ -1,12 +1,8 @@
-# Netlify configuration for GBP Services landing page
+# Netlify configuration for Apex Local Marketing landing page
 
 [build]
   # No build command needed - static HTML site
   publish = "."
-
-# Form handling
-[[plugins]]
-  package = "@netlify/plugin-forms"
 
 # Redirects and rewrites
 [[redirects]]
