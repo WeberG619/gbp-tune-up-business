@@ -21,6 +21,14 @@ from typing import List, Dict, Optional
 import requests
 import time
 
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    # dotenv not installed, will try to read from system env
+    pass
+
 
 class LeadFinder:
     """Find and qualify leads for GBP optimization services"""
