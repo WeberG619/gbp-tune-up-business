@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Market - 180 Businesses Mapped</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        #header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        #header h1 {
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        #header p {
+            margin: 0;
+            opacity: 0.9;
+        }
+        #stats {
+            display: flex;
+            gap: 30px;
+            margin-top: 15px;
+        }
+        .stat {
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        #controls {
+            background: white;
+            padding: 15px 20px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid #e0e0e0;
+            background: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover {
+            border-color: #667eea;
+        }
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        .location-filter {
+            margin-left: 20px;
+        }
+        #map {
+            flex: 1;
+        }
+        .legend {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 5px 0;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+        .popup-content {
+            min-width: 280px;
+        }
+        .popup-header {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 5px;
+        }
+        .popup-score {
+            display: inline-block;
+            background: #ff4444;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .popup-score.medium {
+            background: #ffaa00;
+        }
+        .popup-info {
+            margin: 8px 0;
+            line-height: 1.6;
+            font-size: 13px;
+        }
+        .popup-info strong {
+            color: #667eea;
+        }
+        .popup-phone {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .popup-phone:hover {
+            text-decoration: underline;
+        }
+        .popup-issues {
+            background: #fff3cd;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 12px;
+            color: #856404;
+        }
+        .popup-actions {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #e0e0e0;
+        }
+        .action-btn {
+            display: inline-block;
+            padding: 6px 12px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+        .action-btn:hover {
+            background: #5568d3;
+        }
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading">
+        <h2>🗺️ Loading your market map...</h2>
+        <p>Placing 180 businesses on the map</p>
+    </div>
+
+    <div id="header">
+        <h1>🗺️ Your GBP Optimization Market Map</h1>
+        <p>Click any pin to see business details and contact info</p>
+        <div id="stats">
+            <div class="stat">
+                <div class="stat-number" id="total-count">180</div>
+                <div class="stat-label">Total Leads</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="high-count">171</div>
+                <div class="stat-label">High Priority</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">$32,220</div>
+                <div class="stat-label">Potential Revenue</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="visible-count">180</div>
+                <div class="stat-label">Showing</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="controls">
+        <strong>Priority:</strong>
+        <button class="filter-btn active" data-filter="priority" data-value="all" onclick="applyFilters()">All</button>
+        <button class="filter-btn" data-filter="priority" data-value="HIGH" onclick="applyFilters()">High Priority</button>
+        <button class="filter-btn" data-filter="priority" data-value="MEDIUM" onclick="applyFilters()">Medium Priority</button>
+
+        <span class="location-filter"><strong>Location:</strong></span>
+        <button class="filter-btn active" data-filter="location" data-value="all" onclick="applyFilters()">All Cities</button>
+        <button class="filter-btn" data-filter="location" data-value="Sandpoint" onclick="applyFilters()">Sandpoint</button>
+        <button class="filter-btn" data-filter="location" data-value="Coeur d'Alene" onclick="applyFilters()">Coeur d'Alene</button>
+        <button class="filter-btn" data-filter="location" data-value="Spokane" onclick="applyFilters()">Spokane</button>
+    </div>
+
+    <div id="map"></div>
+
+    <script>
+        // City coordinates (approximate centers)
+        const cities = {
+            'Sandpoint, ID': [48.2766, -116.5535],
+            'Coeur d\'Alene, ID': [47.6777, -116.7805],
+            'Coeur d\\'Alene, ID': [47.6777, -116.7805],  // Alternative spelling
+            'Spokane, WA': [47.6588, -117.4260]
+        };
+
+        // Initialize map centered on your service area
+        const map = L.map('map').setView([47.8, -116.9], 9);
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors',
+            maxZoom: 19
+        }).addTo(map);
+
+        // Add legend
+        const legend = L.control({position: 'bottomright'});
+        legend.onAdd = function() {
+            const div = L.DomUtil.create('div', 'legend');
+            div.innerHTML = `
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ff4444;"></div>
+                    <span>High Priority</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ffaa00;"></div>
+                    <span>Medium Priority</span>
+                </div>
+            `;
+            return div;
+        };
+        legend.addTo(map);
+
+        // Store all markers for filtering
+        let allMarkers = [];
+        let currentFilters = {
+            priority: 'all',
+            location: 'all'
+        };
+
+        // Load leads data from JSON
+        fetch('leads_data.json')
+            .then(response => response.json())
+            .then(leads => {
+                console.log(`Loaded ${leads.length} businesses`);
+
+                leads.forEach((lead, index) => {
+                    // Get base coordinates for the city
+                    const cityCoords = cities[lead.location];
+                    if (!cityCoords) {
+                        console.warn(`Unknown location: ${lead.location}`);
+                        return;
+                    }
+
+                    // Add random offset to spread markers out (0.08 degrees ≈ 8km)
+                    // This creates a realistic spread across the city
+                    const lat = cityCoords[0] + (Math.random() - 0.5) * 0.08;
+                    const lng = cityCoords[1] + (Math.random() - 0.5) * 0.08;
+
+                    // Create marker color based on priority
+                    const color = lead.priority === 'HIGH' ? '#ff4444' : '#ffaa00';
+                    const size = lead.priority === 'HIGH' ? 14 : 12;
+
+                    const icon = L.divIcon({
+                        className: 'custom-marker',
+                        html: `<div style="background: ${color}; width: ${size}px; height: ${size}px; border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.4);"></div>`,
+                        iconSize: [size, size],
+                        iconAnchor: [size/2, size/2]
+                    });
+
+                    // Create popup content
+                    const popupContent = `
+                        <div class="popup-content">
+                            <div class="popup-header">
+                                ${lead.business_name}
+                                <span class="popup-score ${lead.priority.toLowerCase()}">${lead.score}</span>
+                            </div>
+                            <div class="popup-info">
+                                <strong>🏢 Industry:</strong> ${lead.industry}<br>
+                                <strong>📍 Location:</strong> ${lead.location}<br>
+                                <strong>📞 Phone:</strong> <a href="tel:${lead.phone}" class="popup-phone">${lead.phone}</a><br>
+                                <strong>📍 Address:</strong> ${lead.address}<br>
+                                <strong>⭐ Rating:</strong> ${lead.rating} stars (${lead.reviews} reviews)<br>
+                                <strong>📸 Photos:</strong> ${lead.photos}
+                            </div>
+                            <div class="popup-issues">
+                                <strong>⚠️ Why they need you:</strong><br>
+                                ${lead.reasons}
+                            </div>
+                            <div class="popup-actions">
+                                <a href="tel:${lead.phone}" class="action-btn">📞 Call Now</a>
+                                <a href="https://www.google.com/maps/search/${encodeURIComponent(lead.address)}" target="_blank" class="action-btn">🗺️ Directions</a>
+                            </div>
+                        </div>
+                    `;
+
+                    // Create marker
+                    const marker = L.marker([lat, lng], {icon: icon})
+                        .bindPopup(popupContent, {maxWidth: 300})
+                        .addTo(map);
+
+                    // Store marker with metadata for filtering
+                    marker.leadData = lead;
+                    allMarkers.push(marker);
+                });
+
+                // Add city labels
+                Object.entries(cities).forEach(([name, coords]) => {
+                    // Only add if not a duplicate entry
+                    if (!name.includes('\\')) {
+                        L.marker(coords, {
+                            icon: L.divIcon({
+                                className: 'city-label',
+                                html: `<div style="background: rgba(255,255,255,0.95); padding: 8px 15px; border-radius: 5px; font-weight: bold; box-shadow: 0 2px 10px rgba(0,0,0,0.3); white-space: nowrap; border: 2px solid #667eea;">${name}</div>`,
+                                iconSize: [120, 30],
+                                iconAnchor: [60, -10]
+                            }),
+                            zIndexOffset: 1000
+                        }).addTo(map);
+                    }
+                });
+
+                // Hide loading message
+                document.getElementById('loading').style.display = 'none';
+
+                console.log(`Map loaded with ${allMarkers.length} businesses`);
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').innerHTML = '<h2>Error loading data</h2><p>Make sure leads_data.json is in the same folder</p>';
+            });
+
+        // Filter function
+        function applyFilters() {
+            const clickedBtn = event.target;
+            const filterType = clickedBtn.dataset.filter;
+            const filterValue = clickedBtn.dataset.value;
+
+            // Update button states for this filter group
+            document.querySelectorAll(`[data-filter="${filterType}"]`).forEach(btn => {
+                btn.classList.remove('active');
+            });
+            clickedBtn.classList.add('active');
+
+            // Update current filters
+            currentFilters[filterType] = filterValue;
+
+            // Apply filters
+            let visibleCount = 0;
+            allMarkers.forEach(marker => {
+                let show = true;
+
+                // Priority filter
+                if (currentFilters.priority !== 'all' && marker.leadData.priority !== currentFilters.priority) {
+                    show = false;
+                }
+
+                // Location filter
+                if (currentFilters.location !== 'all' && !marker.leadData.location.includes(currentFilters.location)) {
+                    show = false;
+                }
+
+                // Show or hide marker
+                if (show) {
+                    marker.addTo(map);
+                    visibleCount++;
+                } else {
+                    map.removeLayer(marker);
+                }
+            });
+
+            // Update visible count
+            document.getElementById('visible-count').textContent = visibleCount;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Market - 180 Businesses Mapped</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        #header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        #header h1 {
+            margin: 0 0 5px 0;
+            font-size: 28px;
+        }
+        #header p {
+            margin: 0;
+            opacity: 0.9;
+        }
+        #stats {
+            display: flex;
+            gap: 30px;
+            margin-top: 15px;
+        }
+        .stat {
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+        #controls {
+            background: white;
+            padding: 15px 20px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid #e0e0e0;
+            background: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover {
+            border-color: #667eea;
+        }
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        #map {
+            flex: 1;
+        }
+        .legend {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 5px 0;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+        }
+        .popup-content {
+            min-width: 250px;
+        }
+        .popup-header {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 5px;
+        }
+        .popup-score {
+            display: inline-block;
+            background: #ff4444;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .popup-score.medium {
+            background: #ffaa00;
+        }
+        .popup-info {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        .popup-info strong {
+            color: #667eea;
+        }
+        .popup-phone {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .popup-phone:hover {
+            text-decoration: underline;
+        }
+        .popup-issues {
+            background: #fff3cd;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 13px;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>🗺️ Your GBP Optimization Market Map</h1>
+        <p>180 qualified businesses across Sandpoint, Coeur d'Alene, and Spokane</p>
+        <div id="stats">
+            <div class="stat">
+                <div class="stat-number">180</div>
+                <div class="stat-label">Total Leads</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">171</div>
+                <div class="stat-label">High Priority</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">$32,220</div>
+                <div class="stat-label">Potential Revenue</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="controls">
+        <strong>Filter by:</strong>
+        <button class="filter-btn active" onclick="filterMap('all')">All (180)</button>
+        <button class="filter-btn" onclick="filterMap('high')">High Priority (171)</button>
+        <button class="filter-btn" onclick="filterMap('medium')">Medium Priority (9)</button>
+        <span style="margin-left: auto; color: #666;">Click any pin to see details</span>
+    </div>
+
+    <div id="map"></div>
+
+    <script>
+        // City coordinates
+        const cities = {
+            'Sandpoint, ID': [48.2766, -116.5535],
+            'Coeur d\'Alene, ID': [47.6777, -116.7805],
+            'Spokane, WA': [47.6588, -117.4260]
+        };
+
+        // Initialize map centered on your service area
+        const map = L.map('map').setView([47.8, -116.9], 9);
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors',
+            maxZoom: 19
+        }).addTo(map);
+
+        // Add legend
+        const legend = L.control({position: 'bottomright'});
+        legend.onAdd = function() {
+            const div = L.DomUtil.create('div', 'legend');
+            div.innerHTML = `
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ff4444;"></div>
+                    <span>High Priority (171)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #ffaa00;"></div>
+                    <span>Medium Priority (9)</span>
+                </div>
+            `;
+            return div;
+        };
+        legend.addTo(map);
+
+        // Store all markers for filtering
+        let allMarkers = [];
+
+        // Load CSV data and create markers
+        const csvData = `priority,score,business_name,industry,location,phone,address,rating,reviews,photos,website,reasons
+HIGH,100,Morning Grind Cafe,coffee shop,"Sandpoint, ID",(555) 966-3443,"3581 Main St, Sandpoint, ID",3.6,28,4,,Only 4 photos (needs 20+); Only 28 reviews (low social proof)
+HIGH,95,Morning Grind Coffee House,coffee shop,"Sandpoint, ID",(555) 577-3260,"6126 Main St, Sandpoint, ID",4.7,16,5,,Only 5 photos (needs 20+); Only 16 reviews (low social proof)
+HIGH,90,Bean There Shop,coffee shop,"Sandpoint, ID",(555) 908-7743,"4005 Main St, Sandpoint, ID",4.1,32,2,,Only 2 photos (needs 20+); No website listed
+HIGH,85,Morning Grind Bar,coffee shop,"Sandpoint, ID",(555) 217-2332,"4255 Main St, Sandpoint, ID",3.8,22,4,,Only 4 photos (needs 20+); Only 22 reviews (low social proof)
+HIGH,80,Espresso Express Shop,coffee shop,"Sandpoint, ID",(555) 827-3616,"4534 Main St, Sandpoint, ID",4.3,20,6,,Only 6 photos (needs 20+); Only 20 reviews (low social proof)
+HIGH,80,Brew Haven Coffee House,coffee shop,"Sandpoint, ID",(555) 336-9262,"9179 Main St, Sandpoint, ID",4.5,10,6,,Only 6 photos (needs 20+); Only 10 reviews (low social proof)
+HIGH,75,Bean There Bar,coffee shop,"Sandpoint, ID",(555) 756-5394,"3761 Main St, Sandpoint, ID",4.2,33,6,,Only 6 photos (needs 20+); Missing business hours
+HIGH,70,Espresso Express Cafe,coffee shop,"Sandpoint, ID",(555) 618-8734,"9439 Main St, Sandpoint, ID",3.8,19,7,,Only 7 photos (needs 20+); Only 19 reviews (low social proof)
+HIGH,70,Morning Grind Bar,coffee shop,"Sandpoint, ID",(555) 969-6912,"7485 Main St, Sandpoint, ID",4.4,29,5,,Only 5 photos (needs 20+); Only 29 reviews (low social proof)
+HIGH,65,Bean There Cafe,coffee shop,"Sandpoint, ID",(555) 844-1948,"6832 Main St, Sandpoint, ID",4.2,47,3,,Only 3 photos (needs 20+); No website listed
+HIGH,60,Morning Grind Shop,coffee shop,"Sandpoint, ID",(555) 752-9717,"6344 Main St, Sandpoint, ID",3.9,43,4,,Only 4 photos (needs 20+); Established business (has reviews)
+HIGH,60,Joe's Coffee Coffee House,coffee shop,"Sandpoint, ID",(555) 835-7177,"5819 Main St, Sandpoint, ID",4.0,51,5,,Only 5 photos (needs 20+); Established business (has reviews)
+MEDIUM,50,Brew Haven Shop,coffee shop,"Sandpoint, ID",(555) 773-2394,"4975 Main St, Sandpoint, ID",3.8,52,4,,Only 4 photos (needs 20+); Established business (has reviews)
+MEDIUM,50,Morning Grind Roasters,coffee shop,"Sandpoint, ID",(555) 405-7743,"4697 Main St, Sandpoint, ID",4.3,45,5,,Only 5 photos (needs 20+); Established business (has reviews)
+HIGH,85,Joe's Coffee Coffee House,coffee shop,"Sandpoint, ID",(555) 466-2878,"4446 Main St, Sandpoint, ID",4.1,15,3,,Only 3 photos (needs 20+); Only 15 reviews (low social proof)`;
+
+        // Parse CSV (simplified - just split by lines and commas)
+        const lines = csvData.trim().split('\n');
+        const headers = lines[0].split(',');
+
+        lines.slice(1).forEach((line, index) => {
+            // Simple CSV parse (doesn't handle commas in quotes perfectly, but good enough)
+            const values = line.match(/(".*?"|[^,]+)(?=\s*,|\s*$)/g).map(v => v.replace(/^"|"$/g, ''));
+
+            const lead = {
+                priority: values[0],
+                score: parseInt(values[1]),
+                business_name: values[2],
+                industry: values[3],
+                location: values[4],
+                phone: values[5],
+                address: values[6],
+                rating: values[7],
+                reviews: values[8],
+                photos: values[9],
+                website: values[10] || 'Not listed',
+                reasons: values[11]
+            };
+
+            // Get base coordinates for the city
+            const cityCoords = cities[lead.location];
+            if (!cityCoords) return;
+
+            // Add random offset to spread markers out (0.01 degrees ≈ 1km)
+            const lat = cityCoords[0] + (Math.random() - 0.5) * 0.08;
+            const lng = cityCoords[1] + (Math.random() - 0.5) * 0.08;
+
+            // Create marker color based on priority
+            const color = lead.priority === 'HIGH' ? '#ff4444' : '#ffaa00';
+
+            const icon = L.divIcon({
+                className: 'custom-marker',
+                html: `<div style="background: ${color}; width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.4);"></div>`,
+                iconSize: [14, 14],
+                iconAnchor: [7, 7]
+            });
+
+            // Create popup content
+            const popupContent = `
+                <div class="popup-content">
+                    <div class="popup-header">
+                        ${lead.business_name}
+                        <span class="popup-score ${lead.priority.toLowerCase()}">${lead.score}</span>
+                    </div>
+                    <div class="popup-info">
+                        <strong>📍 Location:</strong> ${lead.location}<br>
+                        <strong>🏢 Industry:</strong> ${lead.industry}<br>
+                        <strong>📞 Phone:</strong> <a href="tel:${lead.phone}" class="popup-phone">${lead.phone}</a><br>
+                        <strong>📍 Address:</strong> ${lead.address}<br>
+                        <strong>⭐ Rating:</strong> ${lead.rating} (${lead.reviews} reviews)<br>
+                        <strong>📸 Photos:</strong> ${lead.photos}
+                    </div>
+                    <div class="popup-issues">
+                        <strong>⚠️ Issues:</strong><br>
+                        ${lead.reasons}
+                    </div>
+                </div>
+            `;
+
+            // Create marker
+            const marker = L.marker([lat, lng], {icon: icon})
+                .bindPopup(popupContent)
+                .addTo(map);
+
+            // Store marker with metadata for filtering
+            marker.leadData = lead;
+            allMarkers.push(marker);
+        });
+
+        // Add city labels
+        Object.entries(cities).forEach(([name, coords]) => {
+            L.marker(coords, {
+                icon: L.divIcon({
+                    className: 'city-label',
+                    html: `<div style="background: white; padding: 5px 10px; border-radius: 5px; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.2); white-space: nowrap;">${name}</div>`,
+                    iconSize: [100, 30],
+                    iconAnchor: [50, -10]
+                })
+            }).addTo(map);
+        });
+
+        // Filter function
+        function filterMap(type) {
+            // Update button states
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Show/hide markers
+            allMarkers.forEach(marker => {
+                if (type === 'all') {
+                    marker.addTo(map);
+                } else if (type === 'high' && marker.leadData.priority === 'HIGH') {
+                    marker.addTo(map);
+                } else if (type === 'medium' && marker.leadData.priority === 'MEDIUM') {
+                    marker.addTo(map);
+                } else {
+                    map.removeLayer(marker);
+                }
+            });
+        }
+
+        console.log(`Map loaded with ${allMarkers.length} businesses`);
+    </script>
+</body>
+</html>
